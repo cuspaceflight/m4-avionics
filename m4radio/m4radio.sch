@@ -1473,4 +1473,672 @@ Wire Wire Line
 	7400 2150 7400 2100
 Wire Wire Line
 	7400 2000 7400 1950
+$Comp
+L agg-kicad:TCXO Y?
+U 1 1 5E5B758E
+P 5700 3950
+F 0 "Y?" H 5550 4050 50  0000 C CNN
+F 1 "TCXO" H 5600 3750 50  0000 C CNN
+F 2 "" H 5500 3950 50  0001 C CNN
+F 3 "" H 5500 3950 50  0001 C CNN
+F 4 "2405785" H 5500 3650 50  0001 L CNN "Farnell"
+	1    5700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E5B87A7
+P 5300 4150
+F 0 "#PWR?" H 5170 4190 50  0001 L CNN
+F 1 "GND" H 5300 4050 50  0000 C CNN
+F 2 "" H 5300 4150 50  0001 C CNN
+F 3 "" H 5300 4150 50  0001 C CNN
+	1    5300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4150 5300 4050
+Wire Wire Line
+	5300 4050 5400 4050
+$Comp
+L agg-kicad:1v8 #PWR?
+U 1 1 5E5C93DF
+P 5050 3850
+F 0 "#PWR?" H 5050 3960 50  0001 L CNN
+F 1 "1v8" H 5050 3973 50  0000 C CNN
+F 2 "" H 5050 3850 50  0001 C CNN
+F 3 "" H 5050 3850 50  0001 C CNN
+	1    5050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E5CA04D
+P 5050 4150
+F 0 "#PWR?" H 4920 4190 50  0001 L CNN
+F 1 "GND" H 5050 4050 50  0000 C CNN
+F 2 "" H 5050 4150 50  0001 C CNN
+F 3 "" H 5050 4150 50  0001 C CNN
+	1    5050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5E5CA731
+P 5050 4000
+F 0 "C?" H 5050 4100 50  0000 L CNN
+F 1 "100n" H 5000 3900 50  0000 L CNN
+F 2 "" H 5050 4000 50  0001 C CNN
+F 3 "" H 5050 4000 50  0001 C CNN
+	1    5050 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 3950 5050 3850
+Wire Wire Line
+	5050 3950 5050 4000
+Connection ~ 5050 3950
+Wire Wire Line
+	5050 4100 5050 4150
+Wire Wire Line
+	5050 3950 5400 3950
+$Comp
+L agg-kicad:C C?
+U 1 1 5E61E3E7
+P 6150 3950
+F 0 "C?" H 6200 4050 50  0000 C CNN
+F 1 "1n" H 6200 3900 50  0000 C CNN
+F 2 "" H 6150 3950 50  0001 C CNN
+F 3 "" H 6150 3950 50  0001 C CNN
+	1    6150 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3950 6000 3950
+$Comp
+L agg-kicad:NC7SZ04 IC?
+U 1 1 5E62F86A
+P 6600 3950
+F 0 "IC?" H 6600 4150 50  0000 C CNN
+F 1 "NC7SZ04" H 6600 3750 50  0000 C CNN
+F 2 "agg:SOT-23-5" H 6590 3470 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/NC/NC7SZ04.pdf" H 6600 3670 50  0001 C CNN
+F 4 "1417667" H 6600 3560 50  0001 C CNN "Farnell"
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3950 6350 3950
+Wire Wire Line
+	6400 4050 6350 4050
+Wire Wire Line
+	6350 4050 6350 4150
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E6525A7
+P 6350 4150
+F 0 "#PWR?" H 6220 4190 50  0001 L CNN
+F 1 "GND" H 6350 4050 50  0000 C CNN
+F 2 "" H 6350 4150 50  0001 C CNN
+F 3 "" H 6350 4150 50  0001 C CNN
+	1    6350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 5E6533F4
+P 6850 3800
+F 0 "#PWR?" H 6850 3910 50  0001 L CNN
+F 1 "3v3" H 6850 3923 50  0000 C CNN
+F 2 "" H 6850 3800 50  0001 C CNN
+F 3 "" H 6850 3800 50  0001 C CNN
+	1    6850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3800 6850 3850
+Wire Wire Line
+	6850 3850 6800 3850
+$Comp
+L agg-kicad:R R?
+U 1 1 5E6647CE
+P 6550 3500
+F 0 "R?" H 6600 3450 50  0000 C CNN
+F 1 "1M" H 6600 3550 50  0000 C CNN
+F 2 "" H 6550 3500 50  0001 C CNN
+F 3 "" H 6550 3500 50  0001 C CNN
+	1    6550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3500 6350 3500
+Wire Wire Line
+	6350 3500 6350 3950
+Connection ~ 6350 3950
+Wire Wire Line
+	6350 3950 6250 3950
+Wire Wire Line
+	6800 4050 7000 4050
+Wire Wire Line
+	7000 4050 7000 3500
+Wire Wire Line
+	7000 3500 6650 3500
+$Comp
+L agg-kicad:CS2100-CP IC?
+U 1 1 5E6AA5EC
+P 8150 3750
+F 0 "IC?" H 7600 4150 50  0000 C CNN
+F 1 "CS2100-CP" H 7750 3350 50  0000 C CNN
+F 2 "agg:MSOP-10" H 7550 3250 50  0001 L CNN
+F 3 "https://www.cirrus.com/en/pubs/proDatasheet/CS2100-CP_F3.pdf" H 7550 3150 50  0001 L CNN
+F 4 "777-CS2100CP-CZZ" H 7550 3050 50  0001 L CNN "Mouser"
+	1    8150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4050 7000 4050
+Connection ~ 7000 4050
+NoConn ~ 7450 3950
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E6CEC24
+P 7350 3600
+F 0 "#PWR?" H 7220 3640 50  0001 L CNN
+F 1 "GND" H 7450 3550 50  0000 C CNN
+F 2 "" H 7350 3600 50  0001 C CNN
+F 3 "" H 7350 3600 50  0001 C CNN
+	1    7350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3550 7450 3550
+Text Label 7300 3750 2    50   ~ 0
+GPS_TP
+Wire Wire Line
+	7300 3750 7450 3750
+Connection ~ 7350 3550
+Wire Wire Line
+	7350 3550 7250 3550
+Wire Wire Line
+	7350 3600 7350 3550
+$Comp
+L agg-kicad:C C?
+U 1 1 5E74F302
+P 7250 3550
+F 0 "C?" H 7350 3700 50  0000 R CNN
+F 1 "100n" H 7400 3600 50  0000 R CNN
+F 2 "" H 7250 3550 50  0001 C CNN
+F 3 "" H 7250 3550 50  0001 C CNN
+	1    7250 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 3450 7350 3450
+Wire Wire Line
+	7350 3450 7350 3350
+Connection ~ 7350 3450
+Wire Wire Line
+	7350 3450 7450 3450
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 5E77564C
+P 7350 3350
+F 0 "#PWR?" H 7350 3460 50  0001 L CNN
+F 1 "3v3" H 7350 3473 50  0000 C CNN
+F 2 "" H 7350 3350 50  0001 C CNN
+F 3 "" H 7350 3350 50  0001 C CNN
+	1    7350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3750 9000 3750
+Wire Wire Line
+	8850 3850 9000 3850
+Text Label 9000 3850 0    50   ~ 0
+PLL_SCL
+Text Label 9000 3750 0    50   ~ 0
+PLL_SDA
+Wire Wire Line
+	8850 3950 8950 3950
+Wire Wire Line
+	8950 3950 8950 4050
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E7B01CA
+P 8950 4050
+F 0 "#PWR?" H 8820 4090 50  0001 L CNN
+F 1 "GND" H 8950 3950 50  0000 C CNN
+F 2 "" H 8950 4050 50  0001 C CNN
+F 3 "" H 8950 4050 50  0001 C CNN
+	1    8950 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8850 3550
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 5E7C5874
+P 5400 3150
+F 0 "#PWR?" H 5400 3260 50  0001 L CNN
+F 1 "3v3" H 5400 3273 50  0000 C CNN
+F 2 "" H 5400 3150 50  0001 C CNN
+F 3 "" H 5400 3150 50  0001 C CNN
+	1    5400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E7C59FF
+P 5400 3350
+F 0 "#PWR?" H 5270 3390 50  0001 L CNN
+F 1 "GND" H 5400 3250 50  0000 C CNN
+F 2 "" H 5400 3350 50  0001 C CNN
+F 3 "" H 5400 3350 50  0001 C CNN
+	1    5400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5E7C6517
+P 5400 3200
+F 0 "C?" V 5404 3258 50  0000 L CNN
+F 1 "1n" V 5495 3258 50  0000 L CNN
+F 2 "" H 5400 3200 50  0001 C CNN
+F 3 "" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3350 5400 3300
+Wire Wire Line
+	5400 3200 5400 3150
+Wire Wire Line
+	9700 3450 8850 3450
+Text Notes 4750 5000 0    50   ~ 0
+TODO: investigate/add NCP4620
+$Comp
+L agg-kicad:SL18860DC IC?
+U 1 1 5E7C3A4E
+P 10200 3550
+F 0 "IC?" H 10200 4175 50  0000 C CNN
+F 1 "SL18860DC" H 10200 4084 50  0000 C CNN
+F 2 "agg:DFN-10-SL18860DC" H 9800 2950 50  0001 L CNN
+F 3 "http://www.silabs.com/Support%20Documents/TechnicalDocs/SL18860.pdf" H 9800 2850 50  0001 L CNN
+F 4 "634-SL18860DC" H 9800 2750 50  0001 L CNN "Mouser"
+	1    10200 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9700 3550
+NoConn ~ 9700 3950
+Wire Wire Line
+	9700 3850 9400 3850
+Wire Wire Line
+	9400 3850 9400 3750
+Wire Wire Line
+	9400 3750 9700 3750
+Wire Wire Line
+	9400 3750 9400 3250
+Wire Wire Line
+	9400 3150 9600 3150
+Connection ~ 9400 3750
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E852E25
+P 9600 3300
+F 0 "#PWR?" H 9470 3340 50  0001 L CNN
+F 1 "GND" H 9700 3250 50  0000 C CNN
+F 2 "" H 9600 3300 50  0001 C CNN
+F 3 "" H 9600 3300 50  0001 C CNN
+	1    9600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3250 9700 3250
+$Comp
+L agg-kicad:C C?
+U 1 1 5E8A1F97
+P 9450 3250
+F 0 "C?" H 9500 3200 50  0000 C CNN
+F 1 "100n" H 9500 3300 50  0000 C CNN
+F 2 "" H 9450 3250 50  0001 C CNN
+F 3 "" H 9450 3250 50  0001 C CNN
+	1    9450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3250 9600 3250
+Connection ~ 9600 3250
+Wire Wire Line
+	9450 3250 9400 3250
+Connection ~ 9400 3250
+Wire Wire Line
+	9400 3250 9400 3150
+Wire Wire Line
+	9600 3300 9600 3250
+Wire Wire Line
+	9600 3150 9600 3050
+Connection ~ 9600 3150
+Wire Wire Line
+	9600 3150 9700 3150
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 5E8F3C67
+P 9600 3050
+F 0 "#PWR?" H 9600 3160 50  0001 L CNN
+F 1 "3v3" H 9600 3173 50  0000 C CNN
+F 2 "" H 9600 3050 50  0001 C CNN
+F 3 "" H 9600 3050 50  0001 C CNN
+	1    9600 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10700 3350
+Wire Wire Line
+	10700 3150 10900 3150
+Wire Wire Line
+	10900 3250 10700 3250
+Text Label 10900 3150 0    50   ~ 0
+STM_HSE
+Text Label 10900 3250 0    50   ~ 0
+Radio_CLK
+$Comp
+L agg-kicad:SN74LVC1G0832 IC?
+U 1 1 5E933972
+P 6000 6250
+F 0 "IC?" H 6000 6675 50  0000 C CNN
+F 1 "SN74LVC1G0832" H 6000 6584 50  0000 C CNN
+F 2 "agg:SC-70-6" H 5800 5850 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g0832.pdf" H 5800 5750 50  0001 L CNN
+F 4 "2406965" H 5800 5650 50  0001 L CNN "Farnell"
+	1    6000 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6250 6450 6250
+Wire Wire Line
+	6450 6250 6450 6350
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5E949526
+P 6450 6350
+F 0 "#PWR?" H 6320 6390 50  0001 L CNN
+F 1 "GND" H 6450 6250 50  0000 C CNN
+F 2 "" H 6450 6350 50  0001 C CNN
+F 3 "" H 6450 6350 50  0001 C CNN
+	1    6450 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 5E94A1EF
+P 5550 5900
+F 0 "#PWR?" H 5550 6010 50  0001 L CNN
+F 1 "3v3" H 5550 6023 50  0000 C CNN
+F 2 "" H 5550 5900 50  0001 C CNN
+F 3 "" H 5550 5900 50  0001 C CNN
+	1    5550 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5900 5550 6050
+Wire Wire Line
+	5550 6050 5700 6050
+Wire Wire Line
+	5700 6250 5550 6250
+Wire Wire Line
+	5700 6350 5550 6350
+Wire Wire Line
+	5700 6450 5550 6450
+Text Label 5550 6250 2    50   ~ 0
+GPS_PPS
+Text Label 5550 6350 2    50   ~ 0
+Radio_GATE
+Text Label 5550 6450 2    50   ~ 0
+Radio_nSEL
+$Comp
+L agg-kicad:Si4460 IC?
+U 1 1 5E9CF250
+P 8250 5900
+F 0 "IC?" H 8250 6725 50  0000 C CNN
+F 1 "Si4460" H 8250 6634 50  0000 C CNN
+F 2 "agg:QFN-20-EP-SI" H 7950 5100 50  0001 L CNN
+F 3 "" H 7850 6500 50  0001 C CNN
+F 4 "2462635" H 7950 5000 50  0001 L CNN "Farnell"
+	1    8250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6050 6600 6050
+Wire Wire Line
+	6600 6050 6600 6500
+Wire Wire Line
+	6600 6500 7850 6500
+Text Label 6850 5900 2    50   ~ 0
+Radio_CLK
+$Comp
+L agg-kicad:R R?
+U 1 1 5EA1691F
+P 6900 5900
+F 0 "R?" H 6950 5850 50  0000 C CNN
+F 1 "10k" H 6950 5950 50  0000 C CNN
+F 2 "" H 6900 5900 50  0001 C CNN
+F 3 "" H 6900 5900 50  0001 C CNN
+	1    6900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5900 6850 5900
+Wire Wire Line
+	7000 5900 7050 5900
+$Comp
+L agg-kicad:R R?
+U 1 1 5EA43F6B
+P 7050 5950
+F 0 "R?" V 7054 5994 50  0000 L CNN
+F 1 "10k" V 7145 5994 50  0000 L CNN
+F 2 "" H 7050 5950 50  0001 C CNN
+F 3 "" H 7050 5950 50  0001 C CNN
+	1    7050 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 5950 7050 5900
+Connection ~ 7050 5900
+Wire Wire Line
+	7050 5900 7850 5900
+Wire Wire Line
+	7050 6050 7050 6100
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5EA7224D
+P 7050 6100
+F 0 "#PWR?" H 6920 6140 50  0001 L CNN
+F 1 "GND" H 7050 6000 50  0000 C CNN
+F 2 "" H 7050 6100 50  0001 C CNN
+F 3 "" H 7050 6100 50  0001 C CNN
+	1    7050 6100
+	1    0    0    -1  
+$EndComp
+Text Label 7700 6100 2    50   ~ 0
+Radio_SDN
+Wire Wire Line
+	7700 6100 7850 6100
+Wire Wire Line
+	7850 6200 7700 6200
+Wire Wire Line
+	7850 6300 7700 6300
+Wire Wire Line
+	7850 6400 7700 6400
+Text Label 7700 6400 2    50   ~ 0
+Radio_SDI
+Text Label 7700 6300 2    50   ~ 0
+Radio_SDO
+Text Label 7700 6200 2    50   ~ 0
+Radio_SCLK
+NoConn ~ 7850 5800
+Wire Wire Line
+	7850 5600 7700 5600
+Wire Wire Line
+	7850 5500 7700 5500
+Wire Wire Line
+	7700 5500 7700 5600
+Connection ~ 7700 5600
+Wire Wire Line
+	7700 5600 7700 5700
+$Comp
+L agg-kicad:GND #PWR?
+U 1 1 5EB602FF
+P 7700 5700
+F 0 "#PWR?" H 7570 5740 50  0001 L CNN
+F 1 "GND" H 7700 5600 50  0000 C CNN
+F 2 "" H 7700 5700 50  0001 C CNN
+F 3 "" H 7700 5700 50  0001 C CNN
+	1    7700 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5400 7700 5400
+Wire Wire Line
+	7700 5400 7700 5300
+Wire Wire Line
+	7700 5300 7850 5300
+Wire Wire Line
+	7700 5300 7700 5200
+Connection ~ 7700 5300
+$Comp
+L agg-kicad:3v3 #PWR?
+U 1 1 5EB918C6
+P 7700 5200
+F 0 "#PWR?" H 7700 5310 50  0001 L CNN
+F 1 "3v3" H 7700 5323 50  0000 C CNN
+F 2 "" H 7700 5200 50  0001 C CNN
+F 3 "" H 7700 5200 50  0001 C CNN
+	1    7700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5EB9217F
+P 7500 5400
+F 0 "C?" H 7504 5458 50  0000 L CNN
+F 1 "1u" H 7500 5350 50  0000 L CNN
+F 2 "" H 7500 5400 50  0001 C CNN
+F 3 "" H 7500 5400 50  0001 C CNN
+	1    7500 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5EB93EF3
+P 7300 5400
+F 0 "C?" H 7304 5458 50  0000 L CNN
+F 1 "200n" H 7250 5350 50  0000 L CNN
+F 2 "" H 7300 5400 50  0001 C CNN
+F 3 "" H 7300 5400 50  0001 C CNN
+	1    7300 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5EB94329
+P 7100 5400
+F 0 "C?" H 7104 5458 50  0000 L CNN
+F 1 "100p" H 7050 5350 50  0000 L CNN
+F 2 "" H 7100 5400 50  0001 C CNN
+F 3 "" H 7100 5400 50  0001 C CNN
+	1    7100 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5EB94658
+P 6900 5400
+F 0 "C?" H 6904 5458 50  0000 L CNN
+F 1 "2.2u" H 6850 5350 50  0000 L CNN
+F 2 "" H 6900 5400 50  0001 C CNN
+F 3 "" H 6900 5400 50  0001 C CNN
+	1    6900 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L agg-kicad:C C?
+U 1 1 5EB94B22
+P 6700 5400
+F 0 "C?" H 6704 5458 50  0000 L CNN
+F 1 "220p" H 6650 5350 50  0000 L CNN
+F 2 "" H 6700 5400 50  0001 C CNN
+F 3 "" H 6700 5400 50  0001 C CNN
+	1    6700 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 5400 7500 5300
+Wire Wire Line
+	7500 5500 7500 5600
+Wire Wire Line
+	7500 5600 7300 5600
+Wire Wire Line
+	6700 5600 6700 5500
+Connection ~ 7500 5600
+Wire Wire Line
+	6700 5400 6700 5300
+Connection ~ 7500 5300
+Wire Wire Line
+	7300 5300 7300 5400
+Wire Wire Line
+	7300 5500 7300 5600
+Wire Wire Line
+	7100 5500 7100 5600
+Wire Wire Line
+	7100 5400 7100 5300
+Wire Wire Line
+	6900 5300 6900 5400
+Wire Wire Line
+	6900 5500 6900 5600
+Connection ~ 7300 5300
+Wire Wire Line
+	7300 5300 7500 5300
+Connection ~ 7300 5600
+Connection ~ 7100 5300
+Wire Wire Line
+	7100 5300 7300 5300
+Connection ~ 7100 5600
+Wire Wire Line
+	7100 5600 7300 5600
+Connection ~ 6900 5300
+Wire Wire Line
+	6900 5300 7100 5300
+Connection ~ 6900 5600
+Wire Wire Line
+	6900 5600 7100 5600
+Wire Wire Line
+	6700 5300 6900 5300
+Wire Wire Line
+	6700 5600 6900 5600
+Wire Wire Line
+	7500 5300 7700 5300
+Wire Wire Line
+	7500 5600 7700 5600
+Wire Wire Line
+	8650 5300 8800 5300
+Wire Wire Line
+	8650 5400 8800 5400
+Wire Wire Line
+	8650 5500 8800 5500
+NoConn ~ 8650 5600
+NoConn ~ 8650 5800
+NoConn ~ 8650 6000
+NoConn ~ 8650 6100
+Wire Wire Line
+	8650 5900 8800 5900
+Wire Wire Line
+	8800 6200 8650 6200
+Text Label 8800 5300 0    50   ~ 0
+RXp
+Text Label 8800 5400 0    50   ~ 0
+RXn
+Text Label 8800 5500 0    50   ~ 0
+TX
+Text Label 8800 5900 0    50   ~ 0
+Radio_GPIO1
+Text Label 8800 6200 0    50   ~ 0
+Radio_nIRQ
 $EndSCHEMATC
