@@ -2557,7 +2557,7 @@ Wire Notes Line
 Wire Notes Line
 	4500 3350 11250 3350
 Text Notes 4500 3300 0    98   ~ 20
-Clock Recovery
+CLOCK RECOVERY
 Wire Notes Line
 	4500 5450 4500 7300
 Wire Notes Line
@@ -2571,11 +2571,11 @@ Wire Notes Line
 Wire Notes Line
 	11250 5050 11250 3350
 Text Notes 4500 5400 0    98   ~ 20
-Radio
+RADIO
 Wire Notes Line
 	4500 7700 7800 7700
 Text Notes 4500 7650 0    98   ~ 20
-Match/Filter
+MATCH/FILTER
 Wire Notes Line
 	7800 7700 7800 9800
 Wire Notes Line
