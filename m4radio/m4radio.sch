@@ -2547,4 +2547,25 @@ Connection ~ 9000 1400
 Connection ~ 9000 2200
 Wire Wire Line
 	9000 2200 9100 2200
+Wire Wire Line
+	1850 7100 1750 7100
+Text Label 1750 7100 2    50   ~ 0
+Radio_GPIO1
+Wire Wire Line
+	1850 7000 1750 7000
+Text Label 1750 7000 2    50   ~ 0
+Radio_nIRQ
+Wire Wire Line
+	1850 6700 1750 6700
+Text Label 1750 6700 2    50   ~ 0
+Radio_GATE
+Wire Wire Line
+	1750 6400 1850 6400
+Text Label 1750 6400 2    50   ~ 0
+GPS_PPS
+NoConn ~ 1850 6300
+NoConn ~ 1850 6500
+NoConn ~ 1850 6600
+NoConn ~ 1850 6800
+NoConn ~ 1850 6900
 $EndSCHEMATC
