@@ -1,0 +1,23 @@
+Suggested Replacements:
+
+2211164 -> 2521952 (TDK SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, C Series TDK)
+[10u Capacitor]
+
+2506952 -> 2849415 (ABM12-115-26.000MHZ-T3 -  Crystal, 26 MHz, SMD, 1.6mm x 1.2mm, 10 ppm, 8 pF, 10 ppm, ABM12 Series)
+
+2309035 -> 2332595 (06035A100DAT2A -  SMD Multilayer Ceramic Capacitor, 10 pF, 50 V, 0603 [1608 Metric], ± 0.5pF, C0G / NP0)
+[10 pF Capacitor] Tick
+
+2309108 -> 2073354 (MULTICOMP PRO SMD Chip Resistor, Ceramic, 0603 [1608 Metric], 1 kohm, MCMR Series, 75 V, Thick Film, 100 mW)
+[1k Resistor]
+
+	limited stock:
+	[2314404]
+	[[red LED]]
+
+	[2358234]
+	[[microsd reader]]
+
+2461149 -> https://uk.farnell.com/w/c/semiconductors-ics/ic-sensors/ic-temperature-sensors?ic-output-type=digital&no-of-pins=48pins&range=inc-in-stock
+[Temperature Microcontroller]
+
