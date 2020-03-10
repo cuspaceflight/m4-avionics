@@ -5,11 +5,11 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M4_TEMPLATE"
+Title "M4_RADIO"
 Date "2020-02-05"
 Rev "1"
 Comp "CU Spaceflight"
-Comment1 "Drawn By: Sean McGuire"
+Comment1 "Drawn By: Henry Franks"
 Comment2 ""
 Comment3 ""
 Comment4 ""
