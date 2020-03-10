@@ -1,4 +1,6 @@
 EESchema Schematic File Version 4
+LIBS:m4_board_template-cache
+LIBS:ignition-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -501,6 +503,18 @@ Wire Notes Line
 	4350 6400 600  6400
 Wire Notes Line
 	600  1300 600  6400
+$Comp
+L m4_board_template-rescue:STM32F405RxTx-agg-kicad IC?
+U 1 1 5E6C2B44
+P 2300 3650
+F 0 "IC?" H 1900 5550 50  0000 L CNN
+F 1 "STM32F405RxTx" H 1900 1750 50  0000 L CNN
+F 2 "agg:LQFP-64" H 1900 1650 50  0001 L CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 1900 1550 50  0001 L CNN
+F 4 "2064363" H 1900 1450 50  0001 L CNN "Farnell"
+	1    2300 3650
+	1    0    0    -1  
+$EndComp
 $Comp
 L agg-kicad:3v3 #PWR?
 U 1 1 5E6C2B5D
@@ -1530,16 +1544,4 @@ Wire Wire Line
 	2950 4750 2800 4750
 Wire Wire Line
 	2950 5250 2800 5250
-$Comp
-L agg-kicad:STM32F405RxTx IC?
-U 1 1 5E69FD9A
-P 2300 3650
-F 0 "IC?" H 2300 5675 50  0000 C CNN
-F 1 "STM32F405RxTx" H 2300 5584 50  0000 C CNN
-F 2 "agg:LQFP-64" H 1900 1650 50  0001 L CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 1900 1550 50  0001 L CNN
-F 4 "2064363" H 1900 1450 50  0001 L CNN "Farnell"
-	1    2300 3650
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

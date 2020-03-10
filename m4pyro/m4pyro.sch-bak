@@ -1628,6 +1628,18 @@ Wire Wire Line
 	7875 8600 7750 8600
 Connection ~ 7750 8600
 $Comp
+L relay_spst:RELAY_SPST K?
+U 1 1 5E57057A
+P 7925 8125
+F 0 "K?" H 7825 8475 50  0000 C CNN
+F 1 "16A SPST" H 7925 7975 50  0000 C CNN
+F 2 "ignition:RT33L024" H 7925 8125 60  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1943542.pdf" H 7925 8125 60  0001 C CNN
+F 4 "1770616" H 7925 8125 50  0001 C CNN "Farnell"
+	1    7925 8125
+	1    0    0    -1  
+$EndComp
+$Comp
 L agg-kicad:D D?
 U 1 1 5E570581
 P 8825 7575
@@ -2574,18 +2586,6 @@ F 2 "agg:LQFP-64" H 1950 3700 50  0001 L CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 1950 3600 50  0001 L CNN
 F 4 "2064363" H 1950 3500 50  0001 L CNN "Farnell"
 	1    2350 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L relay_spst:RELAY_SPST K?
-U 1 1 5E57057A
-P 7925 8125
-F 0 "K?" H 7825 8475 50  0000 C CNN
-F 1 "16A SPST" H 7925 7975 50  0000 C CNN
-F 2 "ignition:RT33L024" H 7925 8125 60  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1943542.pdf" H 7925 8125 60  0001 C CNN
-F 4 "1770616" H 7925 8125 50  0001 C CNN "Farnell"
-	1    7925 8125
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
