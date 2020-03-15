@@ -37,7 +37,7 @@ F 3 "" H 1400 8950 60  0000 C CNN
 	1    1400 8950
 	1    0    0    -1  
 $EndComp
-Text Label 1250 9050 2 60 ~ 0
+Text Label 1250 9050 2    60   ~ 0
 5v_CAN
 $Comp
 L agg-kicad:GND #PWR?
@@ -50,13 +50,13 @@ F 3 "" H 1400 9450 60  0000 C CNN
 	1    1400 9450
 	1    0    0    -1  
 $EndComp
-Text Label 2350 9000 0 60 ~ 0
+Text Label 2350 9000 0    60   ~ 0
 CAN+
-Text Label 2350 9100 0 60 ~ 0
+Text Label 2350 9100 0    60   ~ 0
 CAN-
-Text Label 2350 9200 0 60 ~ 0
+Text Label 2350 9200 0    60   ~ 0
 CAN_TXD
-Text Label 2350 9300 0 60 ~ 0
+Text Label 2350 9300 0    60   ~ 0
 CAN_RXD
 $Comp
 L agg-kicad:C C?
@@ -175,17 +175,17 @@ F 3 "" H 4150 9500 60  0000 C CNN
 	1    4150 9500
 	1    0    0    -1  
 $EndComp
-Text Label 3650 9450 2 60 ~ 0
+Text Label 3650 9450 2    60   ~ 0
 LED_GRN
-Text Label 3650 8850 2 60 ~ 0
+Text Label 3650 8850 2    60   ~ 0
 LED_RED
-Text Label 3650 9150 2 60 ~ 0
+Text Label 3650 9150 2    60   ~ 0
 LED_YLW
-Text Label 1750 7200 2 60 ~ 0
+Text Label 1750 7200 2    60   ~ 0
 JTMS
-Text Label 1750 7300 2 60 ~ 0
+Text Label 1750 7300 2    60   ~ 0
 JTCK
-Text Label 1750 7400 2 60 ~ 0
+Text Label 1750 7400 2    60   ~ 0
 JTDI
 Wire Wire Line
 	900  9100 1250 9100
@@ -269,7 +269,7 @@ Connection ~ 1800 4800
 Wire Wire Line
 	1850 4600 1800 4600
 Connection ~ 1800 4700
-Text Label 2950 4800 0 60 ~ 0
+Text Label 2950 4800 0    60   ~ 0
 CAN_TXD
 Wire Wire Line
 	2950 4800 2850 4800
@@ -350,47 +350,47 @@ F 3 "" H 1750 1100 60  0000 C CNN
 	1    1750 1100
 	-1   0    0    1   
 $EndComp
-Text Label 1750 1550 0 60 ~ 0
+Text Label 1750 1550 0    60   ~ 0
 JTDI
-Text Label 2950 4200 0 60 ~ 0
+Text Label 2950 4200 0    60   ~ 0
 JTDR
-Text Label 1750 1350 0 60 ~ 0
+Text Label 1750 1350 0    60   ~ 0
 JTMS
-Text Label 1750 1450 0 60 ~ 0
+Text Label 1750 1450 0    60   ~ 0
 JTCK
-Text Label 1250 1350 2 60 ~ 0
+Text Label 1250 1350 2    60   ~ 0
 3v3_TOP
-Text Label 1250 1450 2 60 ~ 0
+Text Label 1250 1450 2    60   ~ 0
 3v3_DL
-Text Label 1250 1550 2 60 ~ 0
+Text Label 1250 1550 2    60   ~ 0
 3v3_FC
-Text Label 1250 1750 2 60 ~ 0
+Text Label 1250 1750 2    60   ~ 0
 3v3_PYRO
-Text Label 1750 2150 0 60 ~ 0
+Text Label 1750 2150 0    60   ~ 0
 5v_CAN
-Text Label 1750 2250 0 60 ~ 0
+Text Label 1750 2250 0    60   ~ 0
 CAN-
-Text Label 1750 2350 0 60 ~ 0
+Text Label 1750 2350 0    60   ~ 0
 CAN+
-Text Label 2750 1750 2 60 ~ 0
+Text Label 2750 1750 2    60   ~ 0
 12v_DL
-Text Label 2750 1850 2 60 ~ 0
+Text Label 2750 1850 2    60   ~ 0
 5v_RADIO
-Text Label 2750 1950 2 60 ~ 0
+Text Label 2750 1950 2    60   ~ 0
 5v_AUX1
-Text Label 2750 2050 2 60 ~ 0
+Text Label 2750 2050 2    60   ~ 0
 5v_AUX2
-Text Label 2750 2150 2 60 ~ 0
+Text Label 2750 2150 2    60   ~ 0
 5v_CAM1
-Text Label 2750 2350 2 60 ~ 0
+Text Label 2750 2350 2    60   ~ 0
 PWR
-Text Label 3250 1450 0 60 ~ 0
+Text Label 3250 1450 0    60   ~ 0
 PYRO4
-Text Label 3250 1350 0 60 ~ 0
+Text Label 3250 1350 0    60   ~ 0
 PYRO2
-Text Label 1250 1950 2 60 ~ 0
+Text Label 1250 1950 2    60   ~ 0
 3v3_AUX1
-Text Label 1250 2050 2 60 ~ 0
+Text Label 1250 2050 2    60   ~ 0
 3v3_AUX2
 Wire Wire Line
 	1350 1350 1250 1350
@@ -455,9 +455,9 @@ F 3 "" H 3050 1150 50  0001 C CNN
 	1    3050 1150
 	1    0    0    -1  
 $EndComp
-Text Label 1250 1650 2 60 ~ 0
+Text Label 1250 1650 2    60   ~ 0
 3v3_RADIO
-Text Label 1250 2250 2 60 ~ 0
+Text Label 1250 2250 2    60   ~ 0
 RSVD5
 Wire Wire Line
 	1250 1150 1350 1150
@@ -473,7 +473,7 @@ Wire Wire Line
 Connection ~ 1750 1150
 Wire Wire Line
 	1750 1150 1750 1100
-Text Label 1250 2350 2 60 ~ 0
+Text Label 1250 2350 2    60   ~ 0
 RSVD6
 Wire Wire Line
 	1250 2350 1350 2350
@@ -491,13 +491,13 @@ Wire Wire Line
 	1650 2250 1750 2250
 Wire Wire Line
 	1650 2350 1750 2350
-Text Label 1750 2050 0 60 ~ 0
+Text Label 1750 2050 0    60   ~ 0
 RSVD3
-Text Label 1750 1950 0 60 ~ 0
+Text Label 1750 1950 0    60   ~ 0
 RSVD1
-Text Label 1750 1850 0 60 ~ 0
+Text Label 1750 1850 0    60   ~ 0
 UART_RX
-Text Label 1750 1750 0 60 ~ 0
+Text Label 1750 1750 0    60   ~ 0
 UART_TX
 $Comp
 L agg-kicad:GND #PWR?
@@ -559,15 +559,15 @@ Wire Wire Line
 Connection ~ 3250 1150
 Wire Wire Line
 	3250 1150 3250 1100
-Text Label 2750 2250 2 60 ~ 0
+Text Label 2750 2250 2    60   ~ 0
 5v_CAM2
 Wire Wire Line
 	2850 2250 2750 2250
-Text Label 2750 1650 2 60 ~ 0
+Text Label 2750 1650 2    60   ~ 0
 PYRO7
-Text Label 2750 1450 2 60 ~ 0
+Text Label 2750 1450 2    60   ~ 0
 PYRO3
-Text Label 2750 1350 2 60 ~ 0
+Text Label 2750 1350 2    60   ~ 0
 PYRO1
 Wire Wire Line
 	2750 1350 2850 1350
@@ -585,11 +585,11 @@ Wire Wire Line
 	3150 2050 3250 2050
 Wire Wire Line
 	3150 2150 3250 2150
-Text Label 3250 1550 0 60 ~ 0
+Text Label 3250 1550 0    60   ~ 0
 PYRO6
-Text Label 3250 1650 0 60 ~ 0
+Text Label 3250 1650 0    60   ~ 0
 PYRO8
-Text Label 2750 1550 2 60 ~ 0
+Text Label 2750 1550 2    60   ~ 0
 PYRO5
 Wire Wire Line
 	2850 2450 2750 2450
@@ -649,15 +649,15 @@ Wire Wire Line
 Connection ~ 1750 2550
 Wire Wire Line
 	1750 2550 1750 2450
-Text Label 3250 1750 0 60 ~ 0
+Text Label 3250 1750 0    60   ~ 0
 RSVD7
-Text Label 3250 1850 0 60 ~ 0
+Text Label 3250 1850 0    60   ~ 0
 RSVD8
-Text Label 3250 1950 0 60 ~ 0
+Text Label 3250 1950 0    60   ~ 0
 RSVD9
-Text Label 3250 2050 0 60 ~ 0
+Text Label 3250 2050 0    60   ~ 0
 RSVD10
-Text Label 3250 2150 0 60 ~ 0
+Text Label 3250 2150 0    60   ~ 0
 RSVD11
 Text Notes 650  750  0    98   ~ 20
 GLOBAL INTERCONNECTS
@@ -665,9 +665,9 @@ Wire Wire Line
 	2750 2350 2850 2350
 Wire Wire Line
 	3150 2350 3250 2350
-Text Label 3250 2250 0 60 ~ 0
+Text Label 3250 2250 0    60   ~ 0
 RSVD12
-Text Label 3250 2350 0 60 ~ 0
+Text Label 3250 2350 0    60   ~ 0
 RSVD13
 $Comp
 L agg-kicad:SWD_TC P?
@@ -702,12 +702,12 @@ F 3 "" H 1900 8150 60  0000 C CNN
 	1    1900 8150
 	1    0    0    -1  
 $EndComp
-Text Label 1850 8000 2 60 ~ 0
+Text Label 1850 8000 2    60   ~ 0
 ~RST
 NoConn ~ 2750 8100
-Text Label 2850 7900 0 60 ~ 0
+Text Label 2850 7900 0    60   ~ 0
 JTMS
-Text Label 2850 8000 0 60 ~ 0
+Text Label 2850 8000 0    60   ~ 0
 JTCK
 Wire Wire Line
 	1900 7850 1900 7900
@@ -957,7 +957,7 @@ F 3 "" H 1450 5100 60  0000 C CNN
 	1    1450 5100
 	0    1    1    0   
 $EndComp
-Text Label 1750 5300 2 60 ~ 0
+Text Label 1750 5300 2    60   ~ 0
 ~RST
 Wire Wire Line
 	1850 5300 1750 5300
@@ -971,9 +971,9 @@ Wire Wire Line
 	1350 1250 1250 1250
 Wire Wire Line
 	2850 1250 2750 1250
-Text Label 2950 4700 0 60 ~ 0
+Text Label 2950 4700 0    60   ~ 0
 CAN_RXD
-Text Label 1750 1650 0 60 ~ 0
+Text Label 1750 1650 0    60   ~ 0
 JTDR
 Wire Notes Line
 	650  2950 3850 2950
@@ -1008,11 +1008,11 @@ Wire Notes Line
 	4400 8600 4400 9800
 Wire Notes Line
 	3050 8600 3050 9800
-Text Label 2950 5900 0 60 ~ 0
+Text Label 2950 5900 0    60   ~ 0
 LED_GRN
-Text Label 2950 5700 0 60 ~ 0
+Text Label 2950 5700 0    60   ~ 0
 LED_RED
-Text Label 2950 5800 0 60 ~ 0
+Text Label 2950 5800 0    60   ~ 0
 LED_YLW
 Wire Wire Line
 	2850 5700 2950 5700
@@ -1065,17 +1065,17 @@ F 4 "9238379" H 2350 9650 60  0001 C CNN "Farnell"
 	1    2350 9650
 	1    0    0    -1  
 $EndComp
-Text Label 2250 9650 2 60 ~ 0
+Text Label 2250 9650 2    60   ~ 0
 CAN-
 Wire Wire Line
 	2250 9650 2350 9650
-Text Label 2550 9650 0 60 ~ 0
+Text Label 2550 9650 0    60   ~ 0
 CAN+
 Wire Wire Line
 	2550 9650 2450 9650
-Text Label 1250 2150 2 60 ~ 0
+Text Label 1250 2150 2    60   ~ 0
 RSVD4
-Text Label 1250 1850 2 60 ~ 0
+Text Label 1250 1850 2    60   ~ 0
 3v3_MOTOR
 $Comp
 L agg-kicad:STM32F405RxTx IC?
@@ -1217,11 +1217,11 @@ Wire Wire Line
 NoConn ~ 5050 2100
 Wire Wire Line
 	5050 2200 4700 2200
-Text Label 4700 1900 2 60 ~ 0
+Text Label 4700 1900 2    60   ~ 0
 GPS_RESET_N
-Text Label 4700 2000 2 60 ~ 0
+Text Label 4700 2000 2    60   ~ 0
 GPS_PPS
-Text Label 4700 2200 2 60 ~ 0
+Text Label 4700 2200 2    60   ~ 0
 GPS_TP
 NoConn ~ 6250 1200
 NoConn ~ 6250 1300
@@ -1374,17 +1374,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 4850 5150 4850
 $Comp
-L agg-kicad:1v8 #PWR?
-U 1 1 5E5C93DF
-P 4800 4650
-F 0 "#PWR?" H 4800 4760 50  0001 L CNN
-F 1 "1v8" H 4800 4773 50  0000 C CNN
-F 2 "" H 4800 4650 50  0001 C CNN
-F 3 "" H 4800 4650 50  0001 C CNN
-	1    4800 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L agg-kicad:GND #PWR?
 U 1 1 5E5CA04D
 P 4800 4950
@@ -1525,7 +1514,7 @@ F 3 "" H 7100 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 4350 7200 4350
-Text Label 7050 4550 2 60 ~ 0
+Text Label 7050 4550 2    60   ~ 0
 GPS_TP
 Wire Wire Line
 	7050 4550 7200 4550
@@ -1567,9 +1556,9 @@ Wire Wire Line
 	8600 4550 8750 4550
 Wire Wire Line
 	8600 4650 8750 4650
-Text Label 8750 4650 0 60 ~ 0
+Text Label 8750 4650 0    60   ~ 0
 PLL_SCL
-Text Label 8750 4550 0 60 ~ 0
+Text Label 8750 4550 0    60   ~ 0
 PLL_SDA
 Wire Wire Line
 	8600 4750 8700 4750
@@ -1706,9 +1695,9 @@ Wire Wire Line
 	10450 3950 10650 3950
 Wire Wire Line
 	10650 4050 10450 4050
-Text Label 10650 3950 0 60 ~ 0
+Text Label 10650 3950 0    60   ~ 0
 STM_HSE
-Text Label 10650 4050 0 60 ~ 0
+Text Label 10650 4050 0    60   ~ 0
 Radio_CLK
 $Comp
 L agg-kicad:SN74LVC1G0832 IC?
@@ -1758,11 +1747,11 @@ Wire Wire Line
 	10600 2400 10450 2400
 Wire Wire Line
 	10600 2500 10450 2500
-Text Label 10450 2300 2 60 ~ 0
+Text Label 10450 2300 2    60   ~ 0
 GPS_PPS
-Text Label 10450 2400 2 60 ~ 0
+Text Label 10450 2400 2    60   ~ 0
 Radio_GATE
-Text Label 10450 2500 2 60 ~ 0
+Text Label 10450 2500 2    60   ~ 0
 Radio_nSEL
 $Comp
 L agg-kicad:Si4460 IC?
@@ -1782,7 +1771,7 @@ Wire Wire Line
 	11500 2100 11500 2550
 Wire Wire Line
 	11500 2550 12750 2550
-Text Label 11750 1950 2 60 ~ 0
+Text Label 11750 1950 2    60   ~ 0
 Radio_CLK
 $Comp
 L agg-kicad:R R?
@@ -1828,7 +1817,7 @@ F 3 "" H 11950 2150 50  0001 C CNN
 	1    11950 2150
 	1    0    0    -1  
 $EndComp
-Text Label 12600 2150 2 60 ~ 0
+Text Label 12600 2150 2    60   ~ 0
 Radio_SDN
 Wire Wire Line
 	12600 2150 12750 2150
@@ -1838,11 +1827,11 @@ Wire Wire Line
 	12750 2350 12600 2350
 Wire Wire Line
 	12750 2450 12600 2450
-Text Label 12600 2450 2 60 ~ 0
+Text Label 12600 2450 2    60   ~ 0
 Radio_SDI
-Text Label 12600 2350 2 60 ~ 0
+Text Label 12600 2350 2    60   ~ 0
 Radio_SDO
-Text Label 12600 2250 2 60 ~ 0
+Text Label 12600 2250 2    60   ~ 0
 Radio_SCLK
 NoConn ~ 12750 1850
 Wire Wire Line
@@ -2002,21 +1991,21 @@ Wire Wire Line
 	13550 1950 13700 1950
 Wire Wire Line
 	13700 2250 13550 2250
-Text Label 13700 1350 0 60 ~ 0
+Text Label 13700 1350 0    60   ~ 0
 RXp
-Text Label 13700 1450 0 60 ~ 0
+Text Label 13700 1450 0    60   ~ 0
 RXn
-Text Label 13700 1550 0 60 ~ 0
+Text Label 13700 1550 0    60   ~ 0
 TX
-Text Label 13700 1950 0 60 ~ 0
+Text Label 13700 1950 0    60   ~ 0
 Radio_GPIO1
-Text Label 13700 2250 0 60 ~ 0
+Text Label 13700 2250 0    60   ~ 0
 Radio_nIRQ
-Text Label 11700 4150 2 60 ~ 0
+Text Label 11700 4150 2    60   ~ 0
 TX
-Text Label 11700 4500 2 60 ~ 0
+Text Label 11700 4500 2    60   ~ 0
 RXn
-Text Label 11700 4800 2 60 ~ 0
+Text Label 11700 4800 2    60   ~ 0
 RXp
 $Comp
 L agg-kicad:L L?
@@ -2365,9 +2354,9 @@ $EndComp
 Wire Wire Line
 	7100 1950 7100 1800
 Connection ~ 7100 1800
-Text Label 7350 1400 2 60 ~ 0
+Text Label 7350 1400 2    60   ~ 0
 ANT_~EN
-Text Label 7350 1500 2 60 ~ 0
+Text Label 7350 1500 2    60   ~ 0
 ANT_~FLAG
 Wire Wire Line
 	7100 1700 7450 1700
@@ -2462,9 +2451,9 @@ Wire Wire Line
 	2850 4900 2950 4900
 Wire Wire Line
 	2950 5000 2850 5000
-Text Label 2950 5000 0 60 ~ 0
+Text Label 2950 5000 0    60   ~ 0
 PLL_SDA
-Text Label 2950 4900 0 60 ~ 0
+Text Label 2950 4900 0    60   ~ 0
 PLL_SCL
 Wire Wire Line
 	2850 5200 2950 5200
@@ -2472,11 +2461,11 @@ Wire Wire Line
 	2950 5300 2850 5300
 Wire Wire Line
 	2850 5400 2950 5400
-Text Label 2950 5400 0 60 ~ 0
+Text Label 2950 5400 0    60   ~ 0
 Radio_SDI
-Text Label 2950 5300 0 60 ~ 0
+Text Label 2950 5300 0    60   ~ 0
 Radio_SDO
-Text Label 2950 5200 0 60 ~ 0
+Text Label 2950 5200 0    60   ~ 0
 Radio_SCLK
 NoConn ~ 2850 5600
 NoConn ~ 2850 5100
@@ -2488,7 +2477,7 @@ NoConn ~ 2850 4000
 NoConn ~ 2850 3900
 Wire Wire Line
 	2850 6200 2950 6200
-Text Label 2950 6200 0 60 ~ 0
+Text Label 2950 6200 0    60   ~ 0
 Radio_SDN
 NoConn ~ 2850 6100
 NoConn ~ 2850 6000
@@ -2504,52 +2493,50 @@ NoConn ~ 2850 6500
 NoConn ~ 2850 6400
 NoConn ~ 2850 6300
 NoConn ~ 2850 7300
-Text Label 2950 7000 0 60 ~ 0
+Text Label 2950 7000 0    60   ~ 0
 ANT_~FLAG
-Text Label 2950 7100 0 60 ~ 0
+Text Label 2950 7100 0    60   ~ 0
 ANT_~EN
 Wire Wire Line
 	1850 5600 1750 5600
-Text Label 1750 5600 2 60 ~ 0
+Text Label 1750 5600 2    60   ~ 0
 STM_HSE
 NoConn ~ 1850 5700
 Wire Wire Line
 	1850 5900 1750 5900
 Wire Wire Line
 	1850 6000 1750 6000
-Text Label 1750 5900 2 60 ~ 0
+Text Label 1750 5900 2    60   ~ 0
 GPS_RX
-Text Label 1750 6000 2 60 ~ 0
+Text Label 1750 6000 2    60   ~ 0
 GPS_TX
 Wire Wire Line
 	1850 6100 1750 6100
-Text Label 1750 6100 2 60 ~ 0
+Text Label 1750 6100 2    60   ~ 0
 GPS_RESET_N
 Wire Wire Line
 	1850 6200 1750 6200
-Text Label 1750 6200 2 60 ~ 0
+Text Label 1750 6200 2    60   ~ 0
 Radio_nSEL
-Text Notes 10300 8450 0    118  ~ 0
-- Change font size for new labels
 Connection ~ 9000 1400
 Connection ~ 9000 2200
 Wire Wire Line
 	9000 2200 9100 2200
 Wire Wire Line
 	1850 7100 1750 7100
-Text Label 1750 7100 2 60 ~ 0
+Text Label 1750 7100 2    60   ~ 0
 Radio_GPIO1
 Wire Wire Line
 	1850 7000 1750 7000
-Text Label 1750 7000 2 60 ~ 0
+Text Label 1750 7000 2    60   ~ 0
 Radio_nIRQ
 Wire Wire Line
 	1850 6700 1750 6700
-Text Label 1750 6700 2 60 ~ 0
+Text Label 1750 6700 2    60   ~ 0
 Radio_GATE
 Wire Wire Line
 	1750 6400 1850 6400
-Text Label 1750 6400 2 60 ~ 0
+Text Label 1750 6400 2    60   ~ 0
 GPS_PPS
 NoConn ~ 1850 6300
 NoConn ~ 1850 6500
@@ -2558,35 +2545,6 @@ NoConn ~ 1850 6800
 NoConn ~ 1850 6900
 Text Notes 9700 3850 0    39   ~ 0
 NB: SL1886DC is now obsolete and\nshould be replaced with Si53307
-Text Notes 10150 8050 0    118  ~ 24
-TODO
-Wire Notes Line
-	10050 9000 10050 7800
-Wire Notes Line
-	10050 7800 13550 7800
-Wire Notes Line
-	13550 7800 13550 9000
-Wire Notes Line
-	13550 9000 10050 9000
-Wire Notes Line
-	10050 7850 13550 7850
-Wire Notes Line
-	13500 7800 13500 9000
-Wire Notes Line
-	10050 8950 13550 8950
-Wire Notes Line
-	10100 7800 10100 9000
-$Comp
-L agg-kicad:NCP4620 U?
-U 1 1 5E95A00E
-P 1350 10350
-F 0 "U?" H 1100 10550 50  0000 C CNN
-F 1 "NCP4620" H 1200 10150 50  0000 C CNN
-F 2 "" H 1350 10350 50  0001 C CNN
-F 3 "" H 1350 10350 50  0001 C CNN
-	1    1350 10350
-	1    0    0    -1  
-$EndComp
 $Comp
 L agg-kicad:C C?
 U 1 1 5E95C42F
@@ -2635,17 +2593,6 @@ $EndComp
 Wire Wire Line
 	800  10200 800  10250
 Connection ~ 800  10250
-$Comp
-L agg-kicad:1v8 #PWR?
-U 1 1 5EA21170
-P 1900 10200
-F 0 "#PWR?" H 1900 10310 50  0001 L CNN
-F 1 "1v8" H 1900 10350 50  0000 C CNN
-F 2 "" H 1900 10200 50  0001 C CNN
-F 3 "" H 1900 10200 50  0001 C CNN
-	1    1900 10200
-	1    0    0    -1  
-$EndComp
 $Comp
 L agg-kicad:C C?
 U 1 1 5EA21FA7
@@ -2697,4 +2644,38 @@ Wire Notes Line
 	11250 3350 11250 5450
 Wire Notes Line
 	4500 5450 4500 3350
+$Comp
+L agg-kicad:1v8 #PWR?
+U 1 1 5E8CD198
+P 4800 4650
+F 0 "#PWR?" H 4800 4760 50  0001 L CNN
+F 1 "1v8" H 4800 4800 50  0000 C CNN
+F 2 "" H 4800 4650 50  0001 C CNN
+F 3 "" H 4800 4650 50  0001 C CNN
+	1    4800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:1v8 #PWR?
+U 1 1 5E8CDDBA
+P 1900 10200
+F 0 "#PWR?" H 1900 10310 50  0001 L CNN
+F 1 "1v8" H 1900 10350 50  0000 C CNN
+F 2 "" H 1900 10200 50  0001 C CNN
+F 3 "" H 1900 10200 50  0001 C CNN
+	1    1900 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:NCP4620 IC?
+U 1 1 5E8F8B77
+P 1350 10350
+F 0 "IC?" H 1350 10700 50  0000 C CNN
+F 1 "NCP4620" H 1350 10600 50  0000 C CNN
+F 2 "agg:SC-70-5" H 1050 10050 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1878393.pdf" H 1050 9950 50  0001 L CNN
+F 4 "2464259" H 1050 9850 50  0001 L CNN "Farnell"
+	1    1350 10350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name agg-kicad)(type Legacy)(uri ${KIPRJMOD}/../cusf-kicad/agg-kicad.lib)(options "")(descr ""))
+  (lib (name m4radio-rescue)(type Legacy)(uri ${KIPRJMOD}/m4radio-rescue.lib)(options "")(descr ""))
 )
