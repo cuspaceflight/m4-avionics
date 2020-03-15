@@ -1302,18 +1302,6 @@ Wire Wire Line
 	7625 2100 7500 2100
 Connection ~ 7500 2100
 $Comp
-L relay_spst:RELAY_SPST K?
-U 1 1 5E570464
-P 7675 1625
-F 0 "K?" H 7575 1975 50  0000 C CNN
-F 1 "16A SPST" H 7675 1475 50  0000 C CNN
-F 2 "ignition:RT33L024" H 7675 1625 60  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1943542.pdf" H 7675 1625 60  0001 C CNN
-F 4 "1770616" H 7675 1625 50  0001 C CNN "Farnell"
-	1    7675 1625
-	1    0    0    -1  
-$EndComp
-$Comp
 L agg-kicad:D D?
 U 1 1 5E57046B
 P 8575 1075
@@ -1947,18 +1935,6 @@ Wire Wire Line
 	7625 6100 7500 6100
 Connection ~ 7500 6100
 $Comp
-L relay_spst:RELAY_SPST K?
-U 1 1 5E570639
-P 7675 5625
-F 0 "K?" H 7575 5975 50  0000 C CNN
-F 1 "16A SPST" H 7675 5475 50  0000 C CNN
-F 2 "ignition:RT33L024" H 7675 5625 60  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1943542.pdf" H 7675 5625 60  0001 C CNN
-F 4 "1770616" H 7675 5625 50  0001 C CNN "Farnell"
-	1    7675 5625
-	1    0    0    -1  
-$EndComp
-$Comp
 L agg-kicad:D D?
 U 1 1 5E570640
 P 8575 5075
@@ -2555,18 +2531,6 @@ F 4 "2064363" H 1950 3500 50  0001 L CNN "Farnell"
 	1    2350 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L relay_spst:RELAY_SPST K?
-U 1 1 5E57057A
-P 7675 3625
-F 0 "K?" H 7575 3975 50  0000 C CNN
-F 1 "16A SPST" H 7675 3475 50  0000 C CNN
-F 2 "ignition:RT33L024" H 7675 3625 60  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1943542.pdf" H 7675 3625 60  0001 C CNN
-F 4 "1770616" H 7675 3625 50  0001 C CNN "Farnell"
-	1    7675 3625
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	4500 2700 9950 2700
 Wire Notes Line
@@ -2580,7 +2544,7 @@ Wire Notes Line
 Wire Notes Line
 	9950 4700 4500 4700
 Wire Notes Line
-	4500 4650 4500 2750
+	4500 4700 4500 2800
 Wire Notes Line
 	4500 2800 9950 2800
 Wire Notes Line
@@ -2597,4 +2561,37 @@ Text Notes 4500 2900 0    60   ~ 0
 Channel 2
 Text Notes 4500 900  0    60   ~ 0
 Channel 1
+$Comp
+L agg-kicad:RELAY_SPST K?
+U 1 1 5E74EC2E
+P 7675 5625
+F 0 "K?" H 7675 6025 50  0000 C CNN
+F 1 "16A_SPST" H 7675 5500 50  0000 C CNN
+F 2 "" H 7675 5625 60  0000 C CNN
+F 3 "" H 7675 5625 60  0000 C CNN
+	1    7675 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:RELAY_SPST K?
+U 1 1 5E74FE41
+P 7675 3625
+F 0 "K?" H 7675 4025 50  0000 C CNN
+F 1 "16A_SPST" H 7675 3500 50  0000 C CNN
+F 2 "" H 7675 3625 60  0000 C CNN
+F 3 "" H 7675 3625 60  0000 C CNN
+	1    7675 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L agg-kicad:RELAY_SPST K?
+U 1 1 5E7510D9
+P 7675 1625
+F 0 "K?" H 7675 2025 50  0000 C CNN
+F 1 "16A_SPST" H 7675 1500 50  0000 C CNN
+F 2 "" H 7675 1625 60  0000 C CNN
+F 3 "" H 7675 1625 60  0000 C CNN
+	1    7675 1625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
