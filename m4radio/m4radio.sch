@@ -5,7 +5,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M4_RADIO"
+Title "M4 RADIO"
 Date "2020-02-05"
 Rev "1"
 Comp "CU Spaceflight"
@@ -1490,7 +1490,7 @@ L agg-kicad:CS2100-CP IC?
 U 1 1 5E6AA5EC
 P 7900 4550
 F 0 "IC?" H 7350 4950 50  0000 C CNN
-F 1 "CS2100-CP" H 7500 4150 50  0000 C CNN
+F 1 "CS2100-CP" H 7550 4150 50  0000 C CNN
 F 2 "agg:MSOP-10" H 7300 4050 50  0001 L CNN
 F 3 "https://www.cirrus.com/en/pubs/proDatasheet/CS2100-CP_F3.pdf" H 7300 3950 50  0001 L CNN
 F 4 "777-CS2100CP-CZZ" H 7300 3850 50  0001 L CNN "Mouser"
