@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/user/Documents/m4-core-avionics/m4pyro/m4pyro.sch</source>
+    <date>Sun Mar  8 11:34:40 2020</date>
+    <tool>Eeschema 5.1.5-1.fc30</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>M4_TEMPLATE</title>
+        <company>CU Spaceflight</company>
+        <rev>1</rev>
+        <date>2020-02-05</date>
+        <source>m4pyro.sch</source>
+        <comment number="1" value="Drawn By: Sean McGuire"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components/>
+  <libparts/>
+  <libraries/>
+  <nets/>
+</export>
