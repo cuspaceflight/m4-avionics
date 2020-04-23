@@ -1,6 +1,3 @@
 (sym_lib_table
-  (lib (name main-rescue)(type Legacy)(uri ${KIPRJMOD}/main-rescue.lib)(options "")(descr ""))
-  (lib (name temperature-rescue)(type Legacy)(uri /home/user/Documents/m3-avionics/m3dl/temperature/temperature-rescue.lib)(options "")(descr ""))
-  (lib (name pressure-rescue)(type Legacy)(uri /home/user/Documents/m3-avionics/m3dl/pressure/pressure-rescue.lib)(options "")(descr ""))
-  (lib (name agg-kicad)(type Legacy)(uri /home/user/Documents/m4-core-avionics/m4_board_template/agg-kicad.lib)(options "")(descr ""))
+  (lib (name agg-kicad)(type Legacy)(uri ${KIPRJMOD}/../cusf-kicad/agg-kicad.lib)(options "")(descr ""))
 )

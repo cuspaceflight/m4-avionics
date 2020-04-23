@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:m4dl-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -16,7 +17,7 @@ $EndDescr
 Text Notes 3500 3200 0    50   ~ 0
 External
 $Comp
-L temperature-rescue:C_Small C29
+L Device:C_Small C29
 U 1 1 5E6B9348
 P 3000 8150
 F 0 "C29" H 3010 8220 50  0000 L CNN
@@ -753,7 +754,7 @@ LED_YLW
 Text Label 3250 4700 0    60   ~ 0
 LED_RED
 $Comp
-L main-rescue:STM32F405RxTx IC2
+L agg-kicad:STM32F405RxTx IC2
 U 1 1 56B79D5C
 P 2650 4700
 F 0 "IC2" H 2250 6600 50  0000 L CNN
@@ -817,7 +818,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 1450 3450 1450
 $Comp
-L temperature-rescue:CONN_02x07 J1
+L agg-kicad:CONN_02x07 J1
 U 1 1 56CCD539
 P 3250 850
 F 0 "J1" H 3150 950 50  0000 L CNN
@@ -829,7 +830,7 @@ F 4 "WM17007-ND " H 3250 850 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:3v3 #PWR02
+L agg-kicad:3v3 #PWR02
 U 1 1 56C5144E
 P 4750 1050
 F 0 "#PWR02" H 4750 1160 50  0001 L CNN
@@ -855,7 +856,7 @@ P1+
 Text Label 4750 1300 2    60   ~ 0
 P3+
 $Comp
-L pressure-rescue:CONN_02x05 J2
+L agg-kicad:CONN_02x05 J2
 U 1 1 56C528D4
 P 5050 1100
 F 0 "J2" H 4950 1200 50  0000 L CNN
@@ -894,7 +895,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 1100 4750 1050
 $Comp
-L pressure-rescue:3v3 #PWR03
+L agg-kicad:3v3 #PWR03
 U 1 1 56C52F55
 P 5250 1050
 F 0 "#PWR03" H 5250 1160 50  0001 L CNN
@@ -918,7 +919,7 @@ Wire Wire Line
 	5150 1400 5250 1400
 Connection ~ 5250 1500
 $Comp
-L pressure-rescue:PWR #FLG01
+L agg-kicad:PWR #FLG01
 U 1 1 575CAE2A
 P 5300 1500
 F 0 "#FLG01" H 5300 1660 50  0001 C CNN
@@ -1065,7 +1066,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 4750 13600 4250
 $Comp
-L pressure-rescue:3v3 #PWR031
+L agg-kicad:3v3 #PWR031
 U 1 1 5760A0C0
 P 15500 4000
 F 0 "#PWR031" H 15500 4110 50  0001 L CNN
@@ -1091,7 +1092,7 @@ Wire Wire Line
 Wire Wire Line
 	15500 4300 15500 4000
 $Comp
-L pressure-rescue:ESD_DIODE D2
+L agg-kicad:ESD_DIODE D2
 U 1 1 57609B08
 P 15500 4400
 F 0 "D2" H 15450 4500 50  0000 L CNN
@@ -1103,7 +1104,7 @@ F 4 "2368169" H 15450 4100 50  0001 L CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pressure-rescue:PWR #FLG03
+L agg-kicad:PWR #FLG03
 U 1 1 57608A28
 P 13550 4000
 F 0 "#FLG03" H 13550 4160 50  0001 C CNN
@@ -1170,7 +1171,7 @@ F 3 "" H 15100 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:3v3 #PWR030
+L agg-kicad:3v3 #PWR030
 U 1 1 576089FE
 P 15100 4000
 F 0 "#PWR030" H 15100 4110 50  0001 L CNN
@@ -1199,7 +1200,7 @@ Wire Wire Line
 Wire Wire Line
 	13900 4650 13850 4650
 $Comp
-L pressure-rescue:NCP380 IC1
+L agg-kicad:NCP380 IC1
 U 1 1 576089ED
 P 14300 4350
 F 0 "IC1" H 14000 4750 50  0000 L CNN
@@ -1222,7 +1223,7 @@ F 3 "" H 13850 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:R R8
+L Device:R R8
 U 1 1 576089D6
 P 14800 4500
 F 0 "R8" V 14700 4500 50  0000 C CNN
@@ -1234,7 +1235,7 @@ F 4 "2502502" V 14800 4500 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:C_Small C7
+L Device:C_Small C7
 U 1 1 576089C8
 P 15100 4400
 F 0 "C7" H 15110 4470 50  0000 L CNN
@@ -1246,7 +1247,7 @@ F 4 "2346884" H 15100 4400 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:C_Small C6
+L Device:C_Small C6
 U 1 1 576089C1
 P 13350 4400
 F 0 "C6" H 13360 4470 50  0000 L CNN
@@ -1260,7 +1261,7 @@ $EndComp
 Text Label 13250 4050 2    60   ~ 0
 3v3_DL
 $Comp
-L pressure-rescue:3v3 #PWR029
+L agg-kicad:3v3 #PWR029
 U 1 1 576089BA
 P 14800 4000
 F 0 "#PWR029" H 14800 4110 50  0001 L CNN
@@ -1283,7 +1284,7 @@ Wire Wire Line
 Wire Wire Line
 	11400 5650 11500 5650
 $Comp
-L pressure-rescue:C_Small C16
+L Device:C_Small C16
 U 1 1 57647C5D
 P 14900 5850
 F 0 "C16" H 14910 5920 50  0000 L CNN
@@ -1295,7 +1296,7 @@ F 4 "1813443" H 14900 5850 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:C_Small C15
+L Device:C_Small C15
 U 1 1 57647BC3
 P 13200 5850
 F 0 "C15" H 13210 5920 50  0000 L CNN
@@ -1307,7 +1308,7 @@ F 4 "1813443" H 13200 5850 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:R R12
+L Device:R R12
 U 1 1 5764701F
 P 15150 5650
 F 0 "R12" V 15250 5650 50  0000 C CNN
@@ -1319,7 +1320,7 @@ F 4 "2059366" V 15150 5650 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L pressure-rescue:R R11
+L Device:R R11
 U 1 1 57646F91
 P 13450 5650
 F 0 "R11" V 13550 5650 50  0000 C CNN
@@ -1348,7 +1349,7 @@ $EndComp
 Wire Wire Line
 	15350 5950 15350 6000
 $Comp
-L pressure-rescue:ESD_DIODE D5
+L agg-kicad:ESD_DIODE D5
 U 1 1 575C589D
 P 15350 5850
 F 0 "D5" H 15300 5950 50  0000 L CNN
@@ -1375,7 +1376,7 @@ Wire Wire Line
 Wire Wire Line
 	13650 5750 13650 5650
 $Comp
-L pressure-rescue:ESD_DIODE D4
+L agg-kicad:ESD_DIODE D4
 U 1 1 575C4BBB
 P 13650 5850
 F 0 "D4" H 13600 5950 50  0000 L CNN
@@ -1403,7 +1404,7 @@ Connection ~ 11850 5650
 Wire Wire Line
 	11850 5750 11850 5650
 $Comp
-L pressure-rescue:ESD_DIODE D3
+L agg-kicad:ESD_DIODE D3
 U 1 1 575C46C4
 P 11850 5850
 F 0 "D3" H 11800 5950 50  0000 L CNN
@@ -1489,7 +1490,7 @@ F 3 "" H 11400 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:C_Small C14
+L Device:C_Small C14
 U 1 1 56C4B584
 P 11400 5850
 F 0 "C14" H 11410 5920 50  0000 L CNN
@@ -1501,7 +1502,7 @@ F 4 "1813443" H 11400 5850 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L pressure-rescue:R R10
+L Device:R R10
 U 1 1 56C4B56F
 P 11650 5650
 F 0 "R10" V 11750 5650 50  0000 C CNN
@@ -1708,7 +1709,7 @@ Wire Wire Line
 NoConn ~ 2150 6100
 NoConn ~ 2150 6000
 $Comp
-L main-rescue:PWR #FLG04
+L agg-kicad:PWR #FLG04
 U 1 1 575B5B73
 P 7150 5500
 F 0 "#FLG04" H 7150 5660 50  0001 C CNN
@@ -1719,7 +1720,7 @@ F 3 "" H 7150 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:CONN_01x04 J7
+L agg-kicad:CONN_01x04 J7
 U 1 1 56E1ABF5
 P 9850 3500
 F 0 "J7" H 9800 3600 50  0000 L CNN
@@ -1731,7 +1732,7 @@ F 4 "1125374" H 9850 3500 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR018
+L agg-kicad:3v3 #PWR018
 U 1 1 56C6943C
 P 7400 2950
 F 0 "#PWR018" H 7400 3060 50  0001 L CNN
@@ -1742,7 +1743,7 @@ F 3 "" H 7400 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR019
+L agg-kicad:3v3 #PWR019
 U 1 1 56C69436
 P 7600 2950
 F 0 "#PWR019" H 7600 3060 50  0001 L CNN
@@ -1753,7 +1754,7 @@ F 3 "" H 7600 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR016
+L agg-kicad:3v3 #PWR016
 U 1 1 56C6940D
 P 7000 2950
 F 0 "#PWR016" H 7000 3060 50  0001 L CNN
@@ -1764,7 +1765,7 @@ F 3 "" H 7000 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR017
+L agg-kicad:3v3 #PWR017
 U 1 1 56C69407
 P 7200 2950
 F 0 "#PWR017" H 7200 3060 50  0001 L CNN
@@ -1775,7 +1776,7 @@ F 3 "" H 7200 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR020
+L agg-kicad:3v3 #PWR020
 U 1 1 56C69393
 P 7800 2950
 F 0 "#PWR020" H 7800 3060 50  0001 L CNN
@@ -1786,7 +1787,7 @@ F 3 "" H 7800 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:R R6
+L Device:R R6
 U 1 1 56C68CFA
 P 7800 3200
 F 0 "R6" V 7900 3200 50  0000 C CNN
@@ -1798,7 +1799,7 @@ F 4 "9238689" V 7800 3200 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L main-rescue:R R5
+L Device:R R5
 U 1 1 56C68C80
 P 7600 3200
 F 0 "R5" V 7700 3200 50  0000 C CNN
@@ -1810,7 +1811,7 @@ F 4 "9238689" V 7600 3200 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L main-rescue:R R4
+L Device:R R4
 U 1 1 56C68C09
 P 7400 3200
 F 0 "R4" V 7500 3200 50  0000 C CNN
@@ -1822,7 +1823,7 @@ F 4 "9238689" V 7400 3200 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L main-rescue:R R3
+L Device:R R3
 U 1 1 56C68B95
 P 7200 3200
 F 0 "R3" V 7300 3200 50  0000 C CNN
@@ -1834,7 +1835,7 @@ F 4 "9238689" V 7200 3200 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L main-rescue:R R2
+L Device:R R2
 U 1 1 56C677BD
 P 7000 3200
 F 0 "R2" V 7100 3200 50  0000 C CNN
@@ -1848,7 +1849,7 @@ $EndComp
 NoConn ~ 3150 2900
 NoConn ~ 3150 3000
 $Comp
-L main-rescue:R R7
+L Device:R R7
 U 1 1 56C4880C
 P 10150 3500
 F 0 "R7" V 10250 3500 50  0000 C CNN
@@ -1903,7 +1904,7 @@ SDIO_D1
 Text Label 6900 3500 2    60   ~ 0
 SDIO_D0
 $Comp
-L main-rescue:3v3 #PWR021
+L agg-kicad:3v3 #PWR021
 U 1 1 56B79BB1
 P 8000 2950
 F 0 "#PWR021" H 8000 3060 50  0001 L CNN
@@ -1914,7 +1915,7 @@ F 3 "" H 8000 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR032
+L agg-kicad:GND #PWR032
 U 1 1 56B79BAB
 P 8000 4100
 F 0 "#PWR032" H 8000 3850 50  0001 C CNN
@@ -1925,7 +1926,7 @@ F 3 "" H 8000 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR033
+L agg-kicad:GND #PWR033
 U 1 1 56B79BA5
 P 9000 4100
 F 0 "#PWR033" H 9000 3850 50  0001 C CNN
@@ -1936,7 +1937,7 @@ F 3 "" H 9000 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:MICROSD-RESCUE-main U1
+L agg-kicad:MICROSD U1
 U 1 1 56B79B96
 P 8450 3600
 F 0 "U1" H 8150 4000 50  0000 L CNN
@@ -1954,7 +1955,7 @@ OTG_HS_DM
 Text Label 10350 3500 0    60   ~ 0
 OTG_HS_VBUS
 $Comp
-L main-rescue:GND #PWR026
+L agg-kicad:GND #PWR026
 U 1 1 56B79B8C
 P 10000 3850
 F 0 "#PWR026" H 10000 3600 50  0001 C CNN
@@ -1993,7 +1994,7 @@ OTG_HS_DM
 Text Label 2050 5100 2    60   ~ 0
 PRESSURE1
 $Comp
-L main-rescue:GND #PWR060
+L agg-kicad:GND #PWR060
 U 1 1 56B79B69
 P 4550 6050
 F 0 "#PWR060" H 4550 5800 50  0001 C CNN
@@ -2004,7 +2005,7 @@ F 3 "" H 4550 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR052
+L agg-kicad:3v3 #PWR052
 U 1 1 56B79B63
 P 4550 5850
 F 0 "#PWR052" H 4550 5960 50  0001 L CNN
@@ -2015,7 +2016,7 @@ F 3 "" H 4550 5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C17
+L Device:C_Small C17
 U 1 1 56B79B5C
 P 4550 5950
 F 0 "C17" H 4560 6020 50  0000 L CNN
@@ -2027,7 +2028,7 @@ F 4 "2496930" H 4550 5950 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR061
+L agg-kicad:GND #PWR061
 U 1 1 56B79B56
 P 4850 6050
 F 0 "#PWR061" H 4850 5800 50  0001 C CNN
@@ -2038,7 +2039,7 @@ F 3 "" H 4850 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR053
+L agg-kicad:3v3 #PWR053
 U 1 1 56B79B50
 P 4850 5850
 F 0 "#PWR053" H 4850 5960 50  0001 L CNN
@@ -2049,7 +2050,7 @@ F 3 "" H 4850 5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C18
+L Device:C_Small C18
 U 1 1 56B79B49
 P 4850 5950
 F 0 "C18" H 4860 6020 50  0000 L CNN
@@ -2061,7 +2062,7 @@ F 4 "1865556" H 4850 5950 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR049
+L agg-kicad:GND #PWR049
 U 1 1 56B79B43
 P 4550 5450
 F 0 "#PWR049" H 4550 5200 50  0001 C CNN
@@ -2072,7 +2073,7 @@ F 3 "" H 4550 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR047
+L agg-kicad:3v3 #PWR047
 U 1 1 56B79B3D
 P 4550 5250
 F 0 "#PWR047" H 4550 5360 50  0001 L CNN
@@ -2083,7 +2084,7 @@ F 3 "" H 4550 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C12
+L Device:C_Small C12
 U 1 1 56B79B36
 P 4550 5350
 F 0 "C12" H 4560 5420 50  0000 L CNN
@@ -2095,7 +2096,7 @@ F 4 "2496834" H 4550 5350 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR046
+L agg-kicad:GND #PWR046
 U 1 1 56B79B30
 P 4850 4850
 F 0 "#PWR046" H 4850 4600 50  0001 C CNN
@@ -2106,7 +2107,7 @@ F 3 "" H 4850 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR038
+L agg-kicad:3v3 #PWR038
 U 1 1 56B79B2A
 P 4850 4650
 F 0 "#PWR038" H 4850 4760 50  0001 L CNN
@@ -2117,7 +2118,7 @@ F 3 "" H 4850 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C11
+L Device:C_Small C11
 U 1 1 56B79B23
 P 4850 4750
 F 0 "C11" H 4860 4820 50  0000 L CNN
@@ -2129,7 +2130,7 @@ F 4 "2496834" H 4850 4750 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR050
+L agg-kicad:GND #PWR050
 U 1 1 56B79B1D
 P 4850 5450
 F 0 "#PWR050" H 4850 5200 50  0001 C CNN
@@ -2140,7 +2141,7 @@ F 3 "" H 4850 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR048
+L agg-kicad:3v3 #PWR048
 U 1 1 56B79B17
 P 4850 5250
 F 0 "#PWR048" H 4850 5360 50  0001 L CNN
@@ -2151,7 +2152,7 @@ F 3 "" H 4850 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C13
+L Device:C_Small C13
 U 1 1 56B79B10
 P 4850 5350
 F 0 "C13" H 4860 5420 50  0000 L CNN
@@ -2163,7 +2164,7 @@ F 4 "2496834" H 4850 5350 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR045
+L agg-kicad:GND #PWR045
 U 1 1 56B79AF7
 P 4550 4850
 F 0 "#PWR045" H 4550 4600 50  0001 C CNN
@@ -2174,7 +2175,7 @@ F 3 "" H 4550 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR037
+L agg-kicad:3v3 #PWR037
 U 1 1 56B79AF1
 P 4550 4650
 F 0 "#PWR037" H 4550 4760 50  0001 L CNN
@@ -2185,7 +2186,7 @@ F 3 "" H 4550 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C10
+L Device:C_Small C10
 U 1 1 56B79AEA
 P 4550 4750
 F 0 "C10" H 4560 4820 50  0000 L CNN
@@ -2197,7 +2198,7 @@ F 4 "2496834" H 4550 4750 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR034
+L agg-kicad:GND #PWR034
 U 1 1 56B79AE4
 P 4550 4200
 F 0 "#PWR034" H 4550 3950 50  0001 C CNN
@@ -2208,7 +2209,7 @@ F 3 "" H 4550 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR027
+L agg-kicad:3v3 #PWR027
 U 1 1 56B79ADE
 P 4550 4000
 F 0 "#PWR027" H 4550 4110 50  0001 L CNN
@@ -2219,7 +2220,7 @@ F 3 "" H 4550 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C3
+L Device:C_Small C3
 U 1 1 56B79AD7
 P 4550 4100
 F 0 "C3" H 4560 4170 50  0000 L CNN
@@ -2231,7 +2232,7 @@ F 4 "2496834" H 4550 4100 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR035
+L agg-kicad:GND #PWR035
 U 1 1 56B79ABE
 P 4850 4200
 F 0 "#PWR035" H 4850 3950 50  0001 C CNN
@@ -2242,7 +2243,7 @@ F 3 "" H 4850 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:3v3 #PWR028
+L agg-kicad:3v3 #PWR028
 U 1 1 56B79AB8
 P 4850 4000
 F 0 "#PWR028" H 4850 4110 50  0001 L CNN
@@ -2253,7 +2254,7 @@ F 3 "" H 4850 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:C_Small C4
+L Device:C_Small C4
 U 1 1 56B79AB1
 P 4850 4100
 F 0 "C4" H 4860 4170 50  0000 L CNN
@@ -2267,7 +2268,7 @@ $EndComp
 Text Label 7250 5550 0    60   ~ 0
 3v3_DL
 $Comp
-L main-rescue:3v3 #PWR051
+L agg-kicad:3v3 #PWR051
 U 1 1 56B79A59
 P 6950 5450
 F 0 "#PWR051" H 6950 5560 50  0001 L CNN
@@ -2278,7 +2279,7 @@ F 3 "" H 6950 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:GND #PWR074
+L agg-kicad:GND #PWR074
 U 1 1 56B79A46
 P 3700 6900
 F 0 "#PWR074" H 3700 6650 50  0001 C CNN
@@ -2294,7 +2295,7 @@ NoConn ~ 4550 6850
 Text Label 3650 6750 2    60   ~ 0
 ~RST
 $Comp
-L main-rescue:3v3 #PWR066
+L agg-kicad:3v3 #PWR066
 U 1 1 56B799C5
 P 3700 6600
 F 0 "#PWR066" H 3700 6710 50  0001 L CNN
@@ -2305,7 +2306,7 @@ F 3 "" H 3700 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main-rescue:SWD_TC P1
+L agg-kicad:SWD_TC P1
 U 1 1 56B799BE
 P 4150 6750
 F 0 "P1" H 3850 6950 50  0000 L CNN
@@ -2316,7 +2317,7 @@ F 3 "" H 3750 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:3v3 #PWR082
+L agg-kicad:3v3 #PWR082
 U 1 1 56B8C45F
 P 13000 8200
 F 0 "#PWR082" H 13000 8310 50  0001 L CNN
@@ -2331,7 +2332,7 @@ Text Label 13350 8300 0    60   ~ 0
 Text Notes 12950 8500 0    60   ~ 0
 Working Voltage
 $Comp
-L temperature-rescue:3v3 #PWR080
+L agg-kicad:3v3 #PWR080
 U 1 1 56B8D30F
 P 1550 7900
 F 0 "#PWR080" H 1550 8010 50  0001 L CNN
@@ -2353,7 +2354,7 @@ F 3 "" H 1550 10800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:C_Small C33
+L Device:C_Small C33
 U 1 1 56B918C6
 P 1400 8900
 F 0 "C33" H 1410 8970 50  0000 L CNN
@@ -2365,7 +2366,7 @@ F 4 "2211164" H 1400 8900 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:C_Small C31
+L Device:C_Small C31
 U 1 1 56B91949
 P 1400 8550
 F 0 "C31" H 1410 8620 50  0000 L CNN
@@ -2377,7 +2378,7 @@ F 4 "1865556" H 1400 8550 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:C_Small C32
+L Device:C_Small C32
 U 1 1 56B919A5
 P 1400 8750
 F 0 "C32" H 1410 8820 50  0000 L CNN
@@ -2422,7 +2423,7 @@ F 3 "" H 1250 8900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L temperature-rescue:R R29
+L Device:R R29
 U 1 1 56BF41E1
 P 1400 9050
 F 0 "R29" V 1500 8950 50  0000 C CNN
@@ -2434,7 +2435,7 @@ F 4 "9238603" V 1400 9050 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:3v3 #PWR092
+L agg-kicad:3v3 #PWR092
 U 1 1 56BF456C
 P 1200 9050
 F 0 "#PWR092" H 1200 9160 50  0001 L CNN
@@ -2445,7 +2446,7 @@ F 3 "" H 1200 9050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:C_Small C23
+L Device:C_Small C23
 U 1 1 56BF56AB
 P 3000 7950
 F 0 "C23" H 3010 8020 50  0000 L CNN
@@ -2482,7 +2483,7 @@ SPI1_MOSI
 Text Label 1000 9550 2    60   ~ 0
 SPI1_CS
 $Comp
-L temperature-rescue:R R19
+L Device:R R19
 U 1 1 56BF680B
 P 4750 8100
 F 0 "R19" V 4850 8100 50  0000 C CNN
@@ -2494,7 +2495,7 @@ F 4 "2059366" V 4750 8100 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:C_Small C24
+L Device:C_Small C24
 U 1 1 56BF6F34
 P 4500 7950
 F 0 "C24" H 4510 8020 50  0000 L CNN
@@ -3045,7 +3046,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 9550 8300 9600
 $Comp
-L temperature-rescue:PWR #FLG06
+L agg-kicad:PWR #FLG06
 U 1 1 575C61DD
 P 13200 8250
 F 0 "#FLG06" H 13200 8410 50  0001 C CNN
@@ -3056,7 +3057,7 @@ F 3 "" H 13200 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:C_Small C30
+L Device:C_Small C30
 U 1 1 575C7A2E
 P 1350 8200
 F 0 "C30" H 1360 8270 50  0000 L CNN
@@ -3085,7 +3086,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 8350 1350 8300
 $Comp
-L temperature-rescue:R R24
+L Device:R R24
 U 1 1 5764F623
 P 4750 8400
 F 0 "R24" V 4850 8400 50  0000 C CNN
@@ -3097,7 +3098,7 @@ F 4 "2059366" V 4750 8400 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R30
+L Device:R R30
 U 1 1 5764F6BE
 P 4750 9600
 F 0 "R30" V 4850 9600 50  0000 C CNN
@@ -3109,7 +3110,7 @@ F 4 "2059366" V 4750 9600 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R34
+L Device:R R34
 U 1 1 5764F818
 P 4750 9900
 F 0 "R34" V 4850 9900 50  0000 C CNN
@@ -3121,7 +3122,7 @@ F 4 "2059366" V 4750 9900 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:C_Small C34
+L Device:C_Small C34
 U 1 1 57654584
 P 4500 9450
 F 0 "C34" H 4510 9520 50  0000 L CNN
@@ -3133,7 +3134,7 @@ F 4 "1813443" H 4500 9450 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:C_Small C35
+L Device:C_Small C35
 U 1 1 57654A4E
 P 6400 9450
 F 0 "C35" H 6410 9520 50  0000 L CNN
@@ -3145,7 +3146,7 @@ F 4 "1813443" H 6400 9450 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:C_Small C36
+L Device:C_Small C36
 U 1 1 57654B24
 P 8300 9450
 F 0 "C36" H 8310 9520 50  0000 L CNN
@@ -3157,7 +3158,7 @@ F 4 "1813443" H 8300 9450 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:C_Small C25
+L Device:C_Small C25
 U 1 1 57654BCF
 P 6400 7950
 F 0 "C25" H 6410 8020 50  0000 L CNN
@@ -3169,7 +3170,7 @@ F 4 "1813443" H 6400 7950 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:C_Small C26
+L Device:C_Small C26
 U 1 1 57655093
 P 8300 7950
 F 0 "C26" H 8310 8020 50  0000 L CNN
@@ -3181,7 +3182,7 @@ F 4 "1813443" H 8300 7950 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:C_Small C27
+L Device:C_Small C27
 U 1 1 5765517B
 P 10200 7950
 F 0 "C27" H 10210 8020 50  0000 L CNN
@@ -3193,7 +3194,7 @@ F 4 "1813443" H 10200 7950 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L temperature-rescue:R R35
+L Device:R R35
 U 1 1 5765A932
 P 6650 9900
 F 0 "R35" V 6750 9900 50  0000 C CNN
@@ -3205,7 +3206,7 @@ F 4 "2059366" V 6650 9900 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R31
+L Device:R R31
 U 1 1 5765AD3E
 P 6650 9600
 F 0 "R31" V 6750 9600 50  0000 C CNN
@@ -3217,7 +3218,7 @@ F 4 "2059366" V 6650 9600 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R32
+L Device:R R32
 U 1 1 5765ADC5
 P 8550 9600
 F 0 "R32" V 8650 9600 50  0000 C CNN
@@ -3229,7 +3230,7 @@ F 4 "2059366" V 8550 9600 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R36
+L Device:R R36
 U 1 1 5765AE69
 P 8550 9900
 F 0 "R36" V 8650 9900 50  0000 C CNN
@@ -3241,7 +3242,7 @@ F 4 "2059366" V 8550 9900 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R20
+L Device:R R20
 U 1 1 5765AF77
 P 6650 8100
 F 0 "R20" V 6750 8100 50  0000 C CNN
@@ -3253,7 +3254,7 @@ F 4 "2059366" V 6650 8100 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R25
+L Device:R R25
 U 1 1 5765B309
 P 6650 8400
 F 0 "R25" V 6750 8400 50  0000 C CNN
@@ -3265,7 +3266,7 @@ F 4 "2059366" V 6650 8400 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R21
+L Device:R R21
 U 1 1 5765B39A
 P 8550 8100
 F 0 "R21" V 8650 8100 50  0000 C CNN
@@ -3277,7 +3278,7 @@ F 4 "2059366" V 8550 8100 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R26
+L Device:R R26
 U 1 1 5765B452
 P 8550 8400
 F 0 "R26" V 8650 8400 50  0000 C CNN
@@ -3289,7 +3290,7 @@ F 4 "2059366" V 8550 8400 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R27
+L Device:R R27
 U 1 1 5765B4E7
 P 10450 8400
 F 0 "R27" V 10550 8400 50  0000 C CNN
@@ -3301,7 +3302,7 @@ F 4 "2059366" V 10450 8400 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L temperature-rescue:R R22
+L Device:R R22
 U 1 1 5765B5AD
 P 10450 8100
 F 0 "R22" V 10550 8100 50  0000 C CNN
@@ -3827,7 +3828,7 @@ CH2+
 Text Label 2900 8350 0    60   ~ 0
 CH1+
 $Comp
-L temperature-rescue:LTC2986 IC?
+L agg-kicad:LTC2986 IC?
 U 1 1 5ECB405C
 P 2200 9350
 F 0 "IC?" H 2200 10975 50  0000 C CNN
