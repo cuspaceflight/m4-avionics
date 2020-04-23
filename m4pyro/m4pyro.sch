@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:m4pyro-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -292,7 +291,7 @@ Wire Notes Line
 	2950 9800 2950 8600
 Text Notes 700  9750 0    60   ~ 0
 CAN Transceiver
-Text Notes 3100 9700 0    60   ~ 0
+Text Notes 3100 9750 0    60   ~ 0
 Status LEDs
 Wire Wire Line
 	1400 9300 1400 9400
@@ -659,7 +658,7 @@ Text Label 3250 2050 0    60   ~ 0
 RSVD10
 Text Label 3250 2150 0    60   ~ 0
 RSVD11
-Text Notes 600  750  0    98   ~ 20
+Text Notes 650  750  0    98   ~ 20
 GLOBAL INTERCONNECTS
 Wire Wire Line
 	2750 2350 2850 2350
@@ -1471,7 +1470,7 @@ Text Label 6625 2275 0    50   ~ 0
 CH1
 Text Label 8825 1225 0    50   ~ 0
 CH1_CONT
-Text Notes 4450 750  0    98   ~ 20
+Text Notes 4500 750  0    98   ~ 20
 FIRING CHANNELS
 Wire Wire Line
 	5100 1375 6300 1375

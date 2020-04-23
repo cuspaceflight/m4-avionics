@@ -345,7 +345,7 @@ Wire Notes Line
 	2900 9750 2900 8550
 Text Notes 650  9700 0    60   ~ 0
 CAN Transceiver
-Text Notes 3050 9650 0    60   ~ 0
+Text Notes 3050 9700 0    60   ~ 0
 Status LEDs
 Wire Wire Line
 	1350 9250 1350 9350
@@ -712,7 +712,7 @@ Text Label 3200 2000 0    60   ~ 0
 RSVD10
 Text Label 3200 2100 0    60   ~ 0
 RSVD11
-Text Notes 550  700  0    98   ~ 20
+Text Notes 600  700  0    98   ~ 20
 GLOBAL INTERCONNECTS
 Wire Wire Line
 	2700 2300 2800 2300
