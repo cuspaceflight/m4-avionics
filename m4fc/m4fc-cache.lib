@@ -21,11 +21,11 @@ X Vcc 4 -100 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_3v3
+# cusf-kicad_3v3
 #
-DEF agg-kicad_3v3 #PWR 0 40 N N 1 F P
+DEF cusf-kicad_3v3 #PWR 0 40 N N 1 F P
 F0 "#PWR" 0 110 50 H I L CNN
-F1 "agg-kicad_3v3" 0 90 50 H V C CNN
+F1 "cusf-kicad_3v3" 0 90 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -35,11 +35,11 @@ X 3v3 1 0 0 0 L 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_ADXL345
+# cusf-kicad_ADXL345
 #
-DEF agg-kicad_ADXL345 IC 0 40 Y Y 1 F N
+DEF cusf-kicad_ADXL345 IC 0 40 Y Y 1 F N
 F0 "IC" -300 400 50 H V L CNN
-F1 "agg-kicad_ADXL345" -300 -600 50 H V L CNN
+F1 "cusf-kicad_ADXL345" -300 -600 50 H V L CNN
 F2 "agg:ADXL3x5" -300 -700 50 H I L CNN
 F3 "" -400 -500 50 H I C CNN
 F4 "1853935" -300 -800 50 H I L CNN "Farnell"
@@ -62,11 +62,11 @@ X INT2 9 400 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_C
+# cusf-kicad_C
 #
-DEF agg-kicad_C C 0 40 N N 1 F N
+DEF cusf-kicad_C C 0 40 N N 1 F N
 F0 "C" 50 70 50 H V C CNN
-F1 "agg-kicad_C" 50 -70 50 H V C CNN
+F1 "cusf-kicad_C" 50 -70 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -77,11 +77,11 @@ X ~ 2 100 0 40 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_CONN_02x15
+# cusf-kicad_CONN_02x15
 #
-DEF agg-kicad_CONN_02x15 J 0 1 Y N 1 F N
+DEF cusf-kicad_CONN_02x15 J 0 1 Y N 1 F N
 F0 "J" -100 100 50 H V L CNN
-F1 "agg-kicad_CONN_02x15" -100 -1500 50 H V L CNN
+F1 "cusf-kicad_CONN_02x15" -100 -1500 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -149,11 +149,11 @@ X 9 9 -200 -400 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_D
+# cusf-kicad_D
 #
-DEF agg-kicad_D D 0 40 N N 1 F N
+DEF cusf-kicad_D D 0 40 N N 1 F N
 F0 "D" 50 70 50 H V C CNN
-F1 "agg-kicad_D" 50 -70 50 H V C CNN
+F1 "cusf-kicad_D" 50 -70 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -164,11 +164,11 @@ X ~ 2 100 0 30 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_GND
+# cusf-kicad_GND
 #
-DEF agg-kicad_GND #PWR 0 40 N N 1 F P
+DEF cusf-kicad_GND #PWR 0 40 N N 1 F P
 F0 "#PWR" -130 40 50 H I L CNN
-F1 "agg-kicad_GND" 0 -100 50 H V C CNN
+F1 "cusf-kicad_GND" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -178,11 +178,11 @@ X GND 1 0 0 0 L 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_LED
+# cusf-kicad_LED
 #
-DEF agg-kicad_LED D 0 40 N N 1 F N
+DEF cusf-kicad_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V L CNN
-F1 "agg-kicad_LED" 0 -75 50 H V L CNN
+F1 "cusf-kicad_LED" 0 -75 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -195,11 +195,11 @@ X ~ 2 100 0 30 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_MCP2562
+# cusf-kicad_MCP2562
 #
-DEF agg-kicad_MCP2562 IC 0 40 Y Y 1 F N
+DEF cusf-kicad_MCP2562 IC 0 40 Y Y 1 F N
 F0 "IC" -300 300 50 H V L CNN
-F1 "agg-kicad_MCP2562" -300 -300 50 H V L CNN
+F1 "cusf-kicad_MCP2562" -300 -300 50 H V L CNN
 F2 "agg:DFN-8-EP-MICROCHIP" -300 -400 50 H I L CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf" -300 -500 50 H I L CNN
 F4 "824-3135" -300 -700 50 H I L CNN "RS"
@@ -217,11 +217,11 @@ X VSS EP -400 -100 100 R 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_MS5540C
+# cusf-kicad_MS5540C
 #
-DEF agg-kicad_MS5540C IC 0 40 Y Y 1 F N
+DEF cusf-kicad_MS5540C IC 0 40 Y Y 1 F N
 F0 "IC" -300 300 50 H V L CNN
-F1 "agg-kicad_MS5540C" -300 -300 50 H V L CNN
+F1 "cusf-kicad_MS5540C" -300 -300 50 H V L CNN
 F2 "agg:MS5540C" -300 -400 50 H I L CNN
 F3 "" -300 -500 50 H I L CNN
 F4 "2362662" -300 -600 50 H I L CNN "Farnell"
@@ -238,11 +238,11 @@ X DOUT 8 400 200 100 L 50 50 0 0 O
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_NFET
+# cusf-kicad_NFET
 #
-DEF agg-kicad_NFET Q 0 1 Y N 1 F N
+DEF cusf-kicad_NFET Q 0 1 Y N 1 F N
 F0 "Q" -250 30 50 H V L CNN
-F1 "agg-kicad_NFET" -250 -160 50 H V L CNN
+F1 "cusf-kicad_NFET" -250 -160 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -262,11 +262,11 @@ X D 3 0 100 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_PWR
+# cusf-kicad_PWR
 #
-DEF agg-kicad_PWR #FLG 0 40 N N 1 F P
+DEF cusf-kicad_PWR #FLG 0 40 N N 1 F P
 F0 "#FLG" 0 160 50 H I C CNN
-F1 "agg-kicad_PWR" 0 90 50 H V C CNN
+F1 "cusf-kicad_PWR" 0 90 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -275,11 +275,11 @@ X pwr 1 0 0 20 U 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_R
+# cusf-kicad_R
 #
-DEF agg-kicad_R R 0 40 N N 1 F N
+DEF cusf-kicad_R R 0 40 N N 1 F N
 F0 "R" 50 50 50 H V C CNN
-F1 "agg-kicad_R" 50 -50 50 H V C CNN
+F1 "cusf-kicad_R" 50 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -289,11 +289,11 @@ X ~ 2 100 0 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_SMD_XTAL
+# cusf-kicad_SMD_XTAL
 #
-DEF agg-kicad_SMD_XTAL Y 0 40 N N 1 F N
+DEF cusf-kicad_SMD_XTAL Y 0 40 N N 1 F N
 F0 "Y" 50 70 50 H V C CNN
-F1 "agg-kicad_SMD_XTAL" 50 -150 50 H V C CNN
+F1 "cusf-kicad_SMD_XTAL" 50 -150 50 H V C CNN
 F2 "agg:XTAL-20x16" 50 -220 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -309,11 +309,11 @@ X 4 4 100 -100 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_SOUNDER
+# cusf-kicad_SOUNDER
 #
-DEF agg-kicad_SOUNDER LS 0 0 Y N 1 F N
+DEF cusf-kicad_SOUNDER LS 0 0 Y N 1 F N
 F0 "LS" 0 85 50 H V C CNN
-F1 "agg-kicad_SOUNDER" 0 -100 50 H V C CNN
+F1 "cusf-kicad_SOUNDER" 0 -100 50 H V C CNN
 F2 "" 0 20 50 H I C CNN
 F3 "" 0 20 50 H I C CNN
 DRAW
@@ -324,11 +324,11 @@ X ~ 2 100 0 80 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_STM32F405RxTx
+# cusf-kicad_STM32F405RxTx
 #
-DEF agg-kicad_STM32F405RxTx IC 0 40 Y Y 1 F N
+DEF cusf-kicad_STM32F405RxTx IC 0 40 Y Y 1 F N
 F0 "IC" -400 1900 50 H V L CNN
-F1 "agg-kicad_STM32F405RxTx" -400 -1900 50 H V L CNN
+F1 "cusf-kicad_STM32F405RxTx" -400 -1900 50 H V L CNN
 F2 "agg:LQFP-64" -400 -2000 50 H I L CNN
 F3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" -400 -2100 50 H I L CNN
 F4 "2064363" -400 -2200 50 H I L CNN "Farnell"
@@ -401,11 +401,11 @@ X PC1 9 500 0 100 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# agg-kicad_SWD_TC
+# cusf-kicad_SWD_TC
 #
-DEF agg-kicad_SWD_TC P 0 40 Y Y 1 F N
+DEF cusf-kicad_SWD_TC P 0 40 Y Y 1 F N
 F0 "P" -300 200 50 H V L CNN
-F1 "agg-kicad_SWD_TC" -300 -200 50 H V L CNN
+F1 "cusf-kicad_SWD_TC" -300 -200 50 H V L CNN
 F2 "agg:TC2030-NL" -300 -300 50 H I L CNN
 F3 "" -400 100 50 H I C CNN
 DRAW

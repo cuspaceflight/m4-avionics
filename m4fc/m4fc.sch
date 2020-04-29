@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:m4fc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -26,7 +27,7 @@ BARO_DOUT
 Text Label 1700 5850 2    60   ~ 0
 BEEPER
 $Comp
-L agg-kicad:STM32F405RxTx IC2
+L cusf-kicad:STM32F405RxTx IC2
 U 1 1 5AA4FFC6
 P 2300 5650
 F 0 "IC2" H 1900 7550 50  0000 L CNN
@@ -68,7 +69,7 @@ ACCEL_SDI
 Text Label 2900 5250 0    60   ~ 0
 ACCEL_SDO
 $Comp
-L agg-kicad:MCP2562 IC1
+L cusf-kicad:MCP2562 IC1
 U 1 1 5AA4FF08
 P 1800 9150
 F 0 "IC1" H 1500 9450 50  0000 L CNN
@@ -80,7 +81,7 @@ F 4 "2448755" H 1500 8550 50  0001 L CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:3v3 #PWR05
+L cusf-kicad:3v3 #PWR05
 U 1 1 5AA4FF0F
 P 1350 8900
 F 0 "#PWR05" H 1350 9010 50  0001 L CNN
@@ -93,7 +94,7 @@ $EndComp
 Text Label 1200 9000 2    60   ~ 0
 5v_CAN
 $Comp
-L agg-kicad:GND #PWR06
+L cusf-kicad:GND #PWR06
 U 1 1 5AA4FF16
 P 1350 9400
 F 0 "#PWR06" H 1220 9440 50  0001 L CNN
@@ -112,7 +113,7 @@ CAN_TXD
 Text Label 2300 9250 0    60   ~ 0
 CAN_RXD
 $Comp
-L agg-kicad:C C3
+L cusf-kicad:C C3
 U 1 1 5AA4FF21
 P 1200 9100
 F 0 "C3" H 1250 9170 50  0000 C CNN
@@ -124,7 +125,7 @@ F 4 "2496771" H 1200 9100 60  0001 C CNN "Farnell"
 	0    1    1    0   
 $EndComp
 $Comp
-L agg-kicad:LED D1
+L cusf-kicad:LED D1
 U 1 1 5AA4FF29
 P 4000 8800
 F 0 "D1" H 4000 8900 50  0000 L CNN
@@ -136,7 +137,7 @@ F 4 "2314404" H 4000 8800 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L agg-kicad:R R3
+L cusf-kicad:R R3
 U 1 1 5AA4FF31
 P 3700 8800
 F 0 "R3" H 3750 8850 50  0000 C CNN
@@ -148,7 +149,7 @@ F 4 "9239111" H 3700 8800 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:R R4
+L cusf-kicad:R R4
 U 1 1 5AA4FF39
 P 3700 9100
 F 0 "R4" H 3750 9150 50  0000 C CNN
@@ -160,7 +161,7 @@ F 4 "9239111" H 3700 9100 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:R R5
+L cusf-kicad:R R5
 U 1 1 5AA4FF41
 P 3700 9400
 F 0 "R5" H 3750 9450 50  0000 C CNN
@@ -172,7 +173,7 @@ F 4 "9239111" H 3700 9400 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:LED D2
+L cusf-kicad:LED D2
 U 1 1 5AA4FF49
 P 4000 9100
 F 0 "D2" H 4000 9200 50  0000 L CNN
@@ -184,7 +185,7 @@ F 4 "2335804" H 4000 9100 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L agg-kicad:LED D3
+L cusf-kicad:LED D3
 U 1 1 5AA4FF51
 P 4000 9400
 F 0 "D3" H 4000 9500 50  0000 L CNN
@@ -196,7 +197,7 @@ F 4 "2290363" H 4000 9400 60  0001 C CNN "Farnell"
 	-1   0    0    1   
 $EndComp
 $Comp
-L agg-kicad:GND #PWR022
+L cusf-kicad:GND #PWR022
 U 1 1 5AA4FF58
 P 4100 8850
 F 0 "#PWR022" H 3970 8890 50  0001 L CNN
@@ -207,7 +208,7 @@ F 3 "" H 4100 8850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR023
+L cusf-kicad:GND #PWR023
 U 1 1 5AA4FF5E
 P 4100 9150
 F 0 "#PWR023" H 3970 9190 50  0001 L CNN
@@ -218,7 +219,7 @@ F 3 "" H 4100 9150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR024
+L cusf-kicad:GND #PWR024
 U 1 1 5AA4FF64
 P 4100 9450
 F 0 "#PWR024" H 3970 9490 50  0001 L CNN
@@ -329,7 +330,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4650 2900 4650
 $Comp
-L agg-kicad:PWR #FLG01
+L cusf-kicad:PWR #FLG01
 U 1 1 5AA4FFBF
 P 850 9050
 F 0 "#FLG01" H 850 9210 50  0001 C CNN
@@ -382,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 4650 1750 4750
 $Comp
-L agg-kicad:GND #PWR02
+L cusf-kicad:GND #PWR02
 U 1 1 5AA4FFFD
 P 1200 1050
 F 0 "#PWR02" H 1070 1090 50  0001 L CNN
@@ -393,7 +394,7 @@ F 3 "" H 1200 1050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L agg-kicad:GND #PWR012
+L cusf-kicad:GND #PWR012
 U 1 1 5AA50003
 P 1700 1050
 F 0 "#PWR012" H 1570 1090 50  0001 L CNN
@@ -498,7 +499,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1900 1200 1900
 $Comp
-L agg-kicad:CONN_02x15 J2
+L cusf-kicad:CONN_02x15 J2
 U 1 1 5AA50050
 P 3000 1100
 F 0 "J2" H 2900 1200 50  0000 L CNN
@@ -553,7 +554,7 @@ UART_RX
 Text Label 1700 1700 0    60   ~ 0
 UART_TX
 $Comp
-L agg-kicad:GND #PWR019
+L cusf-kicad:GND #PWR019
 U 1 1 5AA500B8
 P 2700 2600
 F 0 "#PWR019" H 2570 2640 50  0001 L CNN
@@ -564,7 +565,7 @@ F 3 "" H 2700 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR021
+L cusf-kicad:GND #PWR021
 U 1 1 5AA500BE
 P 3200 2600
 F 0 "#PWR021" H 3070 2640 50  0001 L CNN
@@ -575,7 +576,7 @@ F 3 "" H 3200 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR018
+L cusf-kicad:GND #PWR018
 U 1 1 5AA500C4
 P 2700 1050
 F 0 "#PWR018" H 2570 1090 50  0001 L CNN
@@ -593,7 +594,7 @@ Wire Wire Line
 	2700 1100 2700 1200
 Connection ~ 2700 1100
 $Comp
-L agg-kicad:GND #PWR020
+L cusf-kicad:GND #PWR020
 U 1 1 5AA500CE
 P 3200 1050
 F 0 "#PWR020" H 3070 1090 50  0001 L CNN
@@ -663,7 +664,7 @@ Connection ~ 3200 2500
 Wire Wire Line
 	3200 2500 3200 2400
 $Comp
-L agg-kicad:GND #PWR03
+L cusf-kicad:GND #PWR03
 U 1 1 5AA500F3
 P 1200 2600
 F 0 "#PWR03" H 1070 2640 50  0001 L CNN
@@ -683,7 +684,7 @@ Connection ~ 1200 2500
 Wire Wire Line
 	1200 2500 1200 2600
 $Comp
-L agg-kicad:GND #PWR013
+L cusf-kicad:GND #PWR013
 U 1 1 5AA500FE
 P 1700 2600
 F 0 "#PWR013" H 1570 2640 50  0001 L CNN
@@ -723,7 +724,7 @@ RSVD12
 Text Label 3200 2300 0    60   ~ 0
 RSVD13
 $Comp
-L agg-kicad:SWD_TC P1
+L cusf-kicad:SWD_TC P1
 U 1 1 5AA50189
 P 2300 7950
 F 0 "P1" H 2000 8150 50  0000 L CNN
@@ -734,7 +735,7 @@ F 3 "" H 1900 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:3v3 #PWR016
+L cusf-kicad:3v3 #PWR016
 U 1 1 5AA50190
 P 1850 7800
 F 0 "#PWR016" H 1850 7910 50  0001 L CNN
@@ -745,7 +746,7 @@ F 3 "" H 1850 7800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR017
+L cusf-kicad:GND #PWR017
 U 1 1 5AA50196
 P 1850 8100
 F 0 "#PWR017" H 1720 8140 50  0001 L CNN
@@ -779,7 +780,7 @@ Wire Wire Line
 Wire Notes Line
 	600  3300 4350 3300
 $Comp
-L agg-kicad:C C9
+L cusf-kicad:C C9
 U 1 1 5AA501AC
 P 1400 8000
 F 0 "C9" H 1450 8070 59  0000 C CNN
@@ -791,7 +792,7 @@ F 4 "2496771" H 1400 8000 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L agg-kicad:GND #PWR010
+L cusf-kicad:GND #PWR010
 U 1 1 5AA501B3
 P 1400 8100
 F 0 "#PWR010" H 1270 8140 50  0001 L CNN
@@ -804,7 +805,7 @@ $EndComp
 Wire Wire Line
 	1400 8000 1400 8100
 $Comp
-L agg-kicad:3v3 #PWR09
+L cusf-kicad:3v3 #PWR09
 U 1 1 5AA501BA
 P 1400 7800
 F 0 "#PWR09" H 1400 7910 50  0001 L CNN
@@ -819,7 +820,7 @@ Wire Wire Line
 Text Notes 2850 4250 0    39   ~ 0
 PB4 is JTRST, DO NOT CONNECT (Errata 2.1.4)
 $Comp
-L agg-kicad:SMD_XTAL Y1
+L cusf-kicad:SMD_XTAL Y1
 U 1 1 5AA501C3
 P 1450 5500
 F 0 "Y1" H 1500 5570 50  0000 C CNN
@@ -831,7 +832,7 @@ F 4 "2506952" H 1450 5500 60  0001 C CNN "Farnell"
 	0    1    1    0   
 $EndComp
 $Comp
-L agg-kicad:C C1
+L cusf-kicad:C C1
 U 1 1 5AA501CB
 P 1150 5350
 F 0 "C1" H 1200 5420 31  0000 C CNN
@@ -843,7 +844,7 @@ F 4 "2496790" H 1150 5350 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR01
+L cusf-kicad:GND #PWR01
 U 1 1 5AA501D2
 P 1000 5550
 F 0 "#PWR01" H 870 5590 50  0001 L CNN
@@ -883,7 +884,7 @@ Wire Wire Line
 	1450 5600 1450 5750
 Connection ~ 1450 5750
 $Comp
-L agg-kicad:R R1
+L cusf-kicad:R R1
 U 1 1 5AA501EA
 P 1650 5650
 F 0 "R1" H 1700 5700 31  0000 C CNN
@@ -915,7 +916,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 5750 1600 5750
 $Comp
-L agg-kicad:C C2
+L cusf-kicad:C C2
 U 1 1 5AA501FC
 P 1150 5750
 F 0 "C2" H 1200 5820 31  0000 C CNN
@@ -927,7 +928,7 @@ F 4 "2496790" H 1150 5750 60  0001 C CNN "Farnell"
 	1    0    0    1   
 $EndComp
 $Comp
-L agg-kicad:C C10
+L cusf-kicad:C C10
 U 1 1 5AA50204
 P 1500 3850
 F 0 "C10" H 1550 3920 31  0000 C CNN
@@ -939,7 +940,7 @@ F 4 "2496771" H 1500 3850 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:C C7
+L cusf-kicad:C C7
 U 1 1 5AA5020C
 P 1300 4350
 F 0 "C7" H 1350 4420 31  0000 C CNN
@@ -951,7 +952,7 @@ F 4 "2496814" H 1300 4350 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:C C4
+L cusf-kicad:C C4
 U 1 1 5AA50214
 P 1300 3750
 F 0 "C4" H 1350 3820 31  0000 C CNN
@@ -963,7 +964,7 @@ F 4 "2426952" H 1300 3750 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:C C5
+L cusf-kicad:C C5
 U 1 1 5AA5021C
 P 1300 3950
 F 0 "C5" H 1350 4020 31  0000 C CNN
@@ -975,7 +976,7 @@ F 4 "2496771" H 1300 3950 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:C C11
+L cusf-kicad:C C11
 U 1 1 5AA50224
 P 1500 4050
 F 0 "C11" H 1550 4120 31  0000 C CNN
@@ -987,7 +988,7 @@ F 4 "2496771" H 1500 4050 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:C C6
+L cusf-kicad:C C6
 U 1 1 5AA5022C
 P 1300 4150
 F 0 "C6" H 1350 4220 31  0000 C CNN
@@ -999,7 +1000,7 @@ F 4 "2496771" H 1300 4150 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:C C8
+L cusf-kicad:C C8
 U 1 1 5AA50234
 P 1400 4250
 F 0 "C8" H 1450 4320 31  0000 C CNN
@@ -1065,7 +1066,7 @@ Connection ~ 1250 4350
 Wire Wire Line
 	1250 4350 1250 4450
 $Comp
-L agg-kicad:C C13
+L cusf-kicad:C C13
 U 1 1 5AA5025B
 P 1700 4950
 F 0 "C13" H 1750 5020 31  0000 C CNN
@@ -1085,7 +1086,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 5050 1550 5050
 $Comp
-L agg-kicad:C C12
+L cusf-kicad:C C12
 U 1 1 5AA50267
 P 1550 5050
 F 0 "C12" H 1600 5120 31  0000 C CNN
@@ -1097,7 +1098,7 @@ F 4 "2362088" H 1550 5050 60  0001 C CNN "Farnell"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR07
+L cusf-kicad:GND #PWR07
 U 1 1 5AA5026E
 P 1400 4950
 F 0 "#PWR07" H 1270 4990 50  0001 L CNN
@@ -1108,7 +1109,7 @@ F 3 "" H 1400 4950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L agg-kicad:GND #PWR08
+L cusf-kicad:GND #PWR08
 U 1 1 5AA50274
 P 1400 5050
 F 0 "#PWR08" H 1270 5090 50  0001 L CNN
@@ -1145,7 +1146,7 @@ Wire Notes Line
 Wire Notes Line
 	600  750  600  2900
 $Comp
-L agg-kicad:PWR #FLG02
+L cusf-kicad:PWR #FLG02
 U 1 1 5AAEFC0F
 P 2650 2500
 F 0 "#FLG02" H 2650 2660 50  0001 C CNN
@@ -1184,7 +1185,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 5850 2900 5850
 $Comp
-L agg-kicad:CONN_02x15 J1
+L cusf-kicad:CONN_02x15 J1
 U 1 1 5AA50022
 P 1500 1100
 F 0 "J1" H 1400 1200 50  0000 L CNN
@@ -1217,7 +1218,7 @@ NoConn ~ 2800 1400
 NoConn ~ 2800 1500
 NoConn ~ 2800 1600
 $Comp
-L agg-kicad:R R2
+L cusf-kicad:R R2
 U 1 1 5A9B48C6
 P 2300 9600
 F 0 "R2" H 2350 9650 50  0000 C CNN
@@ -1242,7 +1243,7 @@ Text Label 1200 1800 2    50   ~ 0
 3v3_MOTOR
 NoConn ~ 2800 4250
 $Comp
-L agg-kicad:GND #PWR015
+L cusf-kicad:GND #PWR015
 U 1 1 5E8266D0
 P 1750 5350
 F 0 "#PWR015" H 1620 5390 50  0001 L CNN
@@ -1253,7 +1254,7 @@ F 3 "" H 1750 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L agg-kicad:GND #PWR011
+L cusf-kicad:GND #PWR011
 U 1 1 5E833C33
 P 1650 4750
 F 0 "#PWR011" H 1520 4790 50  0001 L CNN
@@ -1264,7 +1265,7 @@ F 3 "" H 1650 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L agg-kicad:GND #PWR04
+L cusf-kicad:GND #PWR04
 U 1 1 5E833CF7
 P 1250 4450
 F 0 "#PWR04" H 1120 4490 50  0001 L CNN
@@ -1275,7 +1276,7 @@ F 3 "" H 1250 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:3v3 #PWR014
+L cusf-kicad:3v3 #PWR014
 U 1 1 5E84101C
 P 1750 3800
 F 0 "#PWR014" H 1750 3910 50  0001 L CNN
@@ -1286,7 +1287,7 @@ F 3 "" H 1750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:ADXL345 IC4
+L cusf-kicad:ADXL345 IC4
 U 1 1 56B16B01
 P 6450 4700
 F 0 "IC4" H 6150 5100 50  0000 L CNN
@@ -1298,7 +1299,7 @@ F 4 "1853935" H 6150 3900 50  0001 L CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:SOUNDER LS1
+L cusf-kicad:SOUNDER LS1
 U 1 1 56B16B73
 P 8650 3900
 F 0 "LS1" H 8650 3985 50  0000 C CNN
@@ -1310,7 +1311,7 @@ F 4 "2215089" H 8650 3900 60  0001 C CNN "Farnell"
 	0    1    1    0   
 $EndComp
 $Comp
-L agg-kicad:NFET Q1
+L cusf-kicad:NFET Q1
 U 1 1 56B176B0
 P 8650 4200
 F 0 "Q1" H 8400 4230 50  0000 L CNN
@@ -1322,7 +1323,7 @@ F 4 "2069541" H 8650 4200 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:3v3 #PWR025
+L cusf-kicad:3v3 #PWR025
 U 1 1 56B1A1BA
 P 6000 4350
 F 0 "#PWR025" H 6000 4460 50  0001 L CNN
@@ -1333,7 +1334,7 @@ F 3 "" H 6000 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR026
+L cusf-kicad:GND #PWR026
 U 1 1 56B1A9C8
 P 6000 4850
 F 0 "#PWR026" H 5870 4890 50  0001 L CNN
@@ -1344,7 +1345,7 @@ F 3 "" H 6000 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:C C15
+L cusf-kicad:C C15
 U 1 1 56B1ABE7
 P 5600 4500
 F 0 "C15" H 5650 4570 50  0000 C CNN
@@ -1367,7 +1368,7 @@ ACCEL_SDI
 Text Label 6950 5200 0    60   ~ 0
 ACCEL_SCLK
 $Comp
-L agg-kicad:R R6
+L cusf-kicad:R R6
 U 1 1 56B1B665
 P 8250 4300
 F 0 "R6" H 8300 4350 50  0000 C CNN
@@ -1379,7 +1380,7 @@ F 4 "9239111" H 8250 4300 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:3v3 #PWR029
+L cusf-kicad:3v3 #PWR029
 U 1 1 56B1B8F5
 P 8650 3700
 F 0 "#PWR029" H 8650 3810 50  0001 L CNN
@@ -1390,7 +1391,7 @@ F 3 "" H 8650 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR030
+L cusf-kicad:GND #PWR030
 U 1 1 56B1B9C5
 P 8650 4450
 F 0 "#PWR030" H 8520 4490 50  0001 L CNN
@@ -1403,7 +1404,7 @@ $EndComp
 Text Label 8150 4300 2    60   ~ 0
 BEEPER
 $Comp
-L agg-kicad:C C14
+L cusf-kicad:C C14
 U 1 1 56B267D1
 P 5350 4500
 F 0 "C14" H 5400 4570 50  0000 C CNN
@@ -1415,7 +1416,7 @@ F 4 "2456110" H 5350 4500 60  0001 C CNN "Farnell"
 	0    1    1    0   
 $EndComp
 $Comp
-L agg-kicad:C C16
+L cusf-kicad:C C16
 U 1 1 56B26EAA
 P 5850 4500
 F 0 "C16" H 5900 4570 50  0000 C CNN
@@ -1486,7 +1487,7 @@ Wire Wire Line
 	5350 4600 5350 4650
 Connection ~ 5600 4650
 $Comp
-L agg-kicad:D D4
+L cusf-kicad:D D4
 U 1 1 56B818C0
 P 8950 3850
 F 0 "D4" H 9000 3920 50  0000 C CNN
@@ -1530,7 +1531,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 3750 8650 3800
 $Comp
-L agg-kicad:3v3 #PWR028
+L cusf-kicad:3v3 #PWR028
 U 1 1 5E5354DC
 P 6850 6000
 F 0 "#PWR028" H 6850 6110 50  0001 L CNN
@@ -1548,7 +1549,7 @@ Connection ~ 6850 5950
 Wire Wire Line
 	6850 5950 6750 5950
 $Comp
-L agg-kicad:C C18
+L cusf-kicad:C C18
 U 1 1 5E5A97A3
 P 6350 6250
 F 0 "C18" H 6400 6320 50  0000 C CNN
@@ -1588,7 +1589,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 5850 7100 5850
 $Comp
-L agg-kicad:3v3 #PWR027
+L cusf-kicad:3v3 #PWR027
 U 1 1 5E8998C7
 P 6700 6900
 F 0 "#PWR027" H 6700 7010 50  0001 L CNN
@@ -1610,7 +1611,7 @@ Connection ~ 6700 6950
 Wire Wire Line
 	6700 6950 6800 6950
 $Comp
-L agg-kicad:C C17
+L cusf-kicad:C C17
 U 1 1 5E954174
 P 6050 7650
 F 0 "C17" H 6100 7720 50  0000 C CNN
@@ -1642,7 +1643,7 @@ F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-303
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:MS5540C IC3
+L cusf-kicad:MS5540C IC3
 U 1 1 5E4F0BAC
 P 6350 5750
 F 0 "IC3" H 6100 6050 50  0000 C CNN
