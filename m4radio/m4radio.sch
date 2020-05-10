@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:m4radio-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1520,22 +1519,18 @@ Wire Wire Line
 	7000 4550 7150 4550
 Connection ~ 7050 4350
 Wire Wire Line
-	7050 4350 6950 4350
-Wire Wire Line
 	7050 4400 7050 4350
 $Comp
 L cusf-kicad:C C19
 U 1 1 5E74F302
-P 6950 4350
-F 0 "C19" H 7050 4500 50  0000 R CNN
-F 1 "100n" H 7100 4400 50  0000 R CNN
-F 2 "" H 6950 4350 50  0001 C CNN
-F 3 "" H 6950 4350 50  0001 C CNN
-	1    6950 4350
+P 7050 4350
+F 0 "C19" H 7150 4500 50  0000 R CNN
+F 1 "100n" H 7200 4400 50  0000 R CNN
+F 2 "" H 7050 4350 50  0001 C CNN
+F 3 "" H 7050 4350 50  0001 C CNN
+	1    7050 4350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6950 4250 7050 4250
 Wire Wire Line
 	7050 4250 7050 4150
 Connection ~ 7050 4250
@@ -2543,8 +2538,8 @@ NoConn ~ 1850 6500
 NoConn ~ 1850 6600
 NoConn ~ 1850 6800
 NoConn ~ 1850 6900
-Text Notes 9650 3850 0    39   ~ 0
-NB: SL1886DC is now obsolete and\nshould be replaced with Si53307
+Text Notes 9750 3850 0    39   ~ 0
+NB: SL1886DC is now\nobsolete and should\nbe replaced with Si53307
 $Comp
 L cusf-kicad:C C1
 U 1 1 5E95C42F
