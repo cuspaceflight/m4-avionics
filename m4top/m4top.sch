@@ -1,0 +1,566 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Martlet IV Top"
+Date "2020-02-05"
+Rev "1"
+Comp "CU Spaceflight"
+Comment1 "Henry Franks"
+Comment2 "Sean McGuire"
+Comment3 "Drawn By:"
+Comment4 ""
+$EndDescr
+$Comp
+L cusf-kicad:GND #PWR02
+U 1 1 5AA4FFFD
+P 1250 1100
+F 0 "#PWR02" H 1120 1140 50  0001 L CNN
+F 1 "GND" H 1250 1000 50  0000 C CNN
+F 2 "" H 1250 1100 60  0000 C CNN
+F 3 "" H 1250 1100 60  0000 C CNN
+	1    1250 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR013
+U 1 1 5AA50003
+P 1750 1100
+F 0 "#PWR013" H 1620 1140 50  0001 L CNN
+F 1 "GND" H 1750 1000 50  0000 C CNN
+F 2 "" H 1750 1100 60  0000 C CNN
+F 3 "" H 1750 1100 60  0000 C CNN
+	1    1750 1100
+	-1   0    0    1   
+$EndComp
+Text Label 1750 1550 0    60   ~ 0
+JTDI
+Text Label 1750 1350 0    60   ~ 0
+JTMS
+Text Label 1750 1450 0    60   ~ 0
+JTCK
+Text Label 1250 1350 2    60   ~ 0
+3v3_TOP
+Text Label 1250 1450 2    60   ~ 0
+3v3_DL
+Text Label 1250 1550 2    60   ~ 0
+3v3_FC
+Text Label 1250 1750 2    60   ~ 0
+3v3_PYRO
+Text Label 1750 2150 0    60   ~ 0
+5v_CAN
+Text Label 1750 2250 0    60   ~ 0
+CAN-
+Text Label 1750 2350 0    60   ~ 0
+CAN+
+Text Label 2750 1750 2    60   ~ 0
+12v_DL
+Text Label 2750 1850 2    60   ~ 0
+5v_RADIO
+Text Label 2750 1950 2    60   ~ 0
+5v_AUX1
+Text Label 2750 2050 2    60   ~ 0
+5v_AUX2
+Text Label 2750 2150 2    60   ~ 0
+5v_CAM1
+Text Label 2750 2350 2    60   ~ 0
+PWR
+Text Label 3250 1450 0    60   ~ 0
+PYRO4
+Text Label 3250 1350 0    60   ~ 0
+PYRO2
+Text Label 1250 1950 2    60   ~ 0
+3v3_AUX1
+Text Label 1250 2050 2    60   ~ 0
+3v3_AUX2
+Wire Wire Line
+	1350 1350 1250 1350
+Wire Wire Line
+	1350 1450 1250 1450
+Wire Wire Line
+	1350 1550 1250 1550
+Wire Wire Line
+	1650 1950 1750 1950
+Wire Wire Line
+	1650 1850 1750 1850
+Wire Wire Line
+	1650 1750 1750 1750
+Wire Wire Line
+	1650 1550 1750 1550
+Wire Wire Line
+	1650 1450 1750 1450
+Wire Wire Line
+	1650 1350 1750 1350
+Wire Wire Line
+	1650 1250 1750 1250
+Wire Wire Line
+	2850 1750 2750 1750
+Wire Wire Line
+	2750 1850 2850 1850
+Wire Wire Line
+	2850 1950 2750 1950
+Wire Wire Line
+	2750 2050 2850 2050
+Wire Wire Line
+	2850 2150 2750 2150
+Wire Wire Line
+	3250 2250 3150 2250
+Wire Wire Line
+	3150 1750 3250 1750
+Wire Wire Line
+	3150 1650 3250 1650
+Wire Wire Line
+	3250 1550 3150 1550
+Wire Wire Line
+	3150 1450 3250 1450
+Wire Wire Line
+	3250 1350 3150 1350
+Wire Wire Line
+	1350 1650 1250 1650
+Wire Wire Line
+	1350 1750 1250 1750
+Wire Wire Line
+	1250 1850 1350 1850
+Wire Wire Line
+	1650 1650 1750 1650
+Wire Wire Line
+	1350 1950 1250 1950
+$Comp
+L cusf-kicad:CONN_02x15 J2
+U 1 1 5AA50050
+P 3050 1150
+F 0 "J2" H 2950 1250 50  0000 L CNN
+F 1 "EAST TOP" H 3000 -350 50  0000 C CNN
+F 2 "agg:TFML-115-02-L-D-LC" H 3050 1150 50  0001 C CNN
+F 3 "" H 3050 1150 50  0001 C CNN
+	1    3050 1150
+	1    0    0    -1  
+$EndComp
+Text Label 1250 1650 2    60   ~ 0
+3v3_RADIO
+Text Label 1250 2250 2    60   ~ 0
+RSVD5
+Wire Wire Line
+	1250 1150 1350 1150
+Wire Wire Line
+	1250 1150 1250 1100
+Wire Wire Line
+	1250 1150 1250 1250
+Connection ~ 1250 1150
+Wire Wire Line
+	1750 1250 1750 1150
+Wire Wire Line
+	1750 1150 1650 1150
+Connection ~ 1750 1150
+Wire Wire Line
+	1750 1150 1750 1100
+Text Label 1250 2350 2    60   ~ 0
+RSVD6
+Wire Wire Line
+	1250 2350 1350 2350
+Wire Wire Line
+	1250 2250 1350 2250
+Wire Wire Line
+	1250 2150 1350 2150
+Wire Wire Line
+	1250 2050 1350 2050
+Wire Wire Line
+	1650 2050 1750 2050
+Wire Wire Line
+	1650 2150 1750 2150
+Wire Wire Line
+	1650 2250 1750 2250
+Wire Wire Line
+	1650 2350 1750 2350
+Text Label 1750 2050 0    60   ~ 0
+RSVD3
+Text Label 1750 1950 0    60   ~ 0
+RSVD1
+Text Label 1750 1850 0    60   ~ 0
+UART_RX
+Text Label 1750 1750 0    60   ~ 0
+UART_TX
+$Comp
+L cusf-kicad:GND #PWR020
+U 1 1 5AA500B8
+P 2750 2650
+F 0 "#PWR020" H 2620 2690 50  0001 L CNN
+F 1 "GND" H 2750 2550 50  0000 C CNN
+F 2 "" H 2750 2650 60  0000 C CNN
+F 3 "" H 2750 2650 60  0000 C CNN
+	1    2750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR022
+U 1 1 5AA500BE
+P 3250 2650
+F 0 "#PWR022" H 3120 2690 50  0001 L CNN
+F 1 "GND" H 3250 2550 50  0000 C CNN
+F 2 "" H 3250 2650 60  0000 C CNN
+F 3 "" H 3250 2650 60  0000 C CNN
+	1    3250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR019
+U 1 1 5AA500C4
+P 2750 1100
+F 0 "#PWR019" H 2620 1140 50  0001 L CNN
+F 1 "GND" H 2750 1000 50  0000 C CNN
+F 2 "" H 2750 1100 60  0000 C CNN
+F 3 "" H 2750 1100 60  0000 C CNN
+	1    2750 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 1150 2850 1150
+Wire Wire Line
+	2750 1150 2750 1100
+Wire Wire Line
+	2750 1150 2750 1250
+Connection ~ 2750 1150
+$Comp
+L cusf-kicad:GND #PWR021
+U 1 1 5AA500CE
+P 3250 1100
+F 0 "#PWR021" H 3120 1140 50  0001 L CNN
+F 1 "GND" H 3250 1000 50  0000 C CNN
+F 2 "" H 3250 1100 60  0000 C CNN
+F 3 "" H 3250 1100 60  0000 C CNN
+	1    3250 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 1250 3250 1250
+Wire Wire Line
+	3250 1250 3250 1150
+Wire Wire Line
+	3250 1150 3150 1150
+Connection ~ 3250 1150
+Wire Wire Line
+	3250 1150 3250 1100
+Text Label 2750 2250 2    60   ~ 0
+5v_CAM2
+Wire Wire Line
+	2850 2250 2750 2250
+Text Label 2750 1650 2    60   ~ 0
+PYRO7
+Text Label 2750 1450 2    60   ~ 0
+PYRO3
+Text Label 2750 1350 2    60   ~ 0
+PYRO1
+Wire Wire Line
+	2750 1350 2850 1350
+Wire Wire Line
+	2750 1450 2850 1450
+Wire Wire Line
+	2750 1550 2850 1550
+Wire Wire Line
+	2750 1650 2850 1650
+Wire Wire Line
+	3150 1850 3250 1850
+Wire Wire Line
+	3150 1950 3250 1950
+Wire Wire Line
+	3150 2050 3250 2050
+Wire Wire Line
+	3150 2150 3250 2150
+Text Label 3250 1550 0    60   ~ 0
+PYRO6
+Text Label 3250 1650 0    60   ~ 0
+PYRO8
+Text Label 2750 1550 2    60   ~ 0
+PYRO5
+Wire Wire Line
+	2850 2450 2750 2450
+Wire Wire Line
+	2750 2450 2750 2550
+Wire Wire Line
+	2850 2550 2750 2550
+Connection ~ 2750 2550
+Wire Wire Line
+	2750 2550 2750 2650
+Wire Wire Line
+	3250 2650 3250 2550
+Wire Wire Line
+	3250 2450 3150 2450
+Wire Wire Line
+	3150 2550 3250 2550
+Connection ~ 3250 2550
+Wire Wire Line
+	3250 2550 3250 2450
+$Comp
+L cusf-kicad:GND #PWR03
+U 1 1 5AA500F3
+P 1250 2650
+F 0 "#PWR03" H 1120 2690 50  0001 L CNN
+F 1 "GND" H 1250 2550 50  0000 C CNN
+F 2 "" H 1250 2650 60  0000 C CNN
+F 3 "" H 1250 2650 60  0000 C CNN
+	1    1250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2450 1250 2450
+Wire Wire Line
+	1250 2450 1250 2550
+Wire Wire Line
+	1350 2550 1250 2550
+Connection ~ 1250 2550
+Wire Wire Line
+	1250 2550 1250 2650
+$Comp
+L cusf-kicad:GND #PWR014
+U 1 1 5AA500FE
+P 1750 2650
+F 0 "#PWR014" H 1620 2690 50  0001 L CNN
+F 1 "GND" H 1750 2550 50  0000 C CNN
+F 2 "" H 1750 2650 60  0000 C CNN
+F 3 "" H 1750 2650 60  0000 C CNN
+	1    1750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2650 1750 2550
+Wire Wire Line
+	1750 2450 1650 2450
+Wire Wire Line
+	1650 2550 1750 2550
+Connection ~ 1750 2550
+Wire Wire Line
+	1750 2550 1750 2450
+Text Label 3250 1750 0    60   ~ 0
+RSVD7
+Text Label 3250 1850 0    60   ~ 0
+RSVD8
+Text Label 3250 1950 0    60   ~ 0
+RSVD9
+Text Label 3250 2050 0    60   ~ 0
+RSVD10
+Text Label 3250 2150 0    60   ~ 0
+RSVD11
+Text Notes 650  750  0    98   ~ 20
+GLOBAL INTERCONNECTS
+Wire Wire Line
+	2750 2350 2850 2350
+Wire Wire Line
+	3150 2350 3250 2350
+Text Label 3250 2250 0    60   ~ 0
+RSVD12
+Text Label 3250 2350 0    60   ~ 0
+RSVD13
+Wire Wire Line
+	1350 1250 1250 1250
+Wire Wire Line
+	2850 1250 2750 1250
+Text Label 1750 1650 0    60   ~ 0
+JTDR
+Wire Notes Line
+	650  2950 3850 2950
+Wire Notes Line
+	3850 2950 3850 800 
+Wire Notes Line
+	3850 800  650  800 
+Wire Notes Line
+	650  800  650  2950
+$Comp
+L cusf-kicad:PWR #FLG02
+U 1 1 5AAEFC0F
+P 2700 2550
+F 0 "#FLG02" H 2700 2710 50  0001 C CNN
+F 1 "PWR" V 2700 2638 50  0000 L CNN
+F 2 "" H 2700 2550 50  0001 C CNN
+F 3 "" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2550 2750 2550
+$Comp
+L cusf-kicad:CONN_02x15 J1
+U 1 1 5AA50022
+P 1550 1150
+F 0 "J1" H 1450 1250 50  0000 L CNN
+F 1 "WEST TOP" H 1500 -350 50  0000 C CNN
+F 2 "agg:TFML-115-02-L-D-LC" H 1550 1150 50  0001 C CNN
+F 3 "" H 1550 1150 50  0001 C CNN
+	1    1550 1150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 1750
+NoConn ~ 1650 1850
+NoConn ~ 1650 1950
+NoConn ~ 1650 2050
+NoConn ~ 1350 2150
+NoConn ~ 1350 2250
+NoConn ~ 1350 2350
+NoConn ~ 3150 2350
+NoConn ~ 3150 2250
+NoConn ~ 3150 2150
+NoConn ~ 3150 2050
+NoConn ~ 3150 1950
+NoConn ~ 3150 1850
+NoConn ~ 3150 1750
+NoConn ~ 3150 1650
+NoConn ~ 3150 1550
+NoConn ~ 3150 1450
+NoConn ~ 3150 1350
+NoConn ~ 2850 1350
+NoConn ~ 2850 1450
+NoConn ~ 2850 1550
+NoConn ~ 2850 1650
+Text Label 1250 2150 2    60   ~ 0
+RSVD4
+Text Label 1250 1850 2    50   ~ 0
+3v3_MOTOR
+Text Label 5150 1750 2    50   ~ 0
+JTDI
+Text Label 5450 1750 0    50   ~ 0
+JTDR
+Wire Wire Line
+	5450 1750 5150 1750
+Text Label 5150 1950 2    50   ~ 0
+CAN-
+Text Label 5450 1950 0    50   ~ 0
+CAN+
+Wire Wire Line
+	5450 1950 5350 1950
+Wire Wire Line
+	5250 1950 5150 1950
+$Comp
+L cusf-kicad:R R?
+U 1 1 5EE1EB7B
+P 5250 1950
+F 0 "R?" H 5300 2000 50  0000 C CNN
+F 1 "120" H 5300 1900 50  0000 C CNN
+F 2 "" H 5250 1950 50  0001 C CNN
+F 3 "" H 5250 1950 50  0001 C CNN
+	1    5250 1950
+	1    0    0    -1  
+$EndComp
+Text Notes 6050 3650 0    50   ~ 0
+TODO: Add pyro and charge channels
+$Comp
+L cusf-kicad:CONN_01x02 J?
+U 1 1 5EE256C6
+P 5050 2250
+F 0 "J?" H 5050 2350 50  0000 C CNN
+F 1 "PWR" H 5050 2050 50  0000 C CNN
+F 2 "" H 5050 2250 50  0001 C CNN
+F 3 "" H 5050 2250 50  0001 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:CONN_01x02 J?
+U 1 1 5EE258D0
+P 5050 2950
+F 0 "J?" H 5050 3050 50  0000 C CNN
+F 1 "CAN" H 5050 2750 50  0000 C CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3250 5200 3050
+Wire Wire Line
+	5200 3050 5150 3050
+Wire Wire Line
+	5400 3250 5400 3200
+Wire Wire Line
+	5400 3000 5400 2950
+Wire Wire Line
+	5400 2950 5150 2950
+Wire Wire Line
+	5400 2950 5550 2950
+Connection ~ 5400 2950
+Text Label 5550 2950 0    50   ~ 0
+5v_CAN
+$Comp
+L cusf-kicad:ESD_DIODE D?
+U 1 1 5EE2FB70
+P 5400 3100
+F 0 "D?" V 5400 3158 50  0000 L CNN
+F 1 "ESD_DIODE" H 5350 3000 50  0001 L CNN
+F 2 "agg:0402" H 5350 2900 50  0001 L CNN
+F 3 "" H 5300 3100 50  0001 C CNN
+F 4 "2368169" H 5350 2800 50  0001 L CNN "Farnell"
+	1    5400 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5EE2FF8C
+P 5400 3250
+F 0 "#PWR?" H 5270 3290 50  0001 L CNN
+F 1 "GND" H 5400 3150 50  0000 C CNN
+F 2 "" H 5400 3250 50  0001 C CNN
+F 3 "" H 5400 3250 50  0001 C CNN
+	1    5400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5EE30203
+P 5200 3250
+F 0 "#PWR?" H 5070 3290 50  0001 L CNN
+F 1 "GND" H 5200 3150 50  0000 C CNN
+F 2 "" H 5200 3250 50  0001 C CNN
+F 3 "" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2550 5200 2350
+Wire Wire Line
+	5200 2350 5150 2350
+Wire Wire Line
+	5400 2550 5400 2500
+Wire Wire Line
+	5400 2300 5400 2250
+Wire Wire Line
+	5400 2250 5150 2250
+Wire Wire Line
+	5400 2250 5550 2250
+Connection ~ 5400 2250
+$Comp
+L cusf-kicad:ESD_DIODE D?
+U 1 1 5EE33074
+P 5400 2400
+F 0 "D?" V 5400 2458 50  0000 L CNN
+F 1 "ESD_DIODE" H 5350 2300 50  0001 L CNN
+F 2 "agg:0402" H 5350 2200 50  0001 L CNN
+F 3 "" H 5300 2400 50  0001 C CNN
+F 4 "2368169" H 5350 2100 50  0001 L CNN "Farnell"
+	1    5400 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5EE3307A
+P 5400 2550
+F 0 "#PWR?" H 5270 2590 50  0001 L CNN
+F 1 "GND" H 5400 2450 50  0000 C CNN
+F 2 "" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5EE33080
+P 5200 2550
+F 0 "#PWR?" H 5070 2590 50  0001 L CNN
+F 1 "GND" H 5200 2450 50  0000 C CNN
+F 2 "" H 5200 2550 50  0001 C CNN
+F 3 "" H 5200 2550 50  0001 C CNN
+	1    5200 2550
+	1    0    0    -1  
+$EndComp
+Text Label 5550 2250 0    50   ~ 0
+PWR
+$EndSCHEMATC

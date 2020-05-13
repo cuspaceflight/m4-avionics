@@ -4,13 +4,13 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M4_TEMPLATE"
+Title "Martlet IV Base"
 Date "2020-02-05"
 Rev "1"
 Comp "CU Spaceflight"
-Comment1 "Drawn By: Sean McGuire"
-Comment2 ""
-Comment3 ""
+Comment1 "Henry Franks"
+Comment2 "Sean McGuire"
+Comment3 "Drawn By:"
 Comment4 ""
 $EndDescr
 $Comp
@@ -1479,7 +1479,7 @@ L cusf-kicad:CONN_01x02 J?
 U 1 1 5ED8D816
 P 6700 3250
 F 0 "J?" H 6700 3350 50  0000 C CNN
-F 1 "CAM" H 6700 3050 50  0000 C CNN
+F 1 "CAN" H 6700 3050 50  0000 C CNN
 F 2 "" H 6700 3250 50  0001 C CNN
 F 3 "" H 6700 3250 50  0001 C CNN
 	1    6700 3250
