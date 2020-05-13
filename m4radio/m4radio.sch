@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M4 RADIO"
+Title "Martlet IV Radio"
 Date "2020-02-05"
 Rev "1"
 Comp "CU Spaceflight"

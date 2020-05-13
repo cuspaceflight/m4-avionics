@@ -1,17 +1,16 @@
 EESchema Schematic File Version 4
-LIBS:m4fc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M4_TEMPLATE"
+Title "Martlet IV Flight Computer"
 Date "2020-02-05"
 Rev "1"
 Comp "CU Spaceflight"
-Comment1 "Drawn By: Sean McGuire"
-Comment2 ""
-Comment3 ""
+Comment1 "Angus Matthews"
+Comment2 "Henry Franks"
+Comment3 "Drawn By:"
 Comment4 ""
 $EndDescr
 Text Label 1700 6950 2    60   ~ 0

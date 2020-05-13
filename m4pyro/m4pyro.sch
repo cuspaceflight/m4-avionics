@@ -1,17 +1,16 @@
 EESchema Schematic File Version 4
-LIBS:m4pyro-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M4_PYRO"
+Title "Martlet IV Pyro"
 Date "2020-02-05"
 Rev "1"
 Comp "CU Spaceflight"
-Comment1 "Drawn By: Saurav Prakeerth"
-Comment2 ""
-Comment3 ""
+Comment1 "Henry Franks"
+Comment2 "Saurav Prakeerth"
+Comment3 "Drawn By:"
 Comment4 ""
 $EndDescr
 $Comp
