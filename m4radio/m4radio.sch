@@ -2766,30 +2766,28 @@ Wire Wire Line
 $Comp
 L cusf-kicad:COAX P?
 U 1 1 5ECE5B60
-P 4900 7050
-F 0 "P?" H 4900 7150 50  0000 C CNN
-F 1 "COAX" H 4900 6900 50  0000 C CNN
-F 2 "agg:SMA-EDGE" H 4900 6840 50  0001 C CNN
-F 3 "" H 5000 6950 50  0001 C CNN
-F 4 "1608592" H 4900 6770 50  0001 C CNN "Farnell"
-	1    4900 7050
+P 4850 7050
+F 0 "P?" H 4850 7150 50  0000 C CNN
+F 1 "RADIO_ANTENNA" H 4850 6900 50  0000 C CNN
+F 2 "agg:SMA-EDGE" H 4850 6840 50  0001 C CNN
+F 3 "" H 4950 6950 50  0001 C CNN
+F 4 "1608592" H 4850 6770 50  0001 C CNN "Farnell"
+	1    4850 7050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 7050 5150 7050
+	4950 7050 5150 7050
 Wire Wire Line
-	5000 7150 5050 7150
-Wire Wire Line
-	5050 7150 5050 7300
+	5150 7150 5150 7300
 $Comp
 L cusf-kicad:GND #PWR?
 U 1 1 5ED3D1A8
-P 5050 7300
-F 0 "#PWR?" H 4920 7340 50  0001 L CNN
-F 1 "GND" H 5050 7200 50  0000 C CNN
-F 2 "" H 5050 7300 50  0001 C CNN
-F 3 "" H 5050 7300 50  0001 C CNN
-	1    5050 7300
+P 5150 7300
+F 0 "#PWR?" H 5020 7340 50  0001 L CNN
+F 1 "GND" H 5150 7200 50  0000 C CNN
+F 2 "" H 5150 7300 50  0001 C CNN
+F 3 "" H 5150 7300 50  0001 C CNN
+	1    5150 7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2876,33 +2874,19 @@ F 3 "" H 8000 7050 50  0001 C CNN
 	1    8000 7050
 	1    0    0    -1  
 $EndComp
-$Comp
-L cusf-kicad:COAX P?
-U 1 1 5F0A2BB6
-P 8400 7050
-F 0 "P?" H 8350 7150 50  0000 L CNN
-F 1 "COAX" H 8300 6900 50  0000 L CNN
-F 2 "agg:SMA-EDGE" H 8400 6840 50  0001 C CNN
-F 3 "" H 8500 6950 50  0001 C CNN
-F 4 "1608592" H 8400 6770 50  0001 C CNN "Farnell"
-	1    8400 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8100 7050 8300 7050
+	8100 7050 8400 7050
 Wire Wire Line
-	8300 7150 8250 7150
-Wire Wire Line
-	8250 7150 8250 7300
+	8150 7150 8150 7300
 $Comp
 L cusf-kicad:GND #PWR?
 U 1 1 5F0FDCFC
-P 8250 7300
-F 0 "#PWR?" H 8120 7340 50  0001 L CNN
-F 1 "GND" H 8250 7200 50  0000 C CNN
-F 2 "" H 8250 7300 50  0001 C CNN
-F 3 "" H 8250 7300 50  0001 C CNN
-	1    8250 7300
+P 8150 7300
+F 0 "#PWR?" H 8020 7340 50  0001 L CNN
+F 1 "GND" H 8150 7200 50  0000 C CNN
+F 2 "" H 8150 7300 50  0001 C CNN
+F 3 "" H 8150 7300 50  0001 C CNN
+	1    8150 7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3019,19 +3003,317 @@ F 3 "" H 7300 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4850 7700 0    39   ~ 0
-NOTE: There is a required spacing, details can be found at:\n[http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5324.pdf]
+NOTE: There is a required component spacing, see:\nhttp://www.analog.com/media/en/technical-documentation/data-sheets/ADL5324.pdf
 Text Notes 4500 5800 0    98   ~ 20
 POWER AMP
 Wire Notes Line
-	8800 5850 8800 7900
+	8850 5850 8850 7900
 Wire Notes Line
 	4500 5850 4500 7900
 Text Notes 5300 6500 0    69   ~ 0
 TODO: Check\ncomponent values\nagainst datasheet
 Wire Notes Line
-	4500 7900 8800 7900
+	4500 7900 8850 7900
 Wire Notes Line
-	8800 5850 4500 5850
-Text Notes 10250 6800 0    69   ~ 0
+	8850 5850 4500 5850
+Text Notes 15050 10400 0    69   ~ 0
 TODO: Update\nlabels to match\nold m4dl
+$Comp
+L cusf-kicad:BGM1043N7 IC?
+U 1 1 5EC20F1C
+P 10550 6950
+F 0 "IC?" H 10300 7350 50  0000 C CNN
+F 1 "BGM1043N7" H 10450 6550 50  0000 C CNN
+F 2 "agg:DFN-6-EP-BGM" H 10250 6450 50  0001 L CNN
+F 3 "http://www.infineon.com/dgdl/bgm1043n7.pdf?folderId=db3a30431f848401011fcbf2ab4c04c4&fileId=db3a304336415dec01365e4465443c72" H 10250 6350 50  0001 L CNN
+F 4 "BGM1043N7E6327XUSA1CT-ND" H 10250 6250 50  0001 L CNN "DigiKey"
+	1    10550 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 7150 10100 7150
+Wire Wire Line
+	10100 7150 10100 7300
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5EC511EF
+P 10100 7300
+F 0 "#PWR?" H 9970 7340 50  0001 L CNN
+F 1 "GND" H 10100 7200 50  0000 C CNN
+F 2 "" H 10100 7300 50  0001 C CNN
+F 3 "" H 10100 7300 50  0001 C CNN
+	1    10100 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 6950 9800 6950
+$Comp
+L cusf-kicad:COAX P?
+U 1 1 5ECB244C
+P 9350 6950
+F 0 "P?" H 9350 7050 50  0000 C CNN
+F 1 "GPS_ANTENNA" H 9350 6800 50  0000 C CNN
+F 2 "agg:SMA-EDGE" H 9350 6740 50  0001 C CNN
+F 3 "" H 9450 6850 50  0001 C CNN
+F 4 "1608592" H 9350 6670 50  0001 C CNN "Farnell"
+	1    9350 6950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 7050 9650 7050
+Wire Wire Line
+	9650 7050 9650 7300
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5ED1441E
+P 9650 7300
+F 0 "#PWR?" H 9520 7340 50  0001 L CNN
+F 1 "GND" H 9650 7200 50  0000 C CNN
+F 2 "" H 9650 7300 50  0001 C CNN
+F 3 "" H 9650 7300 50  0001 C CNN
+	1    9650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:L L?
+U 1 1 5ED148C4
+P 9800 7100
+F 0 "L?" V 9804 7144 50  0000 L CNN
+F 1 "9n1" V 9895 7144 50  0000 L CNN
+F 2 "" H 9800 7100 50  0001 C CNN
+F 3 "" H 9800 7100 50  0001 C CNN
+	1    9800 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 7100 9800 6950
+Connection ~ 9800 6950
+Wire Wire Line
+	9800 6950 10150 6950
+Wire Wire Line
+	9800 7200 9800 7300
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5ED771B6
+P 9800 7300
+F 0 "#PWR?" H 9670 7340 50  0001 L CNN
+F 1 "GND" H 9800 7200 50  0000 C CNN
+F 2 "" H 9800 7300 50  0001 C CNN
+F 3 "" H 9800 7300 50  0001 C CNN
+	1    9800 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 6750 10100 6750
+Wire Wire Line
+	10100 6750 10100 6650
+Wire Wire Line
+	10100 6650 10150 6650
+$Comp
+L cusf-kicad:C C?
+U 1 1 5EE092D2
+P 9950 6550
+F 0 "C?" V 9950 6600 50  0000 C CNN
+F 1 "1u" V 10050 6600 50  0000 C CNN
+F 2 "" H 9950 6550 50  0001 C CNN
+F 3 "" H 9950 6550 50  0001 C CNN
+	1    9950 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L cusf-kicad:C C?
+U 1 1 5EE0A1EE
+P 9700 6550
+F 0 "C?" V 9700 6600 50  0000 C CNN
+F 1 "100n" V 9800 6650 50  0000 C CNN
+F 2 "" H 9700 6550 50  0001 C CNN
+F 3 "" H 9700 6550 50  0001 C CNN
+	1    9700 6550
+	0    1    1    0   
+$EndComp
+Connection ~ 10100 6650
+$Comp
+L cusf-kicad:C C?
+U 1 1 5F003C16
+P 11100 6950
+F 0 "C?" H 11100 7000 50  0000 C CNN
+F 1 "200p" H 11150 6900 50  0000 C CNN
+F 2 "" H 11100 6950 50  0001 C CNN
+F 3 "" H 11100 6950 50  0001 C CNN
+	1    11100 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:L L?
+U 1 1 5F00417D
+P 11000 6650
+F 0 "L?" V 11004 6694 50  0000 L CNN
+F 1 "8n2" V 11095 6694 50  0000 L CNN
+F 2 "" H 11000 6650 50  0001 C CNN
+F 3 "" H 11000 6650 50  0001 C CNN
+	1    11000 6650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11000 6650 10950 6650
+Wire Wire Line
+	11000 6750 10950 6750
+Wire Wire Line
+	11100 6950 10950 6950
+Wire Wire Line
+	10100 6650 10100 6450
+Wire Wire Line
+	11200 6950 11400 6950
+$Comp
+L cusf-kicad:L L?
+U 1 1 5F1A0B22
+P 11400 6650
+F 0 "L?" V 11450 6700 50  0000 L CNN
+F 1 "92n" V 11450 6500 50  0000 L CNN
+F 2 "" H 11400 6650 50  0001 C CNN
+F 3 "" H 11400 6650 50  0001 C CNN
+	1    11400 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L cusf-kicad:L L?
+U 1 1 5F1A1617
+P 11400 6800
+F 0 "L?" V 11450 6844 50  0000 L CNN
+F 1 "92n" V 11495 6844 50  0001 L CNN
+F 2 "" H 11400 6800 50  0001 C CNN
+F 3 "" H 11400 6800 50  0001 C CNN
+	1    11400 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11400 6800 11400 6750
+Wire Wire Line
+	11400 6950 11400 6900
+$Comp
+L cusf-kicad:L L?
+U 1 1 5F20A77B
+P 11400 6500
+F 0 "L?" V 11450 6544 50  0000 L CNN
+F 1 "92n" V 11495 6544 50  0001 L CNN
+F 2 "" H 11400 6500 50  0001 C CNN
+F 3 "" H 11400 6500 50  0001 C CNN
+	1    11400 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11400 6600 11400 6650
+Wire Wire Line
+	11400 6500 11400 6450
+Wire Wire Line
+	11400 6450 10100 6450
+Wire Wire Line
+	10100 6450 10100 6400
+Connection ~ 10100 6450
+Wire Wire Line
+	9950 6550 9950 6450
+Wire Wire Line
+	9950 6450 10100 6450
+Wire Wire Line
+	9950 6450 9700 6450
+Wire Wire Line
+	9700 6450 9700 6550
+Connection ~ 9950 6450
+Wire Wire Line
+	9700 6650 9700 6700
+Wire Wire Line
+	9950 6650 9950 6700
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5F3AFC9E
+P 9950 6700
+F 0 "#PWR?" H 9820 6740 50  0001 L CNN
+F 1 "GND" H 9950 6600 50  0000 C CNN
+F 2 "" H 9950 6700 50  0001 C CNN
+F 3 "" H 9950 6700 50  0001 C CNN
+	1    9950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5F3B0060
+P 9700 6700
+F 0 "#PWR?" H 9570 6740 50  0001 L CNN
+F 1 "GND" H 9700 6600 50  0000 C CNN
+F 2 "" H 9700 6700 50  0001 C CNN
+F 3 "" H 9700 6700 50  0001 C CNN
+	1    9700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:COAX P?
+U 1 1 5F418670
+P 11700 6950
+F 0 "P?" H 11700 7050 50  0000 C CNN
+F 1 "GPS_RECEIVER" H 11700 6800 50  0000 C CNN
+F 2 "agg:SMA-EDGE" H 11700 6740 50  0001 C CNN
+F 3 "" H 11800 6850 50  0001 C CNN
+F 4 "1608592" H 11700 6670 50  0001 C CNN "Farnell"
+	1    11700 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 6950 11400 6950
+Connection ~ 11400 6950
+Wire Wire Line
+	11400 7050 11400 7300
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5F485AC9
+P 11400 7300
+F 0 "#PWR?" H 11270 7340 50  0001 L CNN
+F 1 "GND" H 11400 7200 50  0000 C CNN
+F 2 "" H 11400 7300 50  0001 C CNN
+F 3 "" H 11400 7300 50  0001 C CNN
+	1    11400 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:COAX P?
+U 1 1 5F4BBE83
+P 8500 7050
+F 0 "P?" H 8500 7150 50  0000 C CNN
+F 1 "RADIO_RECEIVER" H 8500 6900 50  0000 C CNN
+F 2 "agg:SMA-EDGE" H 8500 6840 50  0001 C CNN
+F 3 "" H 8600 6950 50  0001 C CNN
+F 4 "1608592" H 8500 6770 50  0001 C CNN "Farnell"
+	1    8500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:3v3 #PWR?
+U 1 1 5F503EB6
+P 10100 6400
+F 0 "#PWR?" H 10100 6510 50  0001 L CNN
+F 1 "3v3" H 10100 6523 50  0000 C CNN
+F 2 "" H 10100 6400 50  0001 C CNN
+F 3 "" H 10100 6400 50  0001 C CNN
+	1    10100 6400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8950 7900 8950 5850
+Wire Notes Line
+	8950 5850 12150 5850
+Wire Notes Line
+	12150 5850 12150 7900
+Wire Notes Line
+	12150 7900 8950 7900
+Text Notes 8950 5800 0    98   ~ 20
+GPS PREAMP
+Text Notes 10250 6350 0    69   ~ 0
+TODO: This wasn't\nlabelled as 3v3 on\nthe old schematic...
+Text Notes 8300 8550 0    69   ~ 0
+TODO: Should these\nbe on a different\nsheet/board because\nof the coax connections?
+Wire Wire Line
+	11400 7050 11600 7050
+Wire Wire Line
+	8150 7150 8400 7150
+Wire Wire Line
+	4950 7150 5150 7150
 $EndSCHEMATC
