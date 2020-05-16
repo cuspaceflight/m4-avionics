@@ -4,13 +4,13 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Martlet IV Pyro"
+Title "M4_PYRO"
 Date "2020-02-05"
 Rev "1"
 Comp "CU Spaceflight"
-Comment1 "Henry Franks"
-Comment2 "Saurav Prakeerth"
-Comment3 "Drawn By:"
+Comment1 "Drawn By: Saurav Prakeerth"
+Comment2 ""
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
@@ -2593,4 +2593,6 @@ F 3 "" H 7675 1625 60  0000 C CNN
 	1    7675 1625
 	1    0    0    -1  
 $EndComp
+Text Notes 5500 7300 0    50   ~ 0
+Matt's Modifications:\n- LEDs need to be moved to be driven by the GPIO that drives the gate of the firing FET\n- Add flyback diodes on the output channels
 $EndSCHEMATC
