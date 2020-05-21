@@ -98,11 +98,9 @@ def patch_array(spec):
     patch = generate_patch(spec['w_patch'], spec['l_patch'],
                            spec['w_inset'], spec['l_inset'],
                            spec['r_corner'])
-    array = []
-    for idx in range(n):
-        array.append(translate(patch, idx*spacing - (n/2 - 1/2)*spacing, 0))
 
-    return array
+    return [translate(patch, idx*spacing - (n/2 - 1/2)*spacing, 0)
+            for idx in range(n)]
 
 
 def microstrip_tree(spec, n):
@@ -398,9 +396,8 @@ def generate_pcb(feedpoints, cuts, zones, drawings):
     # Draw zones
     kicad_zones = []
     for zone in zones:
-        pts = ["pts"]
-        for vertex in zone:
-            pts.append(["xy", vertex[0], vertex[1]])
+        pts = ["pts"] + [["xy", vertex[0], vertex[1]] for vertex in zone]
+
         kicad_zones.append([
             "zone",
             ["net", 1],

@@ -70,7 +70,7 @@ feed_core_telemetry = [
 # l_inset: patch element inset length [m]
 # r_corner: patch element corner radius, if truncated [m]
 # h: dielectric height [m]
-# feed: a feed network spec, see feeds.py
+# feed: a feed network spec, as described above
 
 def inset_length(e, l):
     return (0.001699 * e**7 + 0.137610 * e**6 - 6.178300 * e**5
