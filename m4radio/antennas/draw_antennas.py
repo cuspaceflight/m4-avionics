@@ -439,12 +439,16 @@ def generate_pcb(feedpoints, cuts, zones, drawings):
             ["via_dia", 0.8],
             ["via_drill", 0.4]],
     ] + modules + edges + kicad_drawings + kicad_zones
+
     return generate(out)
 
 
 if __name__ == "__main__":
     feedpoints, cutouts, zones = make_arrays(antennas)
     pcb = generate_pcb(feedpoints, cutouts, zones, [])
+
+    pcb = '\n'.join(pcb.split(' \n')) # Trim trailing whitespace per line
+    pcb += '\n'                       # Add a newline to the end (convention)
 
     with open("antennas.kicad_pcb", "w") as f:
         f.write(pcb)
