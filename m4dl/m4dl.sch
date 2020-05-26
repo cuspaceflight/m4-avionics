@@ -7,11 +7,11 @@ Sheet 1 1
 Title "Martlet IV Data Logger"
 Date "2020-02-23"
 Rev "1"
-Comp "Cambridge University Space Flight"
-Comment1 "Angus Matthews"
-Comment2 "Saurav Prakeerth"
-Comment3 "Henry Franks"
-Comment4 "Drawn By:"
+Comp "Cambridge University Spaceflight"
+Comment1 ""
+Comment2 ""
+Comment3 "H. Franks, S. Prakeerth, A. Matthews"
+Comment4 "Drawn By"
 $EndDescr
 $Comp
 L cusf-kicad:C C?

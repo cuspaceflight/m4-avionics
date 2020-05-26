@@ -1,18 +1,17 @@
 EESchema Schematic File Version 4
-LIBS:m4_board_template-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "M4_TEMPLATE"
+Title "Martlet IV Template"
 Date "2020-02-05"
 Rev "1"
-Comp "CU Spaceflight"
-Comment1 "Drawn By: Sean McGuire"
+Comp "Cambridge University Spaceflight"
+Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "S. McGuire"
+Comment4 "Drawn By"
 $EndDescr
 $Comp
 L cusf-kicad:MCP2562 IC1

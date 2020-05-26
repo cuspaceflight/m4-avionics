@@ -7,11 +7,11 @@ Sheet 1 1
 Title "Martlet IV Flight Computer"
 Date "2020-02-05"
 Rev "1"
-Comp "CU Spaceflight"
-Comment1 "Angus Matthews"
-Comment2 "Henry Franks"
-Comment3 "Drawn By:"
-Comment4 ""
+Comp "Cambridge University Spaceflight"
+Comment1 ""
+Comment2 ""
+Comment3 "H. Franks, A. Matthews"
+Comment4 "Drawn By"
 $EndDescr
 Text Label 1700 6950 2    60   ~ 0
 ACCEL_INT

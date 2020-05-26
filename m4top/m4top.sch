@@ -7,11 +7,11 @@ Sheet 1 1
 Title "Martlet IV Top"
 Date "2020-02-05"
 Rev "1"
-Comp "CU Spaceflight"
-Comment1 "Henry Franks"
-Comment2 "Sean McGuire"
-Comment3 "Drawn By:"
-Comment4 ""
+Comp "Cambridge University Spaceflight"
+Comment1 ""
+Comment2 ""
+Comment3 "H. Franks"
+Comment4 "Drawn By"
 $EndDescr
 Text Label 1750 1650 0    60   ~ 0
 JTDI

@@ -7,11 +7,11 @@ Sheet 1 1
 Title "Martlet IV Radio"
 Date "2020-02-05"
 Rev "1"
-Comp "CU Spaceflight"
-Comment1 "Drawn By: Henry Franks"
+Comp "Cambridge University Spaceflight"
+Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "H. Franks"
+Comment4 "Drawn By"
 $EndDescr
 $Comp
 L cusf-kicad:MCP2562 IC?

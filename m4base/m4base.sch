@@ -7,11 +7,11 @@ Sheet 1 1
 Title "Martlet IV Base"
 Date "2020-02-05"
 Rev "1"
-Comp "CU Spaceflight"
-Comment1 "Henry Franks"
-Comment2 "Sean McGuire"
-Comment3 "Drawn By:"
-Comment4 ""
+Comp "Cambridge University Spaceflight"
+Comment1 ""
+Comment2 ""
+Comment3 "H. Franks, S. McGuire"
+Comment4 "Drawn By"
 $EndDescr
 $Comp
 L cusf-kicad:MCP2562 IC1
