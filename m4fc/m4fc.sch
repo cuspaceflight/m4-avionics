@@ -1711,4 +1711,166 @@ Wire Notes Line
 	4450 7850 5850 7850
 Text Notes 4450 6650 0    98   ~ 20
 BEEPER
+$Comp
+L cusf-kicad:CONN_02x12 J?
+U 1 1 5ED17754
+P 4850 1250
+F 0 "J?" H 4800 1350 50  0000 C CNN
+F 1 "CAMERA" H 4800 50  50  0000 C CNN
+F 2 "" H 4850 1250 50  0001 C CNN
+F 3 "" H 4850 1250 50  0001 C CNN
+	1    4850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1350 4550 1350
+Wire Wire Line
+	4550 1350 4550 1250
+Wire Wire Line
+	4550 1250 4650 1250
+Wire Wire Line
+	4950 1250 5050 1250
+Wire Wire Line
+	5050 1250 5050 1350
+Wire Wire Line
+	4950 1350 5050 1350
+Wire Wire Line
+	5050 1250 5050 1100
+Connection ~ 5050 1250
+Wire Wire Line
+	4550 1100 4550 1250
+Connection ~ 4550 1250
+$Comp
+L cusf-kicad:3v3 #PWR?
+U 1 1 5ED8339B
+P 4550 1100
+F 0 "#PWR?" H 4550 1210 50  0001 L CNN
+F 1 "3v3" H 4550 1200 50  0000 C CNN
+F 2 "" H 4550 1100 50  0001 C CNN
+F 3 "" H 4550 1100 50  0001 C CNN
+	1    4550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:3v3 #PWR?
+U 1 1 5ED836CE
+P 5050 1100
+F 0 "#PWR?" H 5050 1210 50  0001 L CNN
+F 1 "3v3" H 5050 1200 50  0000 C CNN
+F 2 "" H 5050 1100 50  0001 C CNN
+F 3 "" H 5050 1100 50  0001 C CNN
+	1    5050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2350 4550 2350
+Wire Wire Line
+	4550 2350 4550 2500
+Wire Wire Line
+	4550 2350 4550 2250
+Wire Wire Line
+	4550 2250 4650 2250
+Connection ~ 4550 2350
+Wire Wire Line
+	4950 2350 5050 2350
+Wire Wire Line
+	5050 2350 5050 2500
+Wire Wire Line
+	5050 2350 5050 2250
+Wire Wire Line
+	5050 2250 4950 2250
+Connection ~ 5050 2350
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5EDD9C20
+P 4550 2500
+F 0 "#PWR?" H 4420 2540 50  0001 L CNN
+F 1 "GND" H 4550 2400 50  0000 C CNN
+F 2 "" H 4550 2500 50  0001 C CNN
+F 3 "" H 4550 2500 50  0001 C CNN
+	1    4550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 5EDDA6DE
+P 5050 2500
+F 0 "#PWR?" H 4920 2540 50  0001 L CNN
+F 1 "GND" H 5050 2400 50  0000 C CNN
+F 2 "" H 5050 2500 50  0001 C CNN
+F 3 "" H 5050 2500 50  0001 C CNN
+	1    5050 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1450 4550 1450
+Wire Wire Line
+	4650 1550 4550 1550
+Wire Wire Line
+	4650 1650 4550 1650
+Wire Wire Line
+	4650 1750 4550 1750
+Wire Wire Line
+	4650 1850 4550 1850
+Wire Wire Line
+	4950 1450 5050 1450
+Wire Wire Line
+	4950 1550 5050 1550
+Wire Wire Line
+	4950 1650 5050 1650
+Wire Wire Line
+	4950 1750 5050 1750
+Wire Wire Line
+	4950 1850 5050 1850
+Wire Wire Line
+	5050 1950 4950 1950
+Wire Wire Line
+	5050 2050 4950 2050
+Wire Wire Line
+	4550 2050 4650 2050
+Wire Wire Line
+	4550 1950 4650 1950
+Text Label 5050 1450 0    50   ~ 0
+DCMI_D1
+Text Label 5050 1550 0    50   ~ 0
+DCMI_D3
+Text Label 5050 1650 0    50   ~ 0
+DCMI_D5
+Text Label 5050 1750 0    50   ~ 0
+DCMI_D7
+Text Label 4550 1750 2    50   ~ 0
+DCMI_D6
+Text Label 4550 1650 2    50   ~ 0
+DCMI_D4
+Text Label 4550 1550 2    50   ~ 0
+DCMI_D2
+Text Label 4550 1450 2    50   ~ 0
+DCMI_D0
+Text Label 4550 2050 2    50   ~ 0
+DCMI_PIXCLK
+Text Label 4550 1950 2    50   ~ 0
+DCMI_VSYNC
+Text Label 4550 1850 2    50   ~ 0
+DCMI_HSYNC
+Text Label 5050 1850 0    50   ~ 0
+DCMI_PWR_EN
+Text Label 5050 1950 0    50   ~ 0
+DCMI_NRST
+Wire Notes Line
+	3900 750  5750 750 
+Wire Notes Line
+	5750 750  5750 2900
+Wire Notes Line
+	5750 2900 3900 2900
+Wire Notes Line
+	3900 750  3900 2900
+Text Notes 3900 700  0    98   ~ 20
+CAMERA INTERCONNECT
+Wire Wire Line
+	4950 2150 5050 2150
+Text Label 5050 2050 0    50   ~ 0
+DCMI_SDA
+Text Label 5050 2150 0    50   ~ 0
+DCMI_SCL
+NoConn ~ 4650 2150
 $EndSCHEMATC
