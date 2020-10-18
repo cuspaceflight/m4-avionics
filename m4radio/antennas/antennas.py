@@ -1,6 +1,6 @@
-################################################################################
-##                           ANTENNA SPECIFICATIONS                           ##
-################################################################################
+###############################################################################
+##                           ANTENNA SPECIFICATION                           ##
+###############################################################################
 # Copyright (C) 2016-2020 Adam Greig, Henry Franks
 
 from numpy import pi
@@ -13,7 +13,7 @@ from numpy import pi
 # dielectric constant: 2.2
 
 
-################################################################################
+###############################################################################
 # Feed networks. Entries are (width [m], length [m]).
 # Lengths of None imply "continue to junction".
 
@@ -56,11 +56,10 @@ feed_core_telemetry = [
         [  # Horizontal section
             (strip_w_100r, None),  # Plain 100R feedline
         ]
-    ],
-    [[], []]
+    ]
 ]
 
-################################################################################
+###############################################################################
 # Antennas to make
 # Each should specify:
 # w_array: width of final array [m]
@@ -78,8 +77,7 @@ def inset_length(e, l):
             - 4043.000 * e**1 + 6697.000) * l/2 * 1e-4
 
 antennas = [
-    # Core telemetry
-    {
+    {  # Core telemetry
         "w_array": 112e-3 * pi,
         "feed": feed_core_telemetry,
         "w_patch": 110e-3,
@@ -89,8 +87,8 @@ antennas = [
         "r_corner": None,
         "h": 0.5e-3,
     },
-    # Core GPS
-    {
+
+    {  # Core GPS
         "w_array": 112e-3 * pi,
         "feed": feed_core_gps,
         "w_patch": 63.0e-3,
