@@ -40,7 +40,10 @@ Thermocouple       | 4        | [RS Pro K-type welded tip 1/0.315m 5m (762-1118)
 
 ## Design Constraints
 The space allowed for the system is shown below:
-![][drawing]
+
+<p align="center">
+	<img width="500px" src="img/drawing.png">
+</p>
 
 The module must also not take up the entire space; some area or a hole
 must be left empty to allow other cables to pass through the rocket
@@ -52,4 +55,3 @@ as little mass as possible. It must weigh no more than 500g.
 [spec]: https://docs.google.com/document/d/1wuNd2ukuNRVKfNca_YTkUf5Qp6ZxcXcQoBAJ7XX6a5Y
 [p_sensor]: https://br.omega.com/omegaFiles/pressure/pdf/PXM309.pdf
 [t_sensor]: https://docs.rs-online.com/4918/0900766b815bb169.pdf
-[drawing]: img/drawing.png
