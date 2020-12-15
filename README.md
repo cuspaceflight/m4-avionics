@@ -39,7 +39,8 @@ Thermocouple       | 4        | [RS Pro K-type welded tip 1/0.315m 5m (762-1118)
 
 
 ## Design Constraints
-The space allowed for the system is shown below:
+The space allowed for the system is shown below (dimensions
+in mm):
 
 <p align="center">
 	<img width="500px" src="img/drawing.png">
