@@ -330,7 +330,7 @@ Wire Wire Line
 Text Label 5550 9500 0    60   ~ 0
 JTDI
 Text Label 2950 4200 0    60   ~ 0
-JTDR
+JTDO
 Text Label 5550 9300 0    60   ~ 0
 JTMS
 Text Label 5550 9400 0    60   ~ 0
@@ -636,7 +636,7 @@ Wire Notes Line
 Text Label 2950 4700 0    60   ~ 0
 CAN_RXD
 Text Label 5550 9600 0    60   ~ 0
-JTDR
+JTDO
 Wire Notes Line
 	4400 8450 650  8450
 Wire Notes Line
@@ -2959,7 +2959,7 @@ JTCK
 Text HLabel 5400 9500 0    50   Input ~ 0
 JTDI
 Text HLabel 5400 9600 0    50   Input ~ 0
-JTDR
+JTDO
 Text HLabel 5400 9700 0    50   Input ~ 0
 3V3
 Text HLabel 5400 9800 0    50   Input ~ 0

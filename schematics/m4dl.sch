@@ -34,7 +34,7 @@ Wire Notes Line
 Wire Notes Line
 	16050 15100 16050 15150
 Text Label 2950 4300 0    60   ~ 0
-JTDR
+JTDO
 NoConn ~ 2850 4400
 Text Notes 2900 4400 0    39   ~ 0
 PB4 is JTRST, DO NOT CONNECT (Errata 2.1.4)
@@ -2611,7 +2611,7 @@ MICROCONTROLLER
 Text Notes 4550 10000 0    60   ~ 0
 Current Limiting
 Text Label 8450 9600 0    60   ~ 0
-JTDR
+JTDO
 Text Label 8450 9700 0    60   ~ 0
 UART_TX
 Text Label 8450 9800 0    60   ~ 0
@@ -2663,7 +2663,7 @@ JTCK
 Text HLabel 8300 9500 0    50   Input ~ 0
 JTDI
 Text HLabel 8300 9600 0    50   Input ~ 0
-JTDR
+JTDO
 Text Label 8450 10700 0    60   ~ 0
 TEMP2+
 Text Label 8450 10800 0    60   ~ 0
