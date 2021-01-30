@@ -335,8 +335,6 @@ Text Label 5550 9300 0    60   ~ 0
 JTMS
 Text Label 5550 9400 0    60   ~ 0
 JTCK
-Text Notes 650  750  0    98   ~ 20
-GLOBAL INTERCONNECTS
 $Comp
 L cusf-kicad:SWD_TC P?
 U 1 1 5AA50189
@@ -639,14 +637,6 @@ Text Label 2950 4700 0    60   ~ 0
 CAN_RXD
 Text Label 5550 9600 0    60   ~ 0
 JTDR
-Wire Notes Line
-	650  2950 3850 2950
-Wire Notes Line
-	3850 2950 3850 800 
-Wire Notes Line
-	3850 800  650  800 
-Wire Notes Line
-	650  800  650  2950
 Wire Notes Line
 	4400 8450 650  8450
 Wire Notes Line
