@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 4 5
 Title "Martlet IV Flight Computer"
 Date "2020-02-05"
 Rev "1"
@@ -91,7 +91,7 @@ F 3 "" H 1350 8900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1200 9000 2    60   ~ 0
-5v_CAN
+5V_CAN
 $Comp
 L cusf-kicad:GND #PWR?
 U 1 1 5AA4FF16
@@ -381,347 +381,22 @@ Wire Wire Line
 	1750 4750 1800 4750
 Wire Wire Line
 	1750 4650 1750 4750
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA4FFFD
-P 1200 1050
-F 0 "#PWR?" H 1070 1090 50  0001 L CNN
-F 1 "GND" H 1200 950 50  0000 C CNN
-F 2 "" H 1200 1050 60  0000 C CNN
-F 3 "" H 1200 1050 60  0000 C CNN
-	1    1200 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA50003
-P 1700 1050
-F 0 "#PWR?" H 1570 1090 50  0001 L CNN
-F 1 "GND" H 1700 950 50  0000 C CNN
-F 2 "" H 1700 1050 60  0000 C CNN
-F 3 "" H 1700 1050 60  0000 C CNN
-	1    1700 1050
-	-1   0    0    1   
-$EndComp
-Text Label 1700 1500 0    60   ~ 0
+Text Label 5700 9100 0    60   ~ 0
 JTDI
 Text Label 2900 4150 0    60   ~ 0
 JTDR
-Text Label 1700 1300 0    60   ~ 0
+Text Label 5700 8900 0    60   ~ 0
 JTMS
-Text Label 1700 1400 0    60   ~ 0
+Text Label 5700 9000 0    60   ~ 0
 JTCK
-Text Label 1200 1300 2    60   ~ 0
-3v3_TOP
-Text Label 1200 1400 2    60   ~ 0
-3v3_DL
-Text Label 1200 1500 2    60   ~ 0
-3v3_FC
-Text Label 1200 1700 2    60   ~ 0
-3v3_PYRO
-Text Label 1700 2100 0    60   ~ 0
-5v_CAN
-Text Label 1700 2200 0    60   ~ 0
+Text Label 5700 8600 0    60   ~ 0
+5V_CAN
+Text Label 5700 8800 0    60   ~ 0
 CAN-
-Text Label 1700 2300 0    60   ~ 0
+Text Label 5700 8700 0    60   ~ 0
 CAN+
-Text Label 2700 1700 2    60   ~ 0
-12v_DL
-Text Label 2700 1800 2    60   ~ 0
-5v_RADIO
-Text Label 2700 1900 2    60   ~ 0
-5v_AUX1
-Text Label 2700 2000 2    60   ~ 0
-5v_AUX2
-Text Label 2700 2100 2    60   ~ 0
-5v_CAM1
-Text Label 2700 2300 2    60   ~ 0
-PWR
-Text Label 3200 1400 0    60   ~ 0
-PYRO4
-Text Label 3200 1300 0    60   ~ 0
-PYRO2
-Text Label 1200 1900 2    60   ~ 0
-3v3_AUX1
-Text Label 1200 2000 2    60   ~ 0
-3v3_AUX2
-Wire Wire Line
-	1300 1300 1200 1300
-Wire Wire Line
-	1300 1400 1200 1400
-Wire Wire Line
-	1300 1500 1200 1500
-Wire Wire Line
-	1600 1900 1700 1900
-Wire Wire Line
-	1600 1800 1700 1800
-Wire Wire Line
-	1600 1700 1700 1700
-Wire Wire Line
-	1600 1500 1700 1500
-Wire Wire Line
-	1600 1400 1700 1400
-Wire Wire Line
-	1600 1300 1700 1300
-Wire Wire Line
-	1600 1200 1700 1200
-Wire Wire Line
-	2800 1700 2700 1700
-Wire Wire Line
-	2700 1800 2800 1800
-Wire Wire Line
-	2800 1900 2700 1900
-Wire Wire Line
-	2700 2000 2800 2000
-Wire Wire Line
-	2800 2100 2700 2100
-Wire Wire Line
-	3200 2200 3100 2200
-Wire Wire Line
-	3100 1700 3200 1700
-Wire Wire Line
-	3100 1600 3200 1600
-Wire Wire Line
-	3200 1500 3100 1500
-Wire Wire Line
-	3100 1400 3200 1400
-Wire Wire Line
-	3200 1300 3100 1300
-Wire Wire Line
-	1300 1600 1200 1600
-Wire Wire Line
-	1300 1700 1200 1700
-Wire Wire Line
-	1200 1800 1300 1800
-Wire Wire Line
-	1600 1600 1700 1600
-Wire Wire Line
-	1300 1900 1200 1900
-$Comp
-L cusf-kicad:CONN_02x15 J?
-U 1 1 5AA50050
-P 3000 1100
-F 0 "J?" H 2900 1200 50  0000 L CNN
-F 1 "EAST TOP" H 2950 -400 50  0000 C CNN
-F 2 "agg:TFML-115-02-L-D-LC" H 3000 1100 50  0001 C CNN
-F 3 "" H 3000 1100 50  0001 C CNN
-	1    3000 1100
-	1    0    0    -1  
-$EndComp
-Text Label 1200 1600 2    60   ~ 0
-3v3_RADIO
-Text Label 1200 2200 2    60   ~ 0
-RSVD5
-Wire Wire Line
-	1200 1100 1300 1100
-Wire Wire Line
-	1200 1100 1200 1050
-Wire Wire Line
-	1200 1100 1200 1200
-Connection ~ 1200 1100
-Wire Wire Line
-	1700 1200 1700 1100
-Wire Wire Line
-	1700 1100 1600 1100
-Connection ~ 1700 1100
-Wire Wire Line
-	1700 1100 1700 1050
-Text Label 1200 2300 2    60   ~ 0
-RSVD6
-Wire Wire Line
-	1200 2300 1300 2300
-Wire Wire Line
-	1200 2200 1300 2200
-Wire Wire Line
-	1200 2100 1300 2100
-Wire Wire Line
-	1200 2000 1300 2000
-Wire Wire Line
-	1600 2000 1700 2000
-Wire Wire Line
-	1600 2100 1700 2100
-Wire Wire Line
-	1600 2200 1700 2200
-Wire Wire Line
-	1600 2300 1700 2300
-Text Label 1700 2000 0    60   ~ 0
-RSVD3
-Text Label 1700 1900 0    60   ~ 0
-RSVD1
-Text Label 1700 1800 0    60   ~ 0
-UART_RX
-Text Label 1700 1700 0    60   ~ 0
-UART_TX
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA500B8
-P 2700 2600
-F 0 "#PWR?" H 2570 2640 50  0001 L CNN
-F 1 "GND" H 2700 2500 50  0000 C CNN
-F 2 "" H 2700 2600 60  0000 C CNN
-F 3 "" H 2700 2600 60  0000 C CNN
-	1    2700 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA500BE
-P 3200 2600
-F 0 "#PWR?" H 3070 2640 50  0001 L CNN
-F 1 "GND" H 3200 2500 50  0000 C CNN
-F 2 "" H 3200 2600 60  0000 C CNN
-F 3 "" H 3200 2600 60  0000 C CNN
-	1    3200 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA500C4
-P 2700 1050
-F 0 "#PWR?" H 2570 1090 50  0001 L CNN
-F 1 "GND" H 2700 950 50  0000 C CNN
-F 2 "" H 2700 1050 60  0000 C CNN
-F 3 "" H 2700 1050 60  0000 C CNN
-	1    2700 1050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2700 1100 2800 1100
-Wire Wire Line
-	2700 1100 2700 1050
-Wire Wire Line
-	2700 1100 2700 1200
-Connection ~ 2700 1100
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA500CE
-P 3200 1050
-F 0 "#PWR?" H 3070 1090 50  0001 L CNN
-F 1 "GND" H 3200 950 50  0000 C CNN
-F 2 "" H 3200 1050 60  0000 C CNN
-F 3 "" H 3200 1050 60  0000 C CNN
-	1    3200 1050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3100 1200 3200 1200
-Wire Wire Line
-	3200 1200 3200 1100
-Wire Wire Line
-	3200 1100 3100 1100
-Connection ~ 3200 1100
-Wire Wire Line
-	3200 1100 3200 1050
-Text Label 2700 2200 2    60   ~ 0
-5v_CAM2
-Wire Wire Line
-	2800 2200 2700 2200
-Text Label 2700 1600 2    60   ~ 0
-PYRO7
-Text Label 2700 1400 2    60   ~ 0
-PYRO3
-Text Label 2700 1300 2    60   ~ 0
-PYRO1
-Wire Wire Line
-	2700 1300 2800 1300
-Wire Wire Line
-	2700 1400 2800 1400
-Wire Wire Line
-	2700 1500 2800 1500
-Wire Wire Line
-	2700 1600 2800 1600
-Wire Wire Line
-	3100 1800 3200 1800
-Wire Wire Line
-	3100 1900 3200 1900
-Wire Wire Line
-	3100 2000 3200 2000
-Wire Wire Line
-	3100 2100 3200 2100
-Text Label 3200 1500 0    60   ~ 0
-PYRO6
-Text Label 3200 1600 0    60   ~ 0
-PYRO8
-Text Label 2700 1500 2    60   ~ 0
-PYRO5
-Wire Wire Line
-	2800 2400 2700 2400
-Wire Wire Line
-	2700 2400 2700 2500
-Wire Wire Line
-	2800 2500 2700 2500
-Connection ~ 2700 2500
-Wire Wire Line
-	2700 2500 2700 2600
-Wire Wire Line
-	3200 2600 3200 2500
-Wire Wire Line
-	3200 2400 3100 2400
-Wire Wire Line
-	3100 2500 3200 2500
-Connection ~ 3200 2500
-Wire Wire Line
-	3200 2500 3200 2400
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA500F3
-P 1200 2600
-F 0 "#PWR?" H 1070 2640 50  0001 L CNN
-F 1 "GND" H 1200 2500 50  0000 C CNN
-F 2 "" H 1200 2600 60  0000 C CNN
-F 3 "" H 1200 2600 60  0000 C CNN
-	1    1200 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 2400 1200 2400
-Wire Wire Line
-	1200 2400 1200 2500
-Wire Wire Line
-	1300 2500 1200 2500
-Connection ~ 1200 2500
-Wire Wire Line
-	1200 2500 1200 2600
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5AA500FE
-P 1700 2600
-F 0 "#PWR?" H 1570 2640 50  0001 L CNN
-F 1 "GND" H 1700 2500 50  0000 C CNN
-F 2 "" H 1700 2600 60  0000 C CNN
-F 3 "" H 1700 2600 60  0000 C CNN
-	1    1700 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 2600 1700 2500
-Wire Wire Line
-	1700 2400 1600 2400
-Wire Wire Line
-	1600 2500 1700 2500
-Connection ~ 1700 2500
-Wire Wire Line
-	1700 2500 1700 2400
-Text Label 3200 1700 0    60   ~ 0
-RSVD7
-Text Label 3200 1800 0    60   ~ 0
-RSVD8
-Text Label 3200 1900 0    60   ~ 0
-RSVD9
-Text Label 3200 2000 0    60   ~ 0
-RSVD10
-Text Label 3200 2100 0    60   ~ 0
-RSVD11
 Text Notes 600  700  0    98   ~ 20
 GLOBAL INTERCONNECTS
-Wire Wire Line
-	2700 2300 2800 2300
-Wire Wire Line
-	3100 2300 3200 2300
-Text Label 3200 2200 0    60   ~ 0
-RSVD12
-Text Label 3200 2300 0    60   ~ 0
-RSVD13
 $Comp
 L cusf-kicad:SWD_TC P?
 U 1 1 5AA50189
@@ -1128,13 +803,9 @@ Wire Notes Line
 	2900 9750 600  9750
 Wire Notes Line
 	600  8550 2900 8550
-Wire Wire Line
-	1300 1200 1200 1200
-Wire Wire Line
-	2800 1200 2700 1200
 Text Label 2900 4650 0    60   ~ 0
 CAN_RXD
-Text Label 1700 1600 0    60   ~ 0
+Text Label 5700 9200 0    60   ~ 0
 JTDR
 Wire Notes Line
 	600  2900 3800 2900
@@ -1144,19 +815,6 @@ Wire Notes Line
 	3800 750  600  750 
 Wire Notes Line
 	600  750  600  2900
-$Comp
-L cusf-kicad:PWR #FLG?
-U 1 1 5AAEFC0F
-P 2650 2500
-F 0 "#FLG?" H 2650 2660 50  0001 C CNN
-F 1 "PWR" V 2650 2588 50  0000 L CNN
-F 2 "" H 2650 2500 50  0001 C CNN
-F 3 "" H 2650 2500 50  0001 C CNN
-	1    2650 2500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2650 2500 2700 2500
 Wire Notes Line
 	4350 8400 600  8400
 Wire Notes Line
@@ -1184,39 +842,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 5850 2900 5850
 $Comp
-L cusf-kicad:CONN_02x15 J?
-U 1 1 5AA50022
-P 1500 1100
-F 0 "J?" H 1400 1200 50  0000 L CNN
-F 1 "WEST TOP" H 1450 -400 50  0000 C CNN
-F 2 "agg:TFML-115-02-L-D-LC" H 1500 1100 50  0001 C CNN
-F 3 "" H 1500 1100 50  0001 C CNN
-	1    1500 1100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1600 1700
-NoConn ~ 1600 1800
-NoConn ~ 1600 1900
-NoConn ~ 1600 2000
-NoConn ~ 1300 2100
-NoConn ~ 1300 2200
-NoConn ~ 1300 2300
-NoConn ~ 3100 2300
-NoConn ~ 3100 2200
-NoConn ~ 3100 2100
-NoConn ~ 3100 2000
-NoConn ~ 3100 1900
-NoConn ~ 3100 1800
-NoConn ~ 3100 1700
-NoConn ~ 3100 1600
-NoConn ~ 3100 1500
-NoConn ~ 3100 1400
-NoConn ~ 3100 1300
-NoConn ~ 2800 1300
-NoConn ~ 2800 1400
-NoConn ~ 2800 1500
-NoConn ~ 2800 1600
-$Comp
 L cusf-kicad:R R?
 U 1 1 5A9B48C6
 P 2300 9600
@@ -1236,10 +861,6 @@ Text Label 2500 9600 0    60   ~ 0
 CAN+
 Wire Wire Line
 	2500 9600 2400 9600
-Text Label 1200 2100 2    60   ~ 0
-RSVD4
-Text Label 1200 1800 2    50   ~ 0
-3v3_MOTOR
 NoConn ~ 2800 4250
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1873,4 +1494,62 @@ DCMI_SDA
 Text Label 5050 2150 0    50   ~ 0
 DCMI_SCL
 NoConn ~ 4650 2150
+Wire Wire Line
+	5550 8800 5700 8800
+Wire Wire Line
+	5700 8700 5550 8700
+Wire Wire Line
+	5550 8600 5700 8600
+Wire Wire Line
+	5700 8900 5550 8900
+Wire Wire Line
+	5550 9000 5700 9000
+Wire Wire Line
+	5550 9100 5700 9100
+Wire Wire Line
+	5550 9200 5700 9200
+Text HLabel 5550 8600 0    50   Input ~ 0
+5V_CAN
+Text HLabel 5550 8700 0    50   Input ~ 0
+CAN+
+Text HLabel 5550 8800 0    50   Input ~ 0
+CAN-
+Text HLabel 5550 8900 0    50   Input ~ 0
+JTMS
+Text HLabel 5550 9000 0    50   Input ~ 0
+JTCK
+Text HLabel 5550 9100 0    50   Input ~ 0
+JTDI
+Text HLabel 5550 9200 0    50   Input ~ 0
+JTDR
+Text HLabel 5550 9300 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5550 9300 5700 9300
+Text HLabel 5550 9400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	5550 9400 5700 9400
+$Comp
+L cusf-kicad:3v3 #PWR?
+U 1 1 6070C81B
+P 5700 9300
+F 0 "#PWR?" H 5700 9410 50  0001 L CNN
+F 1 "3v3" V 5700 9400 50  0000 L CNN
+F 2 "" H 5700 9300 50  0001 C CNN
+F 3 "" H 5700 9300 50  0001 C CNN
+	1    5700 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 6070CECA
+P 5700 9400
+F 0 "#PWR?" H 5570 9440 50  0001 L CNN
+F 1 "GND" V 5700 9150 50  0000 L CNN
+F 2 "" H 5700 9400 50  0001 C CNN
+F 3 "" H 5700 9400 50  0001 C CNN
+	1    5700 9400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
