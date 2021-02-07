@@ -662,26 +662,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 5900 2950 5900
 $Comp
-L cusf-kicad:R R13
-U 1 1 5A9B48C6
-P 2350 9650
-F 0 "R13" H 2400 9700 50  0000 C CNN
-F 1 "120" H 2400 9600 50  0000 C CNN
-F 2 "agg:0603" H 2350 9650 50  0001 C CNN
-F 3 "" H 2350 9650 50  0001 C CNN
-F 4 "9238379" H 2350 9650 60  0001 C CNN "Farnell"
-	1    2350 9650
-	1    0    0    -1  
-$EndComp
-Text Label 2250 9650 2    60   ~ 0
-CAN-
-Wire Wire Line
-	2250 9650 2350 9650
-Text Label 2550 9650 0    60   ~ 0
-CAN+
-Wire Wire Line
-	2550 9650 2450 9650
-$Comp
 L cusf-kicad:STM32F405RxTx IC9
 U 1 1 60BFC610
 P 2350 5700

@@ -825,26 +825,6 @@ Wire Wire Line
 	2900 5750 2800 5750
 Wire Wire Line
 	2800 5850 2900 5850
-$Comp
-L cusf-kicad:R R8
-U 1 1 60BFC5F7
-P 2300 9600
-F 0 "R8" H 2350 9650 50  0000 C CNN
-F 1 "120" H 2350 9550 50  0000 C CNN
-F 2 "agg:0603" H 2300 9600 50  0001 C CNN
-F 3 "" H 2300 9600 50  0001 C CNN
-F 4 "9238379" H 2300 9600 60  0001 C CNN "Farnell"
-	1    2300 9600
-	1    0    0    -1  
-$EndComp
-Text Label 2200 9600 2    60   ~ 0
-CAN-
-Wire Wire Line
-	2200 9600 2300 9600
-Text Label 2500 9600 0    60   ~ 0
-CAN+
-Wire Wire Line
-	2500 9600 2400 9600
 NoConn ~ 2800 4250
 $Comp
 L cusf-kicad:GND #PWR0143

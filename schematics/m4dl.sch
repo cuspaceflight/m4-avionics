@@ -188,26 +188,6 @@ Wire Notes Line
 Wire Notes Line
 	3050 8700 3050 9900
 Wire Wire Line
-	2550 9600 2450 9600
-Text Label 2550 9600 0    60   ~ 0
-CAN+
-Wire Wire Line
-	2250 9600 2350 9600
-Text Label 2250 9600 2    60   ~ 0
-CAN-
-$Comp
-L cusf-kicad:R R28
-U 1 1 60BFC5F8
-P 2350 9600
-F 0 "R28" H 2400 9650 50  0000 C CNN
-F 1 "120" H 2400 9550 50  0000 C CNN
-F 2 "agg:0603" H 2350 9600 50  0001 C CNN
-F 3 "" H 2350 9600 50  0001 C CNN
-F 4 "9238379" H 2350 9600 60  0001 C CNN "Farnell"
-	1    2350 9600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1400 9350 1400 9400
 Wire Wire Line
 	1250 9050 1250 9100
