@@ -44,7 +44,7 @@ F 2 "agg:0603-LED" H 4050 8950 50  0001 C CNN
 F 3 "" H 4050 8950 50  0001 C CNN
 F 4 "2314404" H 4050 8950 50  0001 C CNN "Farnell"
 	1    4050 8950
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -56,7 +56,7 @@ F 2 "agg:0402" H 3750 8950 50  0001 C CNN
 F 3 "" H 3750 8950 50  0001 C CNN
 F 4 "9239111" H 3750 8950 50  0001 C CNN "Farnell"
 	1    3750 8950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -68,7 +68,7 @@ F 2 "agg:0402" H 3750 9250 50  0001 C CNN
 F 3 "" H 3750 9250 50  0001 C CNN
 F 4 "9239111" H 3750 9250 50  0001 C CNN "Farnell"
 	1    3750 9250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -80,7 +80,7 @@ F 2 "agg:0402" H 3750 9550 50  0001 C CNN
 F 3 "" H 3750 9550 50  0001 C CNN
 F 4 "9239111" H 3750 9550 50  0001 C CNN "Farnell"
 	1    3750 9550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:LED D?
@@ -92,7 +92,7 @@ F 2 "agg:0603-LED" H 4050 9250 50  0001 C CNN
 F 3 "" H 4050 9250 50  0001 C CNN
 F 4 "2335804" H 4050 9250 50  0001 C CNN "Farnell"
 	1    4050 9250
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cusf-kicad:LED D?
@@ -104,7 +104,7 @@ F 2 "agg:0603-LED" H 4050 9550 50  0001 C CNN
 F 3 "" H 4050 9550 50  0001 C CNN
 F 4 "2290363" H 4050 9550 50  0001 C CNN "Farnell"
 	1    4050 9550
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -115,7 +115,7 @@ F 1 "GND" H 4150 8900 50  0000 C CNN
 F 2 "" H 4150 9000 50  0000 C CNN
 F 3 "" H 4150 9000 50  0000 C CNN
 	1    4150 9000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -126,7 +126,7 @@ F 1 "GND" H 4150 9200 50  0000 C CNN
 F 2 "" H 4150 9300 50  0000 C CNN
 F 3 "" H 4150 9300 50  0000 C CNN
 	1    4150 9300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -137,7 +137,7 @@ F 1 "GND" H 4150 9500 50  0000 C CNN
 F 2 "" H 4150 9600 50  0000 C CNN
 F 3 "" H 4150 9600 50  0000 C CNN
 	1    4150 9600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 3650 9550 2    50   ~ 0
 LED_GRN
@@ -196,7 +196,7 @@ F 1 "PWR" H 900 9140 50  0000 C CNN
 F 2 "" H 900 9050 50  0001 C CNN
 F 3 "" H 900 9050 50  0001 C CNN
 	1    900  9050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Connection ~ 1400 9350
 Wire Wire Line
@@ -237,7 +237,7 @@ F 2 "agg:0402" H 1250 9100 50  0001 C CNN
 F 3 "" H 1250 9100 50  0001 C CNN
 F 4 "2496771" H 1250 9100 50  0001 C CNN "Farnell"
 	1    1250 9100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Label 2350 9250 0    50   ~ 0
 CAN_RXD
@@ -256,7 +256,7 @@ F 1 "GND" H 1400 9300 50  0000 C CNN
 F 2 "" H 1400 9400 50  0000 C CNN
 F 3 "" H 1400 9400 50  0000 C CNN
 	1    1400 9400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 1250 9000 2    50   ~ 0
 5V_CAN
@@ -269,7 +269,7 @@ F 1 "3v3" H 1400 8990 50  0000 C CNN
 F 2 "" H 1400 8900 50  0000 C CNN
 F 3 "" H 1400 8900 50  0000 C CNN
 	1    1400 8900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:MCP2562 IC?
@@ -281,7 +281,7 @@ F 2 "agg:DFN-8-EP-MICROCHIP" H 1550 8750 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf" H 1550 8650 50  0001 L CNN
 F 4 "2448755" H 1550 8550 50  0001 L CNN "Farnell"
 	1    1850 9150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 2950 6000 0    50   ~ 0
 LED_GRN
@@ -299,7 +299,7 @@ F 2 "agg:LQFP-64" H 1950 3800 50  0001 L CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 1950 3700 50  0001 L CNN
 F 4 "2064363" H 1950 3600 50  0001 L CNN "Farnell"
 	1    2350 5800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 2850 8100 0    50   ~ 0
 JTCK
@@ -314,7 +314,7 @@ F 1 "3v3" H 4700 9190 50  0000 C CNN
 F 2 "" H 4700 9100 50  0000 C CNN
 F 3 "" H 4700 9100 50  0000 C CNN
 	1    4700 9100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4700 9400 4700 9500
@@ -330,7 +330,7 @@ F 2 "agg:0402" H 4650 9100 50  0001 L CNN
 F 3 "" H 4600 9300 50  0001 C CNN
 F 4 "2368169" H 4650 9000 50  0001 L CNN "Farnell"
 	1    4700 9300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6050 9000 6050 8950
@@ -356,7 +356,7 @@ F 2 "agg:DFN-6-EP-ONSEMI" H 5250 8800 50  0001 L CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/NCP380-D.PDF" H 5250 8700 50  0001 L CNN
 F 4 "2464412" H 5250 8600 50  0001 L CNN "Farnell"
 	1    5550 9300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
@@ -368,7 +368,7 @@ F 2 "agg:0402-L" H 5050 9150 50  0001 C CNN
 F 3 "" H 5050 9150 50  0000 C CNN
 F 4 "2346884" H 5050 9150 50  0001 C CNN "Farnell"
 	1    5050 9150
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -379,7 +379,7 @@ F 1 "3v3" H 6050 9040 50  0000 C CNN
 F 2 "" H 6050 8950 50  0000 C CNN
 F 3 "" H 6050 8950 50  0000 C CNN
 	1    6050 8950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8800 1300 8700 1300
@@ -533,7 +533,7 @@ F 1 "3v3" H 8400 3690 50  0000 C CNN
 F 2 "" H 8400 3600 50  0000 C CNN
 F 3 "" H 8400 3600 50  0000 C CNN
 	1    8400 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -544,7 +544,7 @@ F 1 "3v3" H 8600 3690 50  0000 C CNN
 F 2 "" H 8600 3600 50  0000 C CNN
 F 3 "" H 8600 3600 50  0000 C CNN
 	1    8600 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -555,7 +555,7 @@ F 1 "3v3" H 8000 3690 50  0000 C CNN
 F 2 "" H 8000 3600 50  0000 C CNN
 F 3 "" H 8000 3600 50  0000 C CNN
 	1    8000 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -566,7 +566,7 @@ F 1 "3v3" H 8200 3690 50  0000 C CNN
 F 2 "" H 8200 3600 50  0000 C CNN
 F 3 "" H 8200 3600 50  0000 C CNN
 	1    8200 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -577,7 +577,7 @@ F 1 "3v3" H 8800 3690 50  0000 C CNN
 F 2 "" H 8800 3600 50  0000 C CNN
 F 3 "" H 8800 3600 50  0000 C CNN
 	1    8800 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 2850 4000
 NoConn ~ 2850 4100
@@ -625,7 +625,7 @@ F 1 "3v3" H 9000 3690 50  0000 C CNN
 F 2 "" H 9000 3600 50  0000 C CNN
 F 3 "" H 9000 3600 50  0000 C CNN
 	1    9000 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -636,7 +636,7 @@ F 1 "GND" H 9000 4450 50  0000 C CNN
 F 2 "" H 9000 4550 50  0000 C CNN
 F 3 "" H 9000 4550 50  0000 C CNN
 	1    9000 4550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -647,7 +647,7 @@ F 1 "GND" H 10050 4450 50  0000 C CNN
 F 2 "" H 10050 4550 50  0000 C CNN
 F 3 "" H 10050 4550 50  0000 C CNN
 	1    10050 4550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:MICROSD U?
@@ -659,7 +659,7 @@ F 2 "agg:MICROSD_MOLEX_503398-1892" H 9150 3450 50  0001 L CNN
 F 3 "" H 9050 4350 50  0001 C CNN
 F 4 "2358234" H 9150 3350 50  0001 L CNN "Farnell"
 	1    9450 4050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 2950 4900 0    50   ~ 0
 CAN_TXD
@@ -698,7 +698,7 @@ F 1 "GND" H 1900 8150 50  0000 C CNN
 F 2 "" H 1900 8250 50  0000 C CNN
 F 3 "" H 1900 8250 50  0000 C CNN
 	1    1900 8250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 2850 8000 0    50   ~ 0
 JTMS
@@ -714,7 +714,7 @@ F 1 "3v3" H 1900 8040 50  0000 C CNN
 F 2 "" H 1900 7950 50  0000 C CNN
 F 3 "" H 1900 7950 50  0000 C CNN
 	1    1900 7950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:SWD_TC P?
@@ -725,7 +725,7 @@ F 1 "SWD_TC" H 2050 7900 50  0000 L CNN
 F 2 "agg:TC2030-NL" H 2050 7800 50  0001 L CNN
 F 3 "" H 1950 8200 50  0001 C CNN
 	1    2350 8100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -736,7 +736,7 @@ F 1 "3v3" H 5400 3640 50  0000 C CNN
 F 2 "" H 5400 3550 50  0000 C CNN
 F 3 "" H 5400 3550 50  0000 C CNN
 	1    5400 3550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -747,7 +747,7 @@ F 1 "3v3" V 5200 4750 31  0000 C CNN
 F 2 "" H 5250 4700 50  0000 C CNN
 F 3 "" H 5250 4700 50  0000 C CNN
 	1    5250 4700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text Label 5050 4800 2    50   ~ 0
 TEMP_INT
@@ -897,7 +897,7 @@ F 1 "GND" H 1450 8150 50  0000 C CNN
 F 2 "" H 1450 8250 50  0001 C CNN
 F 3 "" H 1450 8250 50  0001 C CNN
 	1    1450 8250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1450 8150 1450 8250
@@ -910,7 +910,7 @@ F 1 "3v3" H 1450 8040 50  0000 C CNN
 F 2 "" H 1450 7950 50  0000 C CNN
 F 3 "" H 1450 7950 50  0000 C CNN
 	1    1450 7950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1450 7950 1450 8050
@@ -998,7 +998,7 @@ F 1 "GND" H 5400 6150 50  0000 C CNN
 F 2 "" H 5400 6250 50  0001 C CNN
 F 3 "" H 5400 6250 50  0001 C CNN
 	1    5400 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1009,7 +1009,7 @@ F 1 "GND" H 6700 6150 50  0000 C CNN
 F 2 "" H 6700 6250 50  0001 C CNN
 F 3 "" H 6700 6250 50  0001 C CNN
 	1    6700 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6800 6200 6700 6200
@@ -1025,7 +1025,7 @@ F 1 "47k" V 8050 3500 50  0000 L CNN
 F 2 "" H 8000 3700 50  0001 C CNN
 F 3 "" H 8000 3700 50  0001 C CNN
 	1    8000 3700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1036,7 +1036,7 @@ F 1 "47k" V 8250 3500 50  0001 L CNN
 F 2 "" H 8200 3700 50  0001 C CNN
 F 3 "" H 8200 3700 50  0001 C CNN
 	1    8200 3700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1047,7 +1047,7 @@ F 1 "47k" V 8450 3500 50  0001 L CNN
 F 2 "" H 8400 3700 50  0001 C CNN
 F 3 "" H 8400 3700 50  0001 C CNN
 	1    8400 3700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1058,7 +1058,7 @@ F 1 "47k" V 8650 3500 50  0001 L CNN
 F 2 "" H 8600 3700 50  0001 C CNN
 F 3 "" H 8600 3700 50  0001 C CNN
 	1    8600 3700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1069,7 +1069,7 @@ F 1 "47k" V 8850 3500 50  0001 L CNN
 F 2 "" H 8800 3700 50  0001 C CNN
 F 3 "" H 8800 3700 50  0001 C CNN
 	1    8800 3700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	10050 3750 10050 4550
@@ -1084,7 +1084,7 @@ F 1 "3v3" H 10300 4173 50  0000 C CNN
 F 2 "" H 10300 4050 50  0001 C CNN
 F 3 "" H 10300 4050 50  0001 C CNN
 	1    10300 4050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
@@ -1095,7 +1095,7 @@ F 1 "100n" V 10400 4150 50  0000 L CNN
 F 2 "" H 10300 4100 50  0001 C CNN
 F 3 "" H 10300 4100 50  0001 C CNN
 	1    10300 4100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1106,7 +1106,7 @@ F 1 "GND" H 10300 4150 50  0000 C CNN
 F 2 "" H 10300 4250 50  0001 C CNN
 F 3 "" H 10300 4250 50  0001 C CNN
 	1    10300 4250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10300 4050 10300 4100
@@ -1127,7 +1127,7 @@ F 1 "1n" V 7600 1900 50  0000 L CNN
 F 2 "" H 7500 2050 50  0001 C CNN
 F 3 "" H 7500 2050 50  0001 C CNN
 	1    7500 2050
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	7750 1950 7500 1950
@@ -1147,7 +1147,7 @@ F 1 "GND" H 7500 2250 50  0000 C CNN
 F 2 "" H 7500 2350 50  0001 C CNN
 F 3 "" H 7500 2350 50  0001 C CNN
 	1    7500 2350
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5100 1950 5100 2050
@@ -1185,7 +1185,7 @@ F 1 "1n" V 5700 1900 50  0000 L CNN
 F 2 "" H 5600 2050 50  0001 C CNN
 F 3 "" H 5600 2050 50  0001 C CNN
 	1    5600 2050
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5850 1950 5600 1950
@@ -1205,7 +1205,7 @@ F 1 "GND" H 5600 2250 50  0000 C CNN
 F 2 "" H 5600 2350 50  0001 C CNN
 F 3 "" H 5600 2350 50  0001 C CNN
 	1    5600 2350
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7000 1250 7000 1350
@@ -1237,7 +1237,7 @@ F 1 "3k74" H 7350 1100 50  0000 C CNN
 F 2 "" H 7300 1250 50  0001 C CNN
 F 3 "" H 7300 1250 50  0001 C CNN
 	1    7300 1250
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1248,7 +1248,7 @@ F 1 "3k74" H 7350 1640 50  0001 C CNN
 F 2 "" H 7300 1550 50  0001 C CNN
 F 3 "" H 7300 1550 50  0001 C CNN
 	1    7300 1550
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7200 1250 7000 1250
@@ -1265,7 +1265,7 @@ F 1 "1n" V 7600 1200 50  0000 L CNN
 F 2 "" H 7500 1350 50  0001 C CNN
 F 3 "" H 7500 1350 50  0001 C CNN
 	1    7500 1350
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	7750 1250 7500 1250
@@ -1285,7 +1285,7 @@ F 1 "GND" H 7500 1550 50  0000 C CNN
 F 2 "" H 7500 1650 50  0001 C CNN
 F 3 "" H 7500 1650 50  0001 C CNN
 	1    7500 1650
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5100 1250 5100 1350
@@ -1323,7 +1323,7 @@ F 1 "1n" V 5700 1200 50  0000 L CNN
 F 2 "" H 5600 1350 50  0001 C CNN
 F 3 "" H 5600 1350 50  0001 C CNN
 	1    5600 1350
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5850 1250 5600 1250
@@ -1343,7 +1343,7 @@ F 1 "GND" H 5600 1550 50  0000 C CNN
 F 2 "" H 5600 1650 50  0001 C CNN
 F 3 "" H 5600 1650 50  0001 C CNN
 	1    5600 1650
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9250 1550 9250 1650
@@ -1358,7 +1358,7 @@ F 1 "3k74" H 9100 1250 50  0000 C CNN
 F 2 "" H 9050 1300 50  0001 C CNN
 F 3 "" H 9050 1300 50  0001 C CNN
 	1    9050 1300
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9250 1300 9050 1300
@@ -1373,7 +1373,7 @@ F 1 "GND" H 9250 1550 50  0000 C CNN
 F 2 "" H 9250 1650 50  0001 C CNN
 F 3 "" H 9250 1650 50  0001 C CNN
 	1    9250 1650
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1384,7 +1384,7 @@ F 1 "GND" H 8800 1550 50  0000 C CNN
 F 2 "" H 8800 1650 50  0001 C CNN
 F 3 "" H 8800 1650 50  0001 C CNN
 	1    8800 1650
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8800 1950 8700 1950
@@ -1409,7 +1409,7 @@ F 1 "3k74" H 9100 1900 50  0000 C CNN
 F 2 "" H 9050 1950 50  0001 C CNN
 F 3 "" H 9050 1950 50  0001 C CNN
 	1    9050 1950
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9250 1950 9050 1950
@@ -1424,7 +1424,7 @@ F 1 "GND" H 9250 2200 50  0000 C CNN
 F 2 "" H 9250 2300 50  0001 C CNN
 F 3 "" H 9250 2300 50  0001 C CNN
 	1    9250 2300
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1435,7 +1435,7 @@ F 1 "GND" H 8800 2200 50  0000 C CNN
 F 2 "" H 8800 2300 50  0001 C CNN
 F 3 "" H 8800 2300 50  0001 C CNN
 	1    8800 2300
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:3v3 #PWR?
@@ -1446,7 +1446,7 @@ F 1 "3v3" H 5050 9050 50  0000 C CNN
 F 2 "" H 5050 8950 50  0001 C CNN
 F 3 "" H 5050 8950 50  0001 C CNN
 	1    5050 8950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5050 8950 5050 9000
@@ -1459,7 +1459,7 @@ F 1 "10k" H 5350 4650 31  0000 C CNN
 F 2 "" H 5300 4700 50  0001 C CNN
 F 3 "" H 5300 4700 50  0001 C CNN
 	1    5300 4700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5250 4700 5300 4700
@@ -1476,7 +1476,7 @@ F 1 "GND" H 4950 4500 31  0000 C CNN
 F 2 "" H 5050 4550 50  0001 C CNN
 F 3 "" H 5050 4550 50  0001 C CNN
 	1    5050 4550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
@@ -1488,7 +1488,7 @@ F 2 "Capacitors_SMD:C_0603" H 5200 4200 50  0001 C CNN
 F 3 "" H 5200 4200 50  0000 C CNN
 F 4 "2211164" H 5200 4200 50  0001 C CNN "Farnell"
 	1    5200 4200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
@@ -1500,7 +1500,7 @@ F 2 "Capacitors_SMD:C_0603" H 5050 3850 50  0001 C CNN
 F 3 "" H 5050 3850 50  0000 C CNN
 F 4 "2211164" H 5050 3850 50  0001 C CNN "Farnell"
 	1    5050 3850
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5300 4200 5400 4200
@@ -1522,7 +1522,7 @@ F 2 "Capacitors_SMD:C_0603" H 5200 4400 50  0001 C CNN
 F 3 "" H 5200 4400 50  0000 C CNN
 F 4 "2211164" H 5200 4400 50  0001 C CNN "Farnell"
 	1    5200 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 2850 6400
 NoConn ~ 2850 6200
@@ -1541,7 +1541,7 @@ F 2 "Capacitors_SMD:C_0603" H 6750 3600 50  0001 C CNN
 F 3 "" H 6750 3600 50  0000 C CNN
 F 4 "2211164" H 6750 3600 50  0001 C CNN "Farnell"
 	1    6750 3600
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6750 3600 6650 3600
@@ -1560,7 +1560,7 @@ F 1 "GND" V 6900 3600 39  0000 L CNN
 F 2 "" H 6900 3800 50  0001 C CNN
 F 3 "" H 6900 3800 50  0001 C CNN
 	1    6900 3800
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1571,7 +1571,7 @@ F 1 "GND" H 4700 9400 50  0000 C CNN
 F 2 "" H 4700 9500 50  0001 C CNN
 F 3 "" H 4700 9500 50  0001 C CNN
 	1    4700 9500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1582,7 +1582,7 @@ F 1 "GND" H 6050 9550 50  0000 C CNN
 F 2 "" H 6050 9650 50  0001 C CNN
 F 3 "" H 6050 9650 50  0001 C CNN
 	1    6050 9650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1593,7 +1593,7 @@ F 1 "GND" H 5050 9550 50  0000 C CNN
 F 2 "" H 5050 9650 50  0001 C CNN
 F 3 "" H 5050 9650 50  0001 C CNN
 	1    5050 9650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1604,7 +1604,7 @@ F 1 "110k" V 6150 9500 50  0000 C CNN
 F 2 "" H 6050 9400 50  0001 C CNN
 F 3 "" H 6050 9400 50  0001 C CNN
 	1    6050 9400
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6050 9200 6050 9400
@@ -1620,7 +1620,7 @@ F 2 "agg:0402" H 8750 1950 50  0001 L CNN
 F 3 "" H 8700 2150 50  0001 C CNN
 F 4 "2368169" H 8750 1850 50  0001 L CNN "Farnell"
 	1    8800 2150
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L cusf-kicad:C C?
@@ -1631,7 +1631,7 @@ F 1 "1n" V 9350 1950 50  0000 L CNN
 F 2 "" H 9250 2100 50  0001 C CNN
 F 3 "" H 9250 2100 50  0001 C CNN
 	1    9250 2100
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 $Comp
 L cusf-kicad:ESD_DIODE D?
@@ -1643,7 +1643,7 @@ F 2 "agg:0402" H 8750 1300 50  0001 L CNN
 F 3 "" H 8700 1500 50  0001 C CNN
 F 4 "2368169" H 8750 1200 50  0001 L CNN "Farnell"
 	1    8800 1500
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L cusf-kicad:C C?
@@ -1654,7 +1654,7 @@ F 1 "1n" V 9350 1300 50  0000 L CNN
 F 2 "" H 9250 1450 50  0001 C CNN
 F 3 "" H 9250 1450 50  0001 C CNN
 	1    9250 1450
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1665,7 +1665,7 @@ F 1 "3k74" H 5450 1800 50  0000 C CNN
 F 2 "" H 5400 1950 50  0001 C CNN
 F 3 "" H 5400 1950 50  0001 C CNN
 	1    5400 1950
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1676,7 +1676,7 @@ F 1 "3k74" H 5450 2340 50  0001 C CNN
 F 2 "" H 5400 2250 50  0001 C CNN
 F 3 "" H 5400 2250 50  0001 C CNN
 	1    5400 2250
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1687,7 +1687,7 @@ F 1 "3k74" H 7350 1800 50  0000 C CNN
 F 2 "" H 7300 1950 50  0001 C CNN
 F 3 "" H 7300 1950 50  0001 C CNN
 	1    7300 1950
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1698,7 +1698,7 @@ F 1 "3k74" H 7350 2340 50  0001 C CNN
 F 2 "" H 7300 2250 50  0001 C CNN
 F 3 "" H 7300 2250 50  0001 C CNN
 	1    7300 2250
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Notes Line
 	8400 2600 10050 2600
@@ -1718,7 +1718,7 @@ F 2 "agg:LQFP-48" H 5550 3400 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/29861fa.pdf" H 5550 3300 50  0001 L CNN
 F 4 "2629645" H 5550 3200 50  0001 L CNN "Farnell"
 	1    6050 4900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5050 3850 5050 3600
@@ -1743,7 +1743,7 @@ F 2 "Capacitors_SMD:C_0603" H 5200 4500 50  0001 C CNN
 F 3 "" H 5200 4500 50  0000 C CNN
 F 4 "2211164" H 5200 4500 50  0001 C CNN "Farnell"
 	1    5200 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5050 4550 5050 4500
@@ -1809,7 +1809,7 @@ F 2 "agg:0402" H 1450 8150 59  0001 C CNN
 F 3 "" H 1450 8150 50  0001 C CNN
 F 4 "2496771" H 1450 8150 50  0001 C CNN "Farnell"
 	1    1450 8150
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Wire Notes Line
 	650  8550 650  3350
@@ -1922,7 +1922,7 @@ F 1 "3k74" H 5450 1640 50  0001 C CNN
 F 2 "" H 5400 1550 50  0001 C CNN
 F 3 "" H 5400 1550 50  0001 C CNN
 	1    5400 1550
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:R R?
@@ -1933,7 +1933,7 @@ F 1 "3k74" H 5450 1100 50  0000 C CNN
 F 2 "" H 5400 1250 50  0001 C CNN
 F 3 "" H 5400 1250 50  0001 C CNN
 	1    5400 1250
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text HLabel 9250 8000 0    50   Input ~ 0
 3V3
@@ -1952,7 +1952,7 @@ F 1 "3v3" V 9400 8100 50  0000 L CNN
 F 2 "" H 9400 8000 50  0001 C CNN
 F 3 "" H 9400 8000 50  0001 C CNN
 	1    9400 8000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L cusf-kicad:GND #PWR?
@@ -1963,7 +1963,7 @@ F 1 "GND" V 9400 7850 50  0000 L CNN
 F 2 "" H 9400 8100 50  0001 C CNN
 F 3 "" H 9400 8100 50  0001 C CNN
 	1    9400 8100
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text Label 10550 8300 0    50   ~ 0
 OTG_HS_VBUS
@@ -2008,15 +2008,15 @@ $Comp
 L cusf-kicad:3v3 #PWR?
 U 1 1 60B5FA00
 P 1750 3850
-AR Path="/6013AE2F/60B5FA00" Ref="#PWR?"  Part="1"
-AR Path="/60B5FA00" Ref="#PWR?"  Part="1"
-AR Path="/605DF50F/60B5FA00" Ref="#PWR?"  Part="1"
+AR Path="/6013AE2F/60B5FA00" Ref="#PWR?"  Part="1" 
+AR Path="/60B5FA00" Ref="#PWR?"  Part="1" 
+AR Path="/605DF50F/60B5FA00" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1750 3960 50  0001 L CNN
 F 1 "3v3" H 1750 3950 50  0000 C CNN
 F 2 "" H 1750 3850 50  0001 C CNN
 F 3 "" H 1750 3850 50  0001 C CNN
 	1    1750 3850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Connection ~ 1750 4500
 Wire Wire Line
@@ -2034,16 +2034,16 @@ $Comp
 L cusf-kicad:SMD_XTAL Y?
 U 1 1 60B5FA14
 P 1550 5700
-AR Path="/6013AE2F/60B5FA14" Ref="Y?"  Part="1"
-AR Path="/60B5FA14" Ref="Y?"  Part="1"
-AR Path="/605DF50F/60B5FA14" Ref="Y?"  Part="1"
+AR Path="/6013AE2F/60B5FA14" Ref="Y?"  Part="1" 
+AR Path="/60B5FA14" Ref="Y?"  Part="1" 
+AR Path="/605DF50F/60B5FA14" Ref="Y?"  Part="1" 
 F 0 "Y?" V 1600 5750 50  0000 L CNN
 F 1 "26M" V 1600 5500 50  0000 C CNN
 F 2 "agg:XTAL-20x16" H 1600 5480 50  0001 C CNN
 F 3 "" H 1550 5700 50  0001 C CNN
 F 4 "2506952" H 1550 5700 50  0001 C CNN "Farnell"
 	1    1550 5700
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 4500 1850 4500
@@ -2094,31 +2094,31 @@ $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA34
 P 1300 5100
-AR Path="/6013AE2F/60B5FA34" Ref="C?"  Part="1"
-AR Path="/60B5FA34" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA34" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA34" Ref="C?"  Part="1" 
+AR Path="/60B5FA34" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA34" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 5100 50  0000 R CNN
 F 1 "2µ2" H 1050 5100 50  0000 R CNN
 F 2 "agg:0402" H 1300 5100 50  0001 C CNN
 F 3 "" H 1300 5100 50  0001 C CNN
 F 4 "2362088" H 1300 5100 50  0001 C CNN "Farnell"
 	1    1300 5100
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA3B
 P 1300 5200
-AR Path="/6013AE2F/60B5FA3B" Ref="C?"  Part="1"
-AR Path="/60B5FA3B" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA3B" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA3B" Ref="C?"  Part="1" 
+AR Path="/60B5FA3B" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA3B" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 5200 50  0000 R CNN
 F 1 "2µ2" H 1050 5200 50  0000 R CNN
 F 2 "agg:0402" H 1300 5200 50  0001 C CNN
 F 3 "" H 1300 5200 50  0001 C CNN
 F 4 "2362088" H 1300 5200 50  0001 C CNN "Farnell"
 	1    1300 5200
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	1250 5100 1300 5100
@@ -2148,106 +2148,106 @@ $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA50
 P 1300 4000
-AR Path="/6013AE2F/60B5FA50" Ref="C?"  Part="1"
-AR Path="/60B5FA50" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA50" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA50" Ref="C?"  Part="1" 
+AR Path="/60B5FA50" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA50" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4000 50  0000 R CNN
 F 1 "100n" H 1050 4000 50  0000 R CNN
 F 2 "agg:0402" H 1300 4000 50  0001 C CNN
 F 3 "" H 1300 4000 50  0001 C CNN
 F 4 "2496771" H 1300 4000 50  0001 C CNN "Farnell"
 	1    1300 4000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA57
 P 1300 4400
-AR Path="/6013AE2F/60B5FA57" Ref="C?"  Part="1"
-AR Path="/60B5FA57" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA57" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA57" Ref="C?"  Part="1" 
+AR Path="/60B5FA57" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA57" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4400 50  0000 R CNN
 F 1 "100n" H 1050 4400 50  0000 R CNN
 F 2 "agg:0402" H 1300 4400 50  0001 C CNN
 F 3 "" H 1300 4400 50  0001 C CNN
 F 4 "2496771" H 1300 4400 50  0001 C CNN "Farnell"
 	1    1300 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA5E
 P 1300 4300
-AR Path="/6013AE2F/60B5FA5E" Ref="C?"  Part="1"
-AR Path="/60B5FA5E" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA5E" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA5E" Ref="C?"  Part="1" 
+AR Path="/60B5FA5E" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA5E" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4300 50  0000 R CNN
 F 1 "100n" H 1050 4300 50  0000 R CNN
 F 2 "agg:0402" H 1300 4300 50  0001 C CNN
 F 3 "" H 1300 4300 50  0001 C CNN
 F 4 "2496771" H 1300 4300 50  0001 C CNN "Farnell"
 	1    1300 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA65
 P 1300 4200
-AR Path="/6013AE2F/60B5FA65" Ref="C?"  Part="1"
-AR Path="/60B5FA65" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA65" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA65" Ref="C?"  Part="1" 
+AR Path="/60B5FA65" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA65" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4200 50  0000 R CNN
 F 1 "100n" H 1050 4200 50  0000 R CNN
 F 2 "agg:0402" H 1300 4200 50  0001 C CNN
 F 3 "" H 1300 4200 50  0001 C CNN
 F 4 "2496771" H 1300 4200 50  0001 C CNN "Farnell"
 	1    1300 4200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA6C
 P 1300 4100
-AR Path="/6013AE2F/60B5FA6C" Ref="C?"  Part="1"
-AR Path="/60B5FA6C" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA6C" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA6C" Ref="C?"  Part="1" 
+AR Path="/60B5FA6C" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA6C" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4100 50  0000 R CNN
 F 1 "100n" H 1050 4100 50  0000 R CNN
 F 2 "agg:0402" H 1300 4100 50  0001 C CNN
 F 3 "" H 1300 4100 50  0001 C CNN
 F 4 "2496771" H 1300 4100 50  0001 C CNN "Farnell"
 	1    1300 4100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA73
 P 1300 4500
-AR Path="/6013AE2F/60B5FA73" Ref="C?"  Part="1"
-AR Path="/60B5FA73" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA73" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA73" Ref="C?"  Part="1" 
+AR Path="/60B5FA73" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA73" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4500 50  0000 R CNN
 F 1 "1µ" H 1050 4500 50  0000 R CNN
 F 2 "agg:0402" H 1300 4500 50  0001 C CNN
 F 3 "" H 1300 4500 50  0001 C CNN
 F 4 "2496814" H 1300 4500 50  0001 C CNN "Farnell"
 	1    1300 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FA7A
 P 1300 3900
-AR Path="/6013AE2F/60B5FA7A" Ref="C?"  Part="1"
-AR Path="/60B5FA7A" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FA7A" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FA7A" Ref="C?"  Part="1" 
+AR Path="/60B5FA7A" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FA7A" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 3900 50  0000 R CNN
 F 1 "4µ7" H 1050 3900 50  0000 R CNN
 F 2 "agg:0402" H 1300 3900 50  0001 C CNN
 F 3 "" H 1300 3900 50  0001 C CNN
 F 4 "2426952" H 1300 3900 50  0001 C CNN "Farnell"
 	1    1300 3900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1300 3900 1250 3900
@@ -2286,16 +2286,16 @@ $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FAA1
 P 1300 5600
-AR Path="/6013AE2F/60B5FAA1" Ref="C?"  Part="1"
-AR Path="/60B5FAA1" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FAA1" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FAA1" Ref="C?"  Part="1" 
+AR Path="/60B5FAA1" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FAA1" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 5600 50  0000 R CNN
 F 1 "10p" H 1050 5600 50  0000 R CNN
 F 2 "agg:0402" H 1300 5600 50  0001 C CNN
 F 3 "" H 1300 5600 50  0001 C CNN
 F 4 "2496771" H 1300 5600 50  0001 C CNN "Farnell"
 	1    1300 5600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1550 5600 1400 5600
@@ -2306,16 +2306,16 @@ $Comp
 L cusf-kicad:C C?
 U 1 1 60B5FAAB
 P 1300 5900
-AR Path="/6013AE2F/60B5FAAB" Ref="C?"  Part="1"
-AR Path="/60B5FAAB" Ref="C?"  Part="1"
-AR Path="/605DF50F/60B5FAAB" Ref="C?"  Part="1"
+AR Path="/6013AE2F/60B5FAAB" Ref="C?"  Part="1" 
+AR Path="/60B5FAAB" Ref="C?"  Part="1" 
+AR Path="/605DF50F/60B5FAAB" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 5900 50  0000 R CNN
 F 1 "10p" H 1050 5900 50  0000 R CNN
 F 2 "agg:0402" H 1300 5900 50  0001 C CNN
 F 3 "" H 1300 5900 50  0001 C CNN
 F 4 "2496771" H 1300 5900 50  0001 C CNN "Farnell"
 	1    1300 5900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1300 5900 1250 5900
@@ -2347,16 +2347,16 @@ $Comp
 L cusf-kicad:R R?
 U 1 1 60B5FAC2
 P 1600 5900
-AR Path="/6013AE2F/60B5FAC2" Ref="R?"  Part="1"
-AR Path="/60B5FAC2" Ref="R?"  Part="1"
-AR Path="/605DF50F/60B5FAC2" Ref="R?"  Part="1"
+AR Path="/6013AE2F/60B5FAC2" Ref="R?"  Part="1" 
+AR Path="/60B5FAC2" Ref="R?"  Part="1" 
+AR Path="/605DF50F/60B5FAC2" Ref="R?"  Part="1" 
 F 0 "R?" H 1750 5850 50  0000 R TNN
 F 1 "100" H 1750 5750 50  0000 R CNN
 F 2 "agg:0402" H 1600 5900 50  0001 C CNN
 F 3 "" H 1600 5900 50  0001 C CNN
 F 4 "9239111" H 1600 5900 50  0001 C CNN "Farnell"
 	1    1600 5900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1850 5500 1250 5500
@@ -2371,15 +2371,15 @@ $Comp
 L cusf-kicad:GND #PWR?
 U 1 1 60B5FA0D
 P 1250 5950
-AR Path="/6013AE2F/60B5FA0D" Ref="#PWR?"  Part="1"
-AR Path="/60B5FA0D" Ref="#PWR?"  Part="1"
-AR Path="/605DF50F/60B5FA0D" Ref="#PWR?"  Part="1"
+AR Path="/6013AE2F/60B5FA0D" Ref="#PWR?"  Part="1" 
+AR Path="/60B5FA0D" Ref="#PWR?"  Part="1" 
+AR Path="/605DF50F/60B5FA0D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1120 5990 50  0001 L CNN
 F 1 "GND" H 1250 5850 50  0000 C CNN
 F 2 "" H 1250 5950 50  0000 C CNN
 F 3 "" H 1250 5950 50  0000 C CNN
 	1    1250 5950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1250 5900 1250 5950
@@ -2397,6 +2397,6 @@ F 2 "Capacitors_SMD:C_0603" H 6750 3800 50  0001 C CNN
 F 3 "" H 6750 3800 50  0000 C CNN
 F 4 "2211164" H 6750 3800 50  0001 C CNN "Farnell"
 	1    6750 3800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
