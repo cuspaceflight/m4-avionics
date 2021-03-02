@@ -1,11 +1,11 @@
 <p align="center">
 	<img width="150px" src="img/logo.png">
-	<h1 align="center">Martlet IV Avionics</h1>
+	<h1 align="center">PROJECT STRIX</h1>
 	<h3 align="center">Cambridge University Spaceflight</h3>
 </p>
 
 This repository contains the schematics and firmware for the Martlet IV
-Avionics (also known as project Strix). A full up-to-date specification
+Avionics (also known as Project Strix). A full up-to-date specification
 can be found [here][spec], but all key details are reproduced in this
 document.
 
@@ -29,8 +29,8 @@ The system must be able to
 <sup>*</sup>Note that a commercial off-the-shelf ‘stratologger’ altimeter
 	will also be wired to the parachutes and will also be able to
 	deploy them for redundancy.
-	
-	
+
+
 ## Pulsar Engine Sensors
 Sensor             | Quantity | Model
 ------------------ | -------- | --------------------------------------------------------
