@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 6
+Sheet 3 6
 Title "Martlet IV Flight Computer"
 Date "2020-02-05"
 Rev "1"
@@ -626,34 +626,6 @@ Wire Wire Line
 Text Label 6550 5600 2    50   ~ 0
 BARO_SCLK
 $Comp
-L cusf-kicad:3v3 #PWR?
-U 1 1 5E8998C7
-P 5550 5300
-F 0 "#PWR?" H 5550 5410 50  0001 L CNN
-F 1 "3v3" H 5550 5390 50  0000 C CNN
-F 2 "" H 5550 5300 50  0000 C CNN
-F 3 "" H 5550 5300 50  0000 C CNN
-	1    5550 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 5400 5550 5300
-Wire Wire Line
-	5750 5300 5750 5400
-$Comp
-L Oscillator:SG-3030CM X?
-U 1 1 5E850CC0
-P 5650 5700
-AR Path="/5E850CC0" Ref="X?"  Part="1" 
-AR Path="/6013AEF4/5E850CC0" Ref="X?"  Part="1" 
-F 0 "X?" H 5421 5746 50  0000 R CNN
-F 1 "SG-3030CM" H 5421 5655 50  0000 R CNN
-F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG3030CM" H 5650 5350 50  0001 C CNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-3030CM" H 5550 5700 50  0001 C CNN
-	1    5650 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L cusf-kicad:MS5540C IC?
 U 1 1 5E4F0BAC
 P 7050 5500
@@ -711,29 +683,16 @@ Wire Wire Line
 Wire Wire Line
 	6300 5400 6600 5400
 $Comp
-L cusf-kicad:3v3 #PWR?
-U 1 1 5EE565F1
-P 5750 5300
-F 0 "#PWR?" H 5750 5410 50  0001 L CNN
-F 1 "3v3" H 5750 5390 50  0000 C CNN
-F 2 "" H 5750 5300 50  0000 C CNN
-F 3 "" H 5750 5300 50  0000 C CNN
-	1    5750 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L cusf-kicad:GND #PWR?
 U 1 1 5EE56B93
-P 5650 6100
-F 0 "#PWR?" H 5520 6140 50  0001 L CNN
-F 1 "GND" H 5650 6000 50  0000 C CNN
-F 2 "" H 5650 6100 50  0001 C CNN
-F 3 "" H 5650 6100 50  0001 C CNN
-	1    5650 6100
-	1    0    0    -1  
+P 6050 5900
+F 0 "#PWR?" H 5920 5940 50  0001 L CNN
+F 1 "GND" V 6050 5750 50  0000 C CNN
+F 2 "" H 6050 5900 50  0001 C CNN
+F 3 "" H 6050 5900 50  0001 C CNN
+	1    6050 5900
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5650 6100 5650 6000
 $Comp
 L cusf-kicad:C C?
 U 1 1 5EE6BE21
@@ -1400,6 +1359,38 @@ F 3 "" H 1900 8050 50  0001 C CNN
 	1    2300 7950
 	1    0    0    -1  
 $EndComp
-Text Notes 5800 6200 0    50   ~ 0
-It's worth noting that this symbol doesn't come from\ncusf-kicad but rather from the default kicad libs.\nThis isn't great for portability
+$Comp
+L cusf-kicad:SG-3030CM IC?
+U 1 1 60650051
+P 5650 5800
+F 0 "IC?" H 5650 6000 50  0000 C CNN
+F 1 "SG-3030CM" H 5650 5600 50  0000 C CNN
+F 2 "cusf:SG-3030CM" H 5450 5500 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1804150.pdf" H 5450 5400 50  0001 L CNN
+F 4 "2405744" H 5450 5300 50  0001 L CNN "Farnell"
+	1    5650 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5900 5950 5900
+Wire Wire Line
+	5250 5900 5350 5900
+$Comp
+L cusf-kicad:3v3 #PWR?
+U 1 1 6069AAAA
+P 5250 5600
+F 0 "#PWR?" H 5250 5710 50  0001 L CNN
+F 1 "3v3" H 5250 5700 50  0000 C CNN
+F 2 "" H 5250 5600 50  0000 C CNN
+F 3 "" H 5250 5600 50  0000 C CNN
+	1    5250 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5700 5350 5700
+Wire Wire Line
+	5250 5600 5250 5700
+Connection ~ 5250 5700
+Wire Wire Line
+	5250 5700 5250 5900
 $EndSCHEMATC

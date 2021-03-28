@@ -1,26 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Oscillator_SG-3030CM
-#
-DEF Oscillator_SG-3030CM X 0 20 Y Y 1 F N
-F0 "X" -200 -250 50 H V L CNN
-F1 "Oscillator_SG-3030CM" 50 -250 50 H V L CNN
-F2 "Oscillator:Oscillator_SMD_SeikoEpson_SG3030CM" 0 -350 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
-$FPLIST
- Oscillator*SMD*SeikoEpson*SG3030CM*
-$ENDFPLIST
-DRAW
-S -200 200 200 -200 0 1 10 f
-P 9 0 1 0 -75 -25 -50 -25 -50 25 -25 25 -25 -25 0 -25 0 25 25 25 25 -25 N
-X VIO 1 100 300 100 D 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 O
-X Vcc 4 -100 300 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # cusf-kicad_1v8
 #
 DEF cusf-kicad_1v8 #PWR 0 40 N N 1 F P
@@ -610,6 +590,23 @@ DRAW
 S 20 10 80 -10 0 1 0 f
 X ~ 1 0 0 20 R 50 50 1 1 P
 X ~ 2 100 0 20 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# cusf-kicad_SG-3030CM
+#
+DEF cusf-kicad_SG-3030CM IC 0 40 Y Y 1 F N
+F0 "IC" -200 200 50 H V L CNN
+F1 "cusf-kicad_SG-3030CM" -200 -200 50 H V L CNN
+F2 "cusf:SG-3030CM" -200 -300 50 H I L CNN
+F3 "http://www.farnell.com/datasheets/1804150.pdf" -200 -400 50 H I L CNN
+F4 "2405744" -200 -500 50 H I L CNN "Farnell"
+DRAW
+S -200 150 200 -150 0 1 0 f
+X VIO 1 -300 100 100 R 50 50 0 0 W
+X GND 2 300 -100 100 L 50 50 0 0 W
+X OUT 3 300 100 100 L 50 50 0 0 O
+X VCC 4 -300 -100 100 R 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
