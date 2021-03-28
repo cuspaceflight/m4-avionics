@@ -29,22 +29,6 @@ X 3v3 1 0 0 0 L 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# cusf-kicad_ADL5324
-#
-DEF cusf-kicad_ADL5324 IC 0 40 Y Y 1 F N
-F0 "IC" -400 200 50 H V L CNN
-F1 "cusf-kicad_ADL5324" -400 -200 50 H V L CNN
-F2 "cusf:SOT-89-3" -400 -300 50 H I L CNN
-F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5324.pdf" -400 -400 50 H I L CNN
-F4 "2099794" -400 -500 50 H I L CNN "Farnell"
-DRAW
-S -400 150 400 -150 0 1 0 f
-X RF_IN 1 -500 100 100 R 50 50 0 0 I
-X GND 2 -500 0 100 R 50 50 0 0 W
-X RF_OUT 3 500 100 100 L 50 50 0 0 O
-ENDDRAW
-ENDDEF
-#
 # cusf-kicad_ADXL345
 #
 DEF cusf-kicad_ADXL345 IC 0 40 Y Y 1 F N

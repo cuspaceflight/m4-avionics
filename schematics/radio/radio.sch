@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 6
+Sheet 3 6
 Title "Martlet IV Radio"
 Date "2020-02-05"
 Rev "1"
@@ -1000,10 +1000,6 @@ F 4 "2464259" H 1100 9850 50  0001 L CNN "Farnell"
 $EndComp
 Wire Notes Line
 	9100 5900 9100 8050
-Text Notes 13000 8000 0    39   ~ 0
-NOTE: There is a required component spacing, see:\nhttp://www.analog.com/media/en/technical-documentation/data-sheets/ADL5324.pdf
-Text Notes 13900 6300 2    69   ~ 0
-TODO: Check\ncomponent values\nagainst datasheet
 $Comp
 L cusf-kicad:BGM1043N7 IC?
 U 1 1 5EC20F1C
@@ -1946,13 +1942,12 @@ F 3 "https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-1503
 	1    6200 4400
 	1    0    0    -1  
 $EndComp
-Connection ~ 11250 6650
 Wire Notes Line
-	15750 8050 15750 5900
+	12400 8050 12400 5900
 Wire Notes Line
-	9200 5900 15750 5900
+	9200 5900 12400 5900
 Wire Notes Line
-	9200 8050 15750 8050
+	9200 8050 12400 8050
 Wire Notes Line
 	13100 5500 13100 3350
 Wire Notes Line
@@ -2185,294 +2180,7 @@ F 3 "" H 5550 9700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	13350 7250 13200 7250
-Wire Wire Line
-	13650 7250 13350 7250
-Connection ~ 13350 7250
-Connection ~ 13650 7250
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5F32BD3C
-P 13350 7550
-F 0 "#PWR?" H 13220 7590 50  0001 L CNN
-F 1 "GND" H 13250 7450 50  0000 L CNN
-F 2 "" H 13350 7550 50  0001 C CNN
-F 3 "" H 13350 7550 50  0001 C CNN
-	1    13350 7550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13050 7250 13050 7350
-$Comp
-L cusf-kicad:3v3 #PWR?
-U 1 1 5F29D0E8
-P 13200 7150
-F 0 "#PWR?" H 13200 7260 50  0001 L CNN
-F 1 "3v3" H 13200 7250 50  0000 C CNN
-F 2 "" H 13200 7150 50  0001 C CNN
-F 3 "" H 13200 7150 50  0001 C CNN
-	1    13200 7150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13050 7450 13050 7550
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5F32C004
-P 13050 7550
-F 0 "#PWR?" H 12920 7590 50  0001 L CNN
-F 1 "GND" V 13050 7300 50  0001 L CNN
-F 2 "" H 13050 7550 50  0001 C CNN
-F 3 "" H 13050 7550 50  0001 C CNN
-	1    13050 7550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L cusf-kicad:C C?
-U 1 1 5F211CD1
-P 13050 7350
-F 0 "C?" V 13150 7250 50  0000 C CNN
-F 1 "10u" V 13050 7250 50  0000 C CNN
-F 2 "" H 13050 7350 50  0001 C CNN
-F 3 "" H 13050 7350 50  0001 C CNN
-	1    13050 7350
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	13650 7250 13650 6850
-Wire Wire Line
-	13650 6750 13650 6650
-Wire Wire Line
-	11250 6650 11600 6650
-$Comp
-L cusf-kicad:ADL5324 IC?
-U 1 1 5EBEA3AC
-P 13050 6750
-F 0 "IC?" H 12700 6950 50  0000 C CNN
-F 1 "ADL5324" H 12800 6550 50  0000 C CNN
-F 2 "agg:SOT-89-3" H 12650 6450 50  0001 L CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5324.pdf" H 12650 6350 50  0001 L CNN
-F 4 "2099794" H 12650 6250 50  0001 L CNN "Farnell"
-	1    13050 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5F32AC4E
-P 13650 7550
-F 0 "#PWR?" H 13520 7590 50  0001 L CNN
-F 1 "GND" H 13450 7500 50  0001 L CNN
-F 2 "" H 13650 7550 50  0001 C CNN
-F 3 "" H 13650 7550 50  0001 C CNN
-	1    13650 7550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13650 7450 13650 7550
-Wire Wire Line
-	13350 7450 13350 7550
-Wire Wire Line
-	13350 7250 13350 7350
-$Comp
-L cusf-kicad:C C?
-U 1 1 5F1B6697
-P 13350 7350
-F 0 "C?" V 13450 7250 50  0000 C CNN
-F 1 "10n" V 13350 7250 50  0000 C CNN
-F 2 "" H 13350 7350 50  0001 C CNN
-F 3 "" H 13350 7350 50  0001 C CNN
-	1    13350 7350
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	13650 7250 13650 7350
-$Comp
-L cusf-kicad:C C?
-U 1 1 5F187F9C
-P 13650 7350
-F 0 "C?" V 13750 7250 50  0000 C CNN
-F 1 "100p" V 13650 7250 50  0000 C CNN
-F 2 "" H 13650 7350 50  0001 C CNN
-F 3 "" H 13650 7350 50  0001 C CNN
-	1    13650 7350
-	0    -1   1    0   
-$EndComp
-$Comp
-L cusf-kicad:L L?
-U 1 1 5F0FF653
-P 13650 6750
-F 0 "L?" V 13650 6700 50  0000 C CNN
-F 1 "2n4" V 13750 6650 50  0000 C CNN
-F 2 "" H 13650 6750 50  0001 C CNN
-F 3 "" H 13650 6750 50  0001 C CNN
-	1    13650 6750
-	0    1    1    0   
-$EndComp
-$Comp
-L cusf-kicad:C C?
-U 1 1 5F049301
-P 14450 6650
-F 0 "C?" H 14500 6700 50  0000 C CNN
-F 1 "20p" H 14500 6600 50  0000 C CNN
-F 2 "" H 14450 6650 50  0001 C CNN
-F 3 "" H 14450 6650 50  0001 C CNN
-	1    14450 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14350 6650 14450 6650
-$Comp
-L cusf-kicad:L L?
-U 1 1 5F01C677
-P 14250 6650
-F 0 "L?" H 14300 6700 50  0000 C CNN
-F 1 "2n4" H 14300 6600 50  0000 C CNN
-F 2 "" H 14250 6650 50  0001 C CNN
-F 3 "" H 14250 6650 50  0001 C CNN
-	1    14250 6650
-	1    0    0    -1  
-$EndComp
-Connection ~ 14050 6650
-Wire Wire Line
-	14050 6650 14250 6650
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5EF9826A
-P 14050 6900
-F 0 "#PWR?" H 13920 6940 50  0001 L CNN
-F 1 "GND" H 14050 6800 50  0000 C CNN
-F 2 "" H 14050 6900 50  0001 C CNN
-F 3 "" H 14050 6900 50  0001 C CNN
-	1    14050 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14050 6850 14050 6900
-Wire Wire Line
-	14050 6750 14050 6650
-$Comp
-L cusf-kicad:C C?
-U 1 1 5EF3F661
-P 14050 6750
-F 0 "C?" V 14050 6800 50  0000 L CNN
-F 1 "3p6" V 14150 6800 50  0000 L CNN
-F 2 "" H 14050 6750 50  0001 C CNN
-F 3 "" H 14050 6750 50  0001 C CNN
-	1    14050 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13850 6650 14050 6650
-Connection ~ 13650 6650
-Wire Wire Line
-	13650 6650 13550 6650
-Wire Wire Line
-	13750 6650 13650 6650
-$Comp
-L cusf-kicad:R R?
-U 1 1 5EEBB650
-P 13750 6650
-F 0 "R?" H 13800 6700 50  0000 C CNN
-F 1 "R" H 13800 6600 50  0000 C CNN
-F 2 "" H 13750 6650 50  0001 C CNN
-F 3 "" H 13750 6650 50  0001 C CNN
-	1    13750 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12100 6900 12100 6850
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5ED3D38C
-P 12100 6900
-F 0 "#PWR?" H 11970 6940 50  0001 L CNN
-F 1 "GND" H 12100 6800 50  0000 C CNN
-F 2 "" H 12100 6900 50  0001 C CNN
-F 3 "" H 12100 6900 50  0001 C CNN
-	1    12100 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11700 6650 11850 6650
-$Comp
-L cusf-kicad:R R?
-U 1 1 5ECBB7A5
-P 11600 6650
-F 0 "R?" H 11650 6700 50  0000 C CNN
-F 1 "2R" H 11650 6600 50  0000 C CNN
-F 2 "" H 11600 6650 50  0001 C CNN
-F 3 "" H 11600 6650 50  0001 C CNN
-	1    11600 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L cusf-kicad:C C?
-U 1 1 5ECBA0C8
-P 11850 6650
-F 0 "C?" H 11900 6700 50  0000 C CNN
-F 1 "10p" H 11900 6600 50  0000 C CNN
-F 2 "" H 11850 6650 50  0001 C CNN
-F 3 "" H 11850 6650 50  0001 C CNN
-	1    11850 6650
-	1    0    0    -1  
-$EndComp
-Connection ~ 12100 6650
-Wire Wire Line
-	12100 6650 11950 6650
-$Comp
-L cusf-kicad:C C?
-U 1 1 5EC8FBB8
-P 12100 6750
-F 0 "C?" V 12100 6800 50  0000 L CNN
-F 1 "8p" V 12200 6800 50  0000 L CNN
-F 2 "" H 12100 6750 50  0001 C CNN
-F 3 "" H 12100 6750 50  0001 C CNN
-	1    12100 6750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12100 6650 12100 6750
-Wire Wire Line
-	12300 6650 12100 6650
-$Comp
-L cusf-kicad:R R?
-U 1 1 5EC3CDA9
-P 12300 6650
-F 0 "R?" H 12350 6700 50  0000 C CNN
-F 1 "R" H 12350 6600 50  0000 C CNN
-F 2 "" H 12300 6650 50  0001 C CNN
-F 3 "" H 12300 6650 50  0001 C CNN
-	1    12300 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12550 6650 12400 6650
-$Comp
-L cusf-kicad:GND #PWR?
-U 1 1 5EC13275
-P 12500 6900
-F 0 "#PWR?" H 12370 6940 50  0001 L CNN
-F 1 "GND" H 12500 6800 50  0000 C CNN
-F 2 "" H 12500 6900 50  0001 C CNN
-F 3 "" H 12500 6900 50  0001 C CNN
-	1    12500 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12500 6750 12500 6900
-Wire Wire Line
-	12550 6750 12500 6750
-Wire Wire Line
-	13200 7150 13200 7250
-Connection ~ 13200 7250
-Wire Wire Line
-	13200 7250 13050 7250
-Wire Wire Line
-	14550 6650 15200 6650
-Wire Wire Line
 	12500 4550 12650 4550
-Text Label 12650 4550 0    50   ~ 0
-GPS_ANT
 Wire Wire Line
 	1450 7850 1450 7950
 $Comp
@@ -2880,4 +2588,11 @@ F 3 "" H 9550 4500 50  0001 C CNN
 	1    9550 4500
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	11250 6650 11600 6650
+Connection ~ 11250 6650
+Text HLabel 11600 6650 2    50   Input ~ 0
+ANT_TLM
+Text HLabel 12650 4550 2    50   Input ~ 0
+ANT_GPS
 $EndSCHEMATC
