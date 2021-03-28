@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 6
+Sheet 6 6
 Title "Martlet IV Flight Computer"
 Date "2020-02-05"
 Rev "1"
