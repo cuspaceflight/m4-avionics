@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 6
+Sheet 4 6
 Title "Martlet IV Data Logger"
 Date "2020-02-23"
 Rev "1"
@@ -522,8 +522,6 @@ Wire Wire Line
 Connection ~ 8800 4350
 Wire Wire Line
 	2850 4700 2950 4700
-NoConn ~ 1850 7200
-NoConn ~ 1850 7100
 $Comp
 L cusf-kicad:3v3 #PWR?
 U 1 1 56C6943C
@@ -599,8 +597,6 @@ NoConn ~ 2850 4200
 NoConn ~ 2850 5000
 NoConn ~ 2850 5100
 NoConn ~ 2850 6300
-NoConn ~ 1850 6900
-NoConn ~ 1850 7000
 NoConn ~ 2850 7000
 NoConn ~ 2850 7100
 NoConn ~ 2850 7200
@@ -2399,4 +2395,92 @@ F 4 "2211164" H 6750 3800 50  0001 C CNN "Farnell"
 	1    6750 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L cusf-kicad:W25Q80 IC?
+U 1 1 605DD8AE
+P 11850 4150
+F 0 "IC?" H 11850 4575 50  0000 C CNN
+F 1 "W25Q80" H 11850 4484 50  0000 C CNN
+F 2 "cusf:UFDFN-8" H 11250 3750 50  0001 L CNN
+F 3 "http://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf" H 11250 3650 50  0001 L CNN
+F 4 "W25Q80DVUXIECT-ND" H 11250 3550 50  0001 L CNN "DigiKey"
+	1    11850 4150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10750 4850 10750 3350
+Text Notes 10750 3300 0    98   ~ 20
+SPI FLASH
+$Comp
+L cusf-kicad:GND #PWR?
+U 1 1 6065FA51
+P 11000 4550
+F 0 "#PWR?" H 11000 4300 50  0001 C CNN
+F 1 "GND" H 11000 4450 50  0000 C CNN
+F 2 "" H 11000 4550 50  0000 C CNN
+F 3 "" H 11000 4550 50  0000 C CNN
+	1    11000 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 4550 11000 4050
+Wire Wire Line
+	11000 4050 11150 4050
+$Comp
+L cusf-kicad:3v3 #PWR?
+U 1 1 6068ACD4
+P 11000 3650
+F 0 "#PWR?" H 11000 3760 50  0001 L CNN
+F 1 "3v3" H 11000 3773 50  0000 C CNN
+F 2 "" H 11000 3650 50  0001 C CNN
+F 3 "" H 11000 3650 50  0001 C CNN
+	1    11000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 3950 11000 3650
+Wire Wire Line
+	11000 3950 11150 3950
+NoConn ~ 11150 4250
+NoConn ~ 11150 4150
+Text Label 12650 4050 0    50   ~ 0
+SPI2_CS
+Text Label 12650 4150 0    50   ~ 0
+SPI2_MOSI
+Text Label 12650 4250 0    50   ~ 0
+SPI2_MISO
+Text Label 12650 3950 0    50   ~ 0
+SPI2_SCK
+Wire Wire Line
+	12650 3950 12550 3950
+Wire Wire Line
+	12650 4050 12550 4050
+Wire Wire Line
+	12550 4150 12650 4150
+Wire Wire Line
+	12650 4250 12550 4250
+Text Label 1750 7200 2    50   ~ 0
+SPI2_CS
+Text Label 1750 7100 2    50   ~ 0
+SPI2_MOSI
+Text Label 1750 7000 2    50   ~ 0
+SPI2_MISO
+Text Label 1750 6900 2    50   ~ 0
+SPI2_SCK
+Wire Wire Line
+	1750 6900 1850 6900
+Wire Wire Line
+	1750 7000 1850 7000
+Wire Wire Line
+	1750 7100 1850 7100
+Wire Wire Line
+	1750 7200 1850 7200
+Wire Notes Line
+	13300 3350 13300 4850
+Wire Notes Line
+	10750 3350 13300 3350
+Wire Notes Line
+	10750 4850 13300 4850
+Text Notes 11700 4800 0    50   ~ 0
+Placeholder for a larger chip (512 Mbit)
 $EndSCHEMATC
