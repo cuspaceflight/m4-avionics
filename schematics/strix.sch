@@ -418,14 +418,14 @@ Wire Wire Line
 	2950 3600 3100 3600
 Wire Wire Line
 	3100 3700 2950 3700
+Text Label 3100 4100 0    50   ~ 0
+P2-
 Text Label 3100 4000 0    50   ~ 0
-P2
-Text Label 3100 3900 0    50   ~ 0
-P1
+P2+
+Wire Wire Line
+	2950 4100 3100 4100
 Wire Wire Line
 	2950 4000 3100 4000
-Wire Wire Line
-	2950 3900 3100 3900
 Text Label 3100 3700 0    50   ~ 0
 USB_DL_D-
 Text Label 3100 3600 0    50   ~ 0
@@ -696,12 +696,10 @@ Text Label 1800 4900 2    50   ~ 0
 JTDO_DL
 Text Label 1800 1600 2    50   ~ 0
 JTDO_FC
-Text Label 9400 3550 2    50   ~ 0
-P1
+Text Label 9400 3350 2    50   ~ 0
+P1+
 Wire Wire Line
 	9550 3450 9400 3450
-Wire Wire Line
-	9550 3550 9400 3550
 $Comp
 L cusf-kicad:CONN_01x02 J?
 U 1 1 60D9A897
@@ -784,16 +782,8 @@ F 3 "~" H 9900 3350 50  0001 C CNN
 	1    9900 3350
 	1    0    0    -1  
 $EndComp
-Text Label 10150 3550 0    50   ~ 0
-P2
-Wire Wire Line
-	10000 3450 10150 3450
-Wire Wire Line
-	10000 3550 10150 3550
 Wire Wire Line
 	9550 3350 9400 3350
-Wire Wire Line
-	10000 3350 10150 3350
 NoConn ~ 10000 3650
 NoConn ~ 9550 3650
 Wire Notes Line
@@ -4638,8 +4628,10 @@ F18 "OTG_HS_VBUS" I R 2950 3500 50
 F19 "OTG_HS_DM" I R 2950 3600 50 
 F20 "OTG_HS_DP" I R 2950 3700 50 
 F21 "JTDO" I L 1850 4900 50 
-F22 "P1" I R 2950 3900 50 
-F23 "P2" I R 2950 4000 50 
+F22 "P1+" I R 2950 3800 50 
+F23 "P1-" I R 2950 3900 50 
+F24 "P2+" I R 2950 4000 50 
+F25 "P2-" I R 2950 4100 50 
 $EndSheet
 $Sheet
 S 1850 5250 1100 900 
@@ -4670,10 +4662,6 @@ Text Label 3100 2650 0    50   ~ 0
 ANT_TLM
 Text Label 3100 2750 0    50   ~ 0
 ANT_GPS
-Wire Bus Line
-	1200 700  1200 7500
-Wire Bus Line
-	1000 1400 1000 7100
 $Comp
 L cusf-kicad:CONN_01x04 J?
 U 1 1 60D6FAD8
@@ -4685,4 +4673,28 @@ F 3 "~" H 9650 3350 50  0001 C CNN
 	1    9650 3350
 	-1   0    0    -1  
 $EndComp
+Text Label 9400 3450 2    50   ~ 0
+P1-
+NoConn ~ 9550 3550
+Text Label 10150 3350 0    50   ~ 0
+P2+
+Wire Wire Line
+	10000 3450 10150 3450
+Wire Wire Line
+	10000 3350 10150 3350
+Text Label 10150 3450 0    50   ~ 0
+P2-
+NoConn ~ 10000 3550
+Text Label 3100 3800 0    50   ~ 0
+P1+
+Wire Wire Line
+	2950 3900 3100 3900
+Wire Wire Line
+	2950 3800 3100 3800
+Text Label 3100 3900 0    50   ~ 0
+P1-
+Wire Bus Line
+	1200 700  1200 7500
+Wire Bus Line
+	1000 1400 1000 7100
 $EndSCHEMATC

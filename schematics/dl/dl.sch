@@ -790,17 +790,11 @@ OTG_HS_DM
 Text HLabel 14450 6100 0    50   Input ~ 0
 OTG_HS_DP
 Text HLabel 13300 6800 0    50   Input ~ 0
-P1
-Text HLabel 13300 6900 0    50   Input ~ 0
-P2
-Wire Wire Line
-	13300 6900 13450 6900
+P1+
 Wire Wire Line
 	13450 6800 13300 6800
 Text Label 13450 6800 0    50   ~ 0
-P1
-Text Label 13450 6900 0    50   ~ 0
-P2
+P1+
 Text Label 1650 2800 2    50   ~ 0
 ~RST
 Connection ~ 1650 1300
@@ -1644,27 +1638,7 @@ F 3 "" H 4800 9600 50  0001 C CNN
 	1    4800 9600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 9200 4800 8850
 Connection ~ 4800 9200
-Wire Wire Line
-	4800 8850 4600 8850
-Wire Wire Line
-	4800 8850 4800 8650
-Connection ~ 4800 8850
-$Comp
-L cusf-kicad:AVCC #PWR?
-U 1 1 60C8CBF9
-P 4800 8650
-F 0 "#PWR?" H 4800 8760 50  0001 L CNN
-F 1 "AVCC" H 4800 8750 50  0000 C CNN
-F 2 "" H 4800 8650 50  0001 C CNN
-F 3 "" H 4800 8650 50  0001 C CNN
-	1    4800 8650
-	1    0    0    -1  
-$EndComp
-Text Label 4600 8850 0    50   ~ 0
-P1
 Wire Wire Line
 	6650 9100 6800 9100
 Wire Wire Line
@@ -2002,27 +1976,7 @@ F 3 "" H 9650 9600 50  0001 C CNN
 	1    9650 9600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 9200 9650 8850
 Connection ~ 9650 9200
-Wire Wire Line
-	9650 8850 9450 8850
-Wire Wire Line
-	9650 8850 9650 8650
-Connection ~ 9650 8850
-$Comp
-L cusf-kicad:AVCC #PWR?
-U 1 1 60FAF464
-P 9650 8650
-F 0 "#PWR?" H 9650 8760 50  0001 L CNN
-F 1 "AVCC" H 9650 8750 50  0000 C CNN
-F 2 "" H 9650 8650 50  0001 C CNN
-F 3 "" H 9650 8650 50  0001 C CNN
-	1    9650 8650
-	1    0    0    -1  
-$EndComp
-Text Label 9450 8850 0    50   ~ 0
-P2
 $Comp
 L cusf-kicad:R R?
 U 1 1 60FAF46B
@@ -4185,9 +4139,50 @@ THERMOCOUPLE FRONT-ENDS
 Wire Notes Line
 	4400 8400 4400 9850
 Wire Notes Line
-	4400 9850 13850 9850
+	4400 9850 14300 9850
 Wire Notes Line
-	13850 9850 13850 8400
+	14300 9850 14300 8400
 Wire Notes Line
-	4400 8400 13850 8400
+	4400 8400 14300 8400
+Text Label 4600 9200 0    50   ~ 0
+P1-
+Text Label 9450 9200 0    50   ~ 0
+P2-
+Wire Wire Line
+	9450 9200 9650 9200
+Wire Wire Line
+	4600 9200 4800 9200
+Text HLabel 13300 6900 0    50   Input ~ 0
+P1-
+Wire Wire Line
+	13450 6900 13300 6900
+Text Label 13450 6900 0    50   ~ 0
+P1-
+Text HLabel 13300 7050 0    50   Input ~ 0
+P2+
+Wire Wire Line
+	13450 7050 13300 7050
+Text Label 13450 7050 0    50   ~ 0
+P2+
+Text HLabel 13300 7150 0    50   Input ~ 0
+P2-
+Wire Wire Line
+	13450 7150 13300 7150
+Text Label 13450 7150 0    50   ~ 0
+P2-
+Text Label 13650 8650 0    50   ~ 0
+P2+
+Text Label 13650 8550 0    50   ~ 0
+P1+
+Wire Wire Line
+	13650 8650 13900 8650
+Wire Wire Line
+	13650 8550 13900 8550
+Wire Wire Line
+	13900 8550 13900 8650
+Wire Wire Line
+	13900 8650 14200 8650
+Connection ~ 13900 8650
+Text Label 14200 8650 2    50   ~ 0
+12V_DL
 $EndSCHEMATC
