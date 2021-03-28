@@ -31,11 +31,45 @@ The system must be able to
 	deploy them for redundancy.
 
 
-## Pulsar Engine Sensors
+## Core Modules
+The system is composed of several sub-modules, networked via CAN and also
+connected via JTAG chain. Each sub-module is described in detail below.
+
+### Flight Computer
+The flight computer handles the core state esimtation. It takes data from the
+onboard IMU, accelerometer and barometer to feed into a Kalman estimation
+filter, and sends the estimated state to the telemetry and data logging
+subsystems.
+
+The flight computer consists of a STM32F405RxTx connected to an ADXL345
+accelerometer and MS5540C barometer.
+
+### Data Logger
+The data logger takes data from the Pulsar engine sensors and saves a copy on
+both an SD card and onboard flash memory. It also contains the analog front ends
+to interface with the following components:
+
 Sensor             | Quantity | Model
 ------------------ | -------- | --------------------------------------------------------
 Pressure Tranducer | 2        | [Omega PXM319-070GI][p_sensor]
 Thermocouple       | 4        | [RS Pro K-type welded tip 1/0.315m 5m (762-1118)][t_sensor]
+
+### Radio
+The radio is an almost carbon copy of the radio sussystem on the Martlet III.
+It consists of both the telemetry system and GPS reciever. The telemetry radio
+is synchronised through a PLL with the GPS timepulse to ensure it stays in phase
+with the ground support reciever.
+
+### PSU
+The power supply subsystem handles 3v3 and 5v DC-DC conversion, as well as
+battery charging and balancing. It aims to consolidate the 4-board system found
+on the Martlet III. The exact capacity of the battery pack is yet to be
+determined, but it will consist of an array of 18650s at 3.6v 3400mAh each.
+
+### Master Microcontroller
+The master microcontroller handles CAN to USB and USB to JTAG chain conversion,
+as in the base board of the Martlet III avionics. The system should also
+include an ADuM to isolate the EXT_UART.
 
 
 ## Design Constraints
