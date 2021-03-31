@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 6
+Sheet 2 5
 Title "Martlet IV Radio"
 Date "2020-02-05"
 Rev "1"
@@ -2277,6 +2277,7 @@ AR Path="/6013AE2F/60D1557D" Ref="#PWR?"  Part="1"
 AR Path="/60D1557D" Ref="#PWR?"  Part="1" 
 AR Path="/605DF50F/60D1557D" Ref="#PWR?"  Part="1" 
 AR Path="/6013B1C8/60D1557D" Ref="#PWR?"  Part="1" 
+AR Path="/60DBD7EB/60D1557D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1750 3860 50  0001 L CNN
 F 1 "3v3" H 1750 3850 50  0000 C CNN
 F 2 "" H 1750 3750 50  0001 C CNN
@@ -2338,6 +2339,7 @@ AR Path="/6013AE2F/60D155AB" Ref="C?"  Part="1"
 AR Path="/60D155AB" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155AB" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155AB" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155AB" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 5000 50  0000 R CNN
 F 1 "2µ2" H 1050 5000 50  0000 R CNN
 F 2 "agg:0402" H 1300 5000 50  0001 C CNN
@@ -2354,6 +2356,7 @@ AR Path="/6013AE2F/60D155B2" Ref="C?"  Part="1"
 AR Path="/60D155B2" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155B2" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155B2" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155B2" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 5100 50  0000 R CNN
 F 1 "2µ2" H 1050 5100 50  0000 R CNN
 F 2 "agg:0402" H 1300 5100 50  0001 C CNN
@@ -2394,6 +2397,7 @@ AR Path="/6013AE2F/60D155C7" Ref="C?"  Part="1"
 AR Path="/60D155C7" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155C7" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155C7" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155C7" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 3900 50  0000 R CNN
 F 1 "100n" H 1050 3900 50  0000 R CNN
 F 2 "agg:0402" H 1300 3900 50  0001 C CNN
@@ -2410,6 +2414,7 @@ AR Path="/6013AE2F/60D155CE" Ref="C?"  Part="1"
 AR Path="/60D155CE" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155CE" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155CE" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155CE" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4300 50  0000 R CNN
 F 1 "100n" H 1050 4300 50  0000 R CNN
 F 2 "agg:0402" H 1300 4300 50  0001 C CNN
@@ -2426,6 +2431,7 @@ AR Path="/6013AE2F/60D155D5" Ref="C?"  Part="1"
 AR Path="/60D155D5" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155D5" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155D5" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155D5" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4200 50  0000 R CNN
 F 1 "100n" H 1050 4200 50  0000 R CNN
 F 2 "agg:0402" H 1300 4200 50  0001 C CNN
@@ -2442,6 +2448,7 @@ AR Path="/6013AE2F/60D155DC" Ref="C?"  Part="1"
 AR Path="/60D155DC" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155DC" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155DC" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155DC" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4100 50  0000 R CNN
 F 1 "100n" H 1050 4100 50  0000 R CNN
 F 2 "agg:0402" H 1300 4100 50  0001 C CNN
@@ -2458,6 +2465,7 @@ AR Path="/6013AE2F/60D155E3" Ref="C?"  Part="1"
 AR Path="/60D155E3" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155E3" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155E3" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155E3" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4000 50  0000 R CNN
 F 1 "100n" H 1050 4000 50  0000 R CNN
 F 2 "agg:0402" H 1300 4000 50  0001 C CNN
@@ -2474,6 +2482,7 @@ AR Path="/6013AE2F/60D155EA" Ref="C?"  Part="1"
 AR Path="/60D155EA" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155EA" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155EA" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155EA" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 4400 50  0000 R CNN
 F 1 "1µ" H 1050 4400 50  0000 R CNN
 F 2 "agg:0402" H 1300 4400 50  0001 C CNN
@@ -2490,6 +2499,7 @@ AR Path="/6013AE2F/60D155F1" Ref="C?"  Part="1"
 AR Path="/60D155F1" Ref="C?"  Part="1" 
 AR Path="/605DF50F/60D155F1" Ref="C?"  Part="1" 
 AR Path="/6013B1C8/60D155F1" Ref="C?"  Part="1" 
+AR Path="/60DBD7EB/60D155F1" Ref="C?"  Part="1" 
 F 0 "C?" H 1200 3800 50  0000 R CNN
 F 1 "4µ7" H 1050 3800 50  0000 R CNN
 F 2 "agg:0402" H 1300 3800 50  0001 C CNN
@@ -2541,6 +2551,7 @@ AR Path="/6013AE2F/60D15637" Ref="#PWR?"  Part="1"
 AR Path="/60D15637" Ref="#PWR?"  Part="1" 
 AR Path="/605DF50F/60D15637" Ref="#PWR?"  Part="1" 
 AR Path="/6013B1C8/60D15637" Ref="#PWR?"  Part="1" 
+AR Path="/60DBD7EB/60D15637" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1120 5490 50  0001 L CNN
 F 1 "GND" H 1250 5350 50  0000 C CNN
 F 2 "" H 1250 5450 50  0000 C CNN
