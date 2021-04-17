@@ -1238,17 +1238,6 @@ Wire Wire Line
 	6050 2200 6050 2300
 Connection ~ 6050 2200
 $Comp
-L cusf-kicad:R R?
-U 1 1 613737F8
-P 6050 2300
-F 0 "R?" V 6050 2350 50  0000 L CNN
-F 1 "1k" V 6150 2350 50  0000 L CNN
-F 2 "" H 6050 2300 50  0001 C CNN
-F 3 "" H 6050 2300 50  0001 C CNN
-	1    6050 2300
-	0    1    1    0   
-$EndComp
-$Comp
 L cusf-kicad:AGND #PWR?
 U 1 1 61375880
 P 6050 2500
@@ -1739,17 +1728,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 4000 6050 4100
 Connection ~ 6050 4000
-$Comp
-L cusf-kicad:R R?
-U 1 1 616FFB57
-P 6050 4100
-F 0 "R?" V 6050 4150 50  0000 L CNN
-F 1 "1k" V 6150 4150 50  0000 L CNN
-F 2 "" H 6050 4100 50  0001 C CNN
-F 3 "" H 6050 4100 50  0001 C CNN
-	1    6050 4100
-	0    1    1    0   
-$EndComp
 $Comp
 L cusf-kicad:AGND #PWR?
 U 1 1 616FFB5D
@@ -2246,7 +2224,7 @@ L cusf-kicad:R R?
 U 1 1 61851695
 P 6050 5900
 F 0 "R?" V 6050 5950 50  0000 L CNN
-F 1 "1k" V 6150 5950 50  0000 L CNN
+F 1 "1M" V 6150 5950 50  0000 L CNN
 F 2 "" H 6050 5900 50  0001 C CNN
 F 3 "" H 6050 5900 50  0001 C CNN
 	1    6050 5900
@@ -2743,17 +2721,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 7600 6050 7700
 Connection ~ 6050 7600
-$Comp
-L cusf-kicad:R R?
-U 1 1 618AFA1F
-P 6050 7700
-F 0 "R?" V 6050 7750 50  0000 L CNN
-F 1 "1k" V 6150 7750 50  0000 L CNN
-F 2 "" H 6050 7700 50  0001 C CNN
-F 3 "" H 6050 7700 50  0001 C CNN
-	1    6050 7700
-	0    1    1    0   
-$EndComp
 $Comp
 L cusf-kicad:AGND #PWR?
 U 1 1 618AFA25
@@ -3676,5 +3643,40 @@ F 3 "" H 7850 9200 50  0001 C CNN
 F 4 "1858055" H 7850 8700 50  0001 L CNN "Farnell"
 	2    7850 9200
 	1    0    0    1   
+$EndComp
+$Comp
+L cusf-kicad:R R?
+U 1 1 60817C8F
+P 6050 4100
+F 0 "R?" V 6050 4150 50  0000 L CNN
+F 1 "1M" V 6150 4150 50  0000 L CNN
+F 2 "" H 6050 4100 50  0001 C CNN
+F 3 "" H 6050 4100 50  0001 C CNN
+	1    6050 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L cusf-kicad:R R?
+U 1 1 60818006
+P 6050 2300
+F 0 "R?" V 6050 2350 50  0000 L CNN
+F 1 "1M" V 6150 2350 50  0000 L CNN
+F 2 "" H 6050 2300 50  0001 C CNN
+F 3 "" H 6050 2300 50  0001 C CNN
+	1    6050 2300
+	0    1    1    0   
+$EndComp
+Text Notes 6650 700  0    50   ~ 0
+TODO: Add decoupling caps
+$Comp
+L cusf-kicad:R R?
+U 1 1 6081D011
+P 6050 7700
+F 0 "R?" V 6050 7750 50  0000 L CNN
+F 1 "1M" V 6150 7750 50  0000 L CNN
+F 2 "" H 6050 7700 50  0001 C CNN
+F 3 "" H 6050 7700 50  0001 C CNN
+	1    6050 7700
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
